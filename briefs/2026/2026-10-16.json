@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-16",
+  "status": "published",
+  "published_at": "2026-10-16T08:45:00+11:00",
+  "session_covered": "US and European sessions of Thursday 15 October",
+  "intro": "Covers the US and European sessions of Thursday 15 October. Gold and Brent are CFD/reference prints with small cross-source differences (see notes).",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 7744.06,
+      "unit": "pts",
+      "change": 0.33,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": 26713.03,
+      "unit": "pts",
+      "change": 0.08,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": 52177.69,
+      "unit": "pts",
+      "change": 1.08,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": 16.46,
+      "unit": "pts",
+      "change": -2.43,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": 5.09,
+      "unit": "%",
+      "change": -10,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.692,
+      "unit": "US$",
+      "change": -0.12,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": 105.81,
+      "unit": "US$/bbl",
+      "change": -0.17,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": 4171.06,
+      "unit": "US$/oz",
+      "change": 1.6,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 90.57,
+      "unit": "US$/t",
+      "change": -0.19,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "Gold: FNArena US$4,173.22 (+1.75%), Trading Economics US$4,171.06 (+1.60%); the latter is shown. Brent: Trading Economics US$105.73 (-0.31%); FNArena figure shown. Yield: Trading Economics shows about 5.07%; Yahoo Finance/FNArena 5.09% shown. Iron ore and AUD/USD are single-source (FNArena)."
+  ],
+  "setup": {
+    "spi_level": 8844,
+    "spi_change_pct": 1.06,
+    "implied_open": 8812.1,
+    "implied_open_points": 92.4,
+    "implied_open_pct": 1.06,
+    "prior_close": 8719.7,
+    "prior_close_change_pct": -0.09,
+    "approximate": false,
+    "summary": "SPI 200 futures are at 8,844, up 1.06% (FNArena and TradingView agree). Applied to the prior ASX 200 cash close of 8,719.70 (-0.09% on Thursday), that implies an open near 8,812, up about 92 points or 1.06%."
+  },
+  "local_events": [
+    "Australian September labour force data from the ABS (consensus not available).",
+    "Company results: not confirmed (FNArena's calendar is paywalled)."
+  ],
+  "what_moved": "Treasuries rallied despite hot US inflation data: the 10-year yield fell about 10 bp to 5.09% and the Dow rose 1.08%, led by defensive and rate-sensitive areas. Consumer staples led the large-cap sectors with a gain of more than 2% and homebuilders rallied, while technology and semiconductors remained weak on worries about debt-funded AI spending; chip stocks fell for a seventh straight session. US producer prices (PPI) rose 1.3% in September and CPI was also above forecasts, keeping a further Fed rate rise in play.",
+  "news": [
+    {
+      "headline": "US PPI jumps 1.3%.",
+      "summary": "September wholesale prices posted their largest monthly rise since March 2022.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-rise-nasdaq-trims-losses-as-treasury-yields-sink-153611834.html"
+    },
+    {
+      "headline": "Hot CPI lifts Fed-hike odds.",
+      "summary": "September CPI rose 0.6% m/m and 3.7% y/y (3.6% expected); markets priced roughly a 40% chance of an October hike.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/10/15/the-overnight-report-cpi-high-tech-tanks/"
+    },
+    {
+      "headline": "Bond rally.",
+      "summary": "The 10-year yield fell to 5.09% and the 30-year to 5.43% as investors sought safety from the AI-linked tech sell-off.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-rise-nasdaq-trims-losses-as-treasury-yields-sink-153611834.html"
+    },
+    {
+      "headline": "AI financing stress.",
+      "summary": "CoreWeave's credit default swaps hit a record and South Korea's KOSPI fell about 7% as the global chip sell-off continued.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-rise-nasdaq-trims-losses-as-treasury-yields-sink-153611834.html"
+    },
+    {
+      "headline": "Oil stays elevated.",
+      "summary": "Brent held near US$105.8/bbl, with traders weighing Middle East supply risks.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/"
+    },
+    {
+      "headline": "ASX closes slightly lower.",
+      "summary": "The ASX 200 fell 0.09% to 8,719.70 on Thursday; banks gained 2.92% while materials fell 3.95%.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/"
+    }
+  ],
+  "coming_up": "The next FOMC meeting is 27-28 October 2026 (no projections); US midterm elections follow on 3 November."
+}

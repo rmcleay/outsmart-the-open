@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-16T08:45:00+11:00",
+  "briefs": [
+    {
+      "date": "2026-10-16",
+      "status": "published",
+      "published_at": "2026-10-16T08:45:00+11:00",
+      "implied_open_pct": 1.06,
+      "implied_open_points": 92.4,
+      "scoreboard": {
+        "sp500": 7744.06,
+        "nasdaq": 26713.03,
+        "dow": 52177.69,
+        "vix": 16.46,
+        "us10y": 5.09,
+        "audusd": 0.692,
+        "brent": 105.81,
+        "gold": 4171.06,
+        "iron_ore": 90.57
+      },
+      "headlines": [
+        "US PPI jumps 1.3%.",
+        "Hot CPI lifts Fed-hike odds.",
+        "Bond rally.",
+        "AI financing stress.",
+        "Oil stays elevated.",
+        "ASX closes slightly lower."
+      ]
+    }
+  ]
+}
