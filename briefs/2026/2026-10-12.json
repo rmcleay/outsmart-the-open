@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-12",
+  "status": "published",
+  "published_at": "2026-10-12T06:41:33+11:00",
+  "session_covered": "US and European sessions of Friday 9 October",
+  "intro": "Covers the Friday 9 October US/European session (US markets reopen after the weekend later today). SPI 200 futures and the VIX could not be verified from reliable sources and are shown as \"not available\".",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 7811.54,
+      "unit": "pts",
+      "change": 0.6,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": 27366.17,
+      "unit": "pts",
+      "change": 0.6,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": 51654.95,
+      "unit": "pts",
+      "change": 0.8,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": null,
+      "unit": "pts",
+      "change": null,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": 5.24,
+      "unit": "%",
+      "change": 2.0,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.6983,
+      "unit": "US$",
+      "change": 0.37,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": 104.72,
+      "unit": "US$/bbl",
+      "change": 0.4,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": 4193.87,
+      "unit": "US$/oz",
+      "change": 1.47,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 90.68,
+      "unit": "US$/t",
+      "change": -0.33,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "Index closes, yield and Brent from AP; AUD/USD, gold and iron ore from Trading Economics only (single source). Iron ore is a CFD benchmark tracking 62% Fe CFR Tianjin, not an official CFR China print."
+  ],
+  "setup": {
+    "spi_level": null,
+    "spi_change_pct": null,
+    "implied_open": null,
+    "implied_open_points": null,
+    "implied_open_pct": null,
+    "prior_close": 8717,
+    "prior_close_change_pct": 0.6,
+    "approximate": false,
+    "summary": "SPI 200 futures level and change: not available (no verified source), so the implied open is not calculated. Prior ASX 200 close (Fri 9 Oct): 8,717, +56 points (+0.6%), +0.4% for the week. Wall Street's gains and a weaker US dollar are mildly supportive."
+  },
+  "local_events": [],
+  "what_moved": "US stocks rose on expectations of a strong earnings season, leaving the S&P 500 about 0.4% below its record high. Oil eased early after President Trump said the US would not strike Iran before the midterms, but Brent reversed to close higher. Treasury yields stayed near a 24-year high. S&P 500 sector performance was not reported by the sources found. France, Germany and the UK each gained at least 1%.",
+  "news": [
+    {
+      "headline": "Fed hike pricing.",
+      "summary": "Markets see about an 81-82% chance of a hold in October and a high chance of a hike by December, after last month's hike.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+    },
+    {
+      "headline": "Yields near 24-year high.",
+      "summary": "The US 10-year is 5.24%, close to its highest since 2002; strong 10- and 30-year auction demand limited the rise.",
+      "source": "AP via CP24",
+      "url": "https://www.cp24.com/news/money/2026/10/09/us-futures-are-rising-as-crude-prices-retreat-from-recent-gains/"
+    },
+    {
+      "headline": "US consumer inflation expectations rise.",
+      "summary": "Consumers expect 4.7% inflation over the next year, up from 4.6% a month earlier.",
+      "source": "AP via CP24",
+      "url": "https://www.cp24.com/news/money/2026/10/09/us-futures-are-rising-as-crude-prices-retreat-from-recent-gains/"
+    },
+    {
+      "headline": "Iran uncertainty keeps oil above US$100.",
+      "summary": "Brent settled at US$104.72 as markets weigh when war-related disruption to energy supply will ease.",
+      "source": "AP via CP24",
+      "url": "https://www.cp24.com/news/money/2026/10/09/us-futures-are-rising-as-crude-prices-retreat-from-recent-gains/"
+    },
+    {
+      "headline": "SpaceX spectrum deal jolts US telecoms.",
+      "summary": "T-Mobile US fell 13.3%, AT&T 9.8% and Verizon 8.7%, while tower operators rallied sharply.",
+      "source": "AP via CP24",
+      "url": "https://www.cp24.com/news/money/2026/10/09/us-futures-are-rising-as-crude-prices-retreat-from-recent-gains/"
+    },
+    {
+      "headline": "Australian labour market softening.",
+      "summary": "Unemployment rose to 4.6% in August; markets price about a 30% chance of another RBA hike in November after the cash rate rose to 4.60% last month.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/australia/currency"
+    },
+    {
+      "headline": "US bank earnings start Tuesday.",
+      "summary": "JPMorgan, Goldman Sachs, Citigroup and Wells Fargo report; S&P 500 Q3 earnings are expected to rise over 30%.",
+      "source": "Kitco/Reuters",
+      "url": "https://www.kitco.com/news/off-the-wire/2026-10-09/wall-st-week-ahead-bank-earnings-cpi-headline-busy-markets-week-sp-500"
+    }
+  ],
+  "coming_up": "Tue 13 Oct: US big-bank earnings. Wed 14 Oct: US September CPI (consensus 3.6% y/y headline). Thu 15 Oct: Australian September employment report and US PPI."
+}

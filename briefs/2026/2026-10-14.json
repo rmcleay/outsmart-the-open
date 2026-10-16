@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-14",
+  "status": "published",
+  "published_at": "2026-10-14T06:42:34+11:00",
+  "session_covered": "US and European sessions of Tuesday 13 October",
+  "intro": "Covers the US session of Tuesday 13 October. This brief was generated about 20 minutes before the US cash close (07:00 AEDT), so US figures are late-session snapshots, not final closes. FNArena was unreachable; figures are from alternative sources.",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 7805.0,
+      "unit": "pts",
+      "change": -0.03,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": 27215.0,
+      "unit": "pts",
+      "change": -0.1,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": 51680.0,
+      "unit": "pts",
+      "change": -0.3,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": 15.5,
+      "unit": "pts",
+      "change": 1.9,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": 5.22,
+      "unit": "%",
+      "change": -2.0,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.6985,
+      "unit": "US$",
+      "change": 0.36,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": null,
+      "unit": "US$/bbl",
+      "change": null,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": 4162.0,
+      "unit": "US$/oz",
+      "change": -0.2,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 90.83,
+      "unit": "US$/t",
+      "change": 0.17,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "S&P 500: approximate figure (the email gave \"~7,805 pts (intraday) -0.03%\").",
+    "NASDAQ Composite: approximate figure (the email gave \"~27,215 pts (intraday) -0.1%\").",
+    "Dow Jones Industrial Average: approximate figure (the email gave \"~51,680 pts (intraday) -0.3%\").",
+    "VIX: approximate figure (the email gave \"~15.5 +1.9%\").",
+    "US 10-year Treasury yield: approximate figure (the email gave \"~5.22% -2 bp\").",
+    "Brent crude: the email gave \"~US$104.4–105.2/bbl -1.3% to -2.1%\", which isn't a single figure, so it isn't shown in full.",
+    "Spot gold: approximate figure (the email gave \"~US$4,162/oz -0.2%\").",
+    "US index figures are intraday snapshots (about 12:30–15:00 ET) versus Monday closes (S&P 7,807.24; Nasdaq 27,245.90; Dow 51,850.55); Dow snapshots ranged from -0.16% to -0.3%. VIX and 10-year yield confirmed by two sources. Brent differs by source (AP early session US$105.22, -1.3%; TheStreet US$104.40, -2.1%). Gold is a spot/CFD reference; an early gold futures snapshot showed US$4,210 (+0.47%). AUD/USD is single-source (Trading Economics). The iron ore print is dated 12 October; 13 October not available.",
+    "Futures sources disagreed (TradingView 8,786, +0.42%; Investing.com 8,745.5, +0.78%), so the implied open is the midpoint of the 8,821-8,852 range."
+  ],
+  "setup": {
+    "spi_level": null,
+    "spi_change_pct": null,
+    "implied_open": 8836.5,
+    "implied_open_points": 52.5,
+    "implied_open_pct": 0.6,
+    "prior_close": 8784,
+    "prior_close_change_pct": -0.01,
+    "approximate": true,
+    "summary": "SPI 200 futures (Dec 2026 contract) are up on both sources but disagree on level: TradingView 8,786 (+0.42%); Investing.com 8,745.5 (+67.5, +0.78%). Reported as up roughly 0.4–0.8%, level 8,745–8,786, low confidence (timestamps unclear; US still trading). Applied to the prior ASX 200 close of about 8,784 (essentially flat, -0.01%, Tuesday), the implied open is about 8,821–8,852, i.e. +37 to +68 points (+0.4% to +0.8%)."
+  },
+  "local_events": [
+    "No scheduled Australian data release or RBA event could be verified for 14 October.",
+    "The RBA lifted the cash rate to 4.6% earlier this month; the next meeting is 2–3 November."
+  ],
+  "what_moved": "A global chip selloff (reports that China's CXMT advanced a memory chip design, plus AI-valuation worries) weighed on the Nasdaq, while the Dow was supported by bank and health care earnings and gains in Meta and Salesforce. Treasury yields eased slightly from multi-year highs and oil fell. S&P 500 sector percentages: not available. Korea's Kospi fell about 5.5% and Japan's Nikkei 1.8%; most other Asian and European indexes edged higher.",
+  "news": [
+    {
+      "headline": "Chip stocks slide worldwide.",
+      "summary": "Micron fell 5.8%, AMD 3.3% and Nvidia and Broadcom about 1.3% in early trade.",
+      "source": "AP via BNN Bloomberg",
+      "url": "https://www.bnnbloomberg.ca/markets/2026/10/13/wall-street-mixed-in-early-trading-as-big-us-banks-report-earnings-chip-stocks-fall-again/"
+    },
+    {
+      "headline": "US bank earnings season opens.",
+      "summary": "Goldman Sachs beat, JPMorgan missed on profit but lifted its net interest income outlook, and Wells Fargo missed. Dimon flagged elevated asset prices, inflation and rate risks.",
+      "source": "AP via BNN Bloomberg",
+      "url": "https://www.bnnbloomberg.ca/markets/2026/10/13/wall-street-mixed-in-early-trading-as-big-us-banks-report-earnings-chip-stocks-fall-again/"
+    },
+    {
+      "headline": "Treasury yields near multi-year highs.",
+      "summary": "The 10-year eased to about 5.20–5.22% from 5.24%; softer jobs and inflation data have reduced bets on near-term hikes.",
+      "source": "Reuters via Lufkin Daily News",
+      "url": "https://lufkindailynews.com/news_reuters/business/wall-st-subdued-in-choppy-trade-after-big-bank-earnings-chips-slide/article_b3a15960-795f-538e-a608-8ad5e42df21c.html"
+    },
+    {
+      "headline": "Oil falls.",
+      "summary": "The US temporarily eased restrictions on Russian diesel supply; uncertainty over possible US action on Iran persists.",
+      "source": "TheStreet",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-13-2026"
+    },
+    {
+      "headline": "ASX 200 ends flat.",
+      "summary": "Banks rose and miners fell; NAB business confidence was at a four-month low in September.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/australia/stock-market"
+    },
+    {
+      "headline": "RBA tightening weighs on households.",
+      "summary": "The cash rate rose to 4.6%; Westpac consumer sentiment fell 4.7% to 80.4 in October and Westpac expects another hike in November.",
+      "source": "investingLive",
+      "url": "https://investinglive.com/news/australian-consumer-sentiment-slumps-after-rba-hike-as-westpac-tips-another-in-november/"
+    }
+  ],
+  "coming_up": "US September CPI, Wednesday 14 October 08:30 ET (23:30 AEDT tonight); consensus headline 3.7% y/y, core 2.5%. US PPI follows Thursday 15 October. (Source: Charles Schwab)"
+}

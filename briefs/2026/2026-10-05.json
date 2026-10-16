@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-05",
+  "status": "published",
+  "published_at": "2026-10-05T06:40:32+11:00",
+  "session_covered": "US and European sessions of Friday 2 October",
+  "intro": "Covers the US session of Friday 2 October 2026. Sourcing caveat: SPI 200 futures could not be verified from two sources and are shown as \"not available\".",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 7722.72,
+      "unit": "pts",
+      "change": 0.73,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": 27190.86,
+      "unit": "pts",
+      "change": 1.19,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": 51176.96,
+      "unit": "pts",
+      "change": 0.49,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": 15.31,
+      "unit": "pts",
+      "change": null,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": 5.29,
+      "unit": "%",
+      "change": 6.0,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.693,
+      "unit": "US$",
+      "change": null,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": 102.25,
+      "unit": "US$/bbl",
+      "change": -0.06,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": 4142.55,
+      "unit": "US$/oz",
+      "change": -0.83,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": null,
+      "unit": "US$/t",
+      "change": null,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "VIX: the email gave \"15.31 not available (+2.96% wk)\", which isn't a single figure, so it isn't shown in full.",
+    "AUD/USD: approximate figure (the email gave \"~US$0.693 (Asian hours, 2 Oct) not available\").",
+    "Iron ore (62% Fe, CFR China): the email showed US$161.91/t (0.00%), far from the roughly US$91-97/t printed on the surrounding days, so it isn't shown.",
+    "Nasdaq per Yahoo Finance; Spokesman-Review showed 27,179.15 (+1.14%), and one site's implausible 10,030.83 was discarded. 10-year yield per investingLive (5.29%); Epoch Times cited about 5.24% at week's end. Gold is the investingLive print and may be a futures price. Iron ore print is from the Rio Times; China is on National Day holiday 1-7 Oct."
+  ],
+  "setup": {
+    "spi_level": null,
+    "spi_change_pct": null,
+    "implied_open": null,
+    "implied_open_points": null,
+    "implied_open_pct": null,
+    "prior_close": null,
+    "prior_close_change_pct": 0.55,
+    "approximate": false,
+    "summary": "SPI 200 futures level and change: not available (could not be verified from two independent sources), so no implied open is given. For context, US equities rallied and the Nasdaq hit a record, but US yields closed higher. The ASX 200 closed Friday up 47 points (+0.55%) and was flat for the week (closing level not verified)."
+  },
+  "local_events": [],
+  "what_moved": "A much weaker US September payrolls print (29,000 vs about 84,000-90,000 expected; unemployment 4.2% from 4.1%) cut the odds of a Fed rate hike at the next meeting to about 22-24% from 64%, lifting growth and tech stocks. Nvidia hit an intraday record. Treasury yields reversed and closed higher despite the soft data. The G7 agreed to release 100 million barrels of oil and diesel, pushing WTI down 1.9% while Brent was little changed. S&P 500 sector performance was not reported in the sources found.",
+  "news": [
+    {
+      "headline": "Payrolls miss.",
+      "summary": "US employers added 29,000 jobs in September, well below forecasts; the S&P 500 still ended the week down 0.27% and the Dow down 1.26%.",
+      "source": "Epoch Times",
+      "url": "https://theepochtimes.com/business/wall-street-review-soft-jobs-report-cuts-rate-hike-bets-lifting-stocks-friday-6099047"
+    },
+    {
+      "headline": "G7 oil release.",
+      "summary": "Up to 100 million barrels of diesel and crude, front-loaded over 20 days, to address record diesel prices.",
+      "source": "BNN Bloomberg",
+      "url": "https://www.bnnbloomberg.ca/markets/oil/2026/10/02/g7-nations-agree-to-release-100-million-barrels-of-oil-including-diesel-a-boost-for-trump/"
+    },
+    {
+      "headline": "Oil.",
+      "summary": "Brent held above US$102 and WTI fell to US$91.11 as the release offset China's October fuel export suspension and Middle East tensions.",
+      "source": "EnergyNow",
+      "url": "https://energynow.com/2026/10/oil-ends-volatile-week-mixed-as-emergency-reserve-release-knocks-wti-lower-but-brent-holds-above-102/"
+    },
+    {
+      "headline": "Middle East.",
+      "summary": "The US deployed 9,000 troops to the region amid tensions with Iran.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-2-135416764.html"
+    },
+    {
+      "headline": "Inflation.",
+      "summary": "US PCE was reported at 3.4% vs 3.7% expected.",
+      "source": "Epoch Times",
+      "url": "https://theepochtimes.com/business/wall-street-review-soft-jobs-report-cuts-rate-hike-bets-lifting-stocks-friday-6099047"
+    },
+    {
+      "headline": "Bonds.",
+      "summary": "Yields closed higher after the jobs data (10-year 5.29%, 2-year 4.84%).",
+      "source": "investingLive",
+      "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-2-oct-nasdaq-100-closes-at-a-record-after-soft-us-jobs-treasury-yields-reverse-higher/"
+    },
+    {
+      "headline": "Australia.",
+      "summary": "ASX 200 up 0.55% Friday; Australian 3-year yield fell 13 bp over four sessions to 4.922%.",
+      "source": "Market Index",
+      "url": "https://www.marketindex.com.au/news/asx-200-live-today-friday-2nd-october"
+    },
+    {
+      "headline": "RBA.",
+      "summary": "AUD/USD fell five straight days; CBA's chief said a November RBA hike was possible depending on inflation data.",
+      "source": "FXStreet",
+      "url": "https://www.fxstreet.com/news/australian-dollar-loses-as-us-dollar-receives-support-from-persistent-inflation-concerns-202610020302"
+    }
+  ],
+  "coming_up": "The next Fed meeting (late October, exact date not verified) and a possible RBA decision in November, per CBA's comment; exact dates not verified."
+}

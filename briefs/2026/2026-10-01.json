@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-01",
+  "status": "published",
+  "published_at": "2026-10-01T05:41:45+10:00",
+  "session_covered": "US and European sessions of Wednesday 30 September",
+  "intro": "Covers the Wednesday 30 September US session. Caveat: at 05:39 AEST the US cash session (closes 06:00 AEST) had not finished, so US figures are late-session readings from several outlets, not official closes. Where sources disagreed or no figure could be found, the cell reads \"not available\". No SPI 200 futures figure could be sourced from two independent outlets.",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 7704.0,
+      "unit": "pts",
+      "change": null,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": 26997.0,
+      "unit": "pts",
+      "change": null,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": 51363.0,
+      "unit": "pts",
+      "change": null,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": null,
+      "unit": "pts",
+      "change": null,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": null,
+      "unit": "%",
+      "change": null,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.695,
+      "unit": "US$",
+      "change": null,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": null,
+      "unit": "US$/bbl",
+      "change": null,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": 4184.97,
+      "unit": "US$/oz",
+      "change": 1.39,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 96.59,
+      "unit": "US$/t",
+      "change": -0.14,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "S&P 500: the email gave \"~7,704 pts (late session) +0.4% to +0.5%\", which isn't a single figure, so it isn't shown in full.",
+    "NASDAQ Composite: the email gave \"~26,997 pts (late session) +0.7% to +1.0%\", which isn't a single figure, so it isn't shown in full.",
+    "Dow Jones Industrial Average: the email gave \"~51,363 pts (late session) about flat (-0.1% to 0.0%)\", which isn't a single figure, so it isn't shown in full.",
+    "US 10-year Treasury yield: the email gave \"5.25%–5.29% change in bp not available\", which isn't a single figure, so it isn't shown in full.",
+    "AUD/USD: approximate figure (the email gave \"~US$0.6950 not available\").",
+    "Equity levels and changes are intraday readings; sources differed slightly (S&P 500 +0.43% per Yahoo Finance, +0.5% per AP; Nasdaq +0.74% vs +1%; Dow +0.02% vs -0.1%), so ranges are shown. 10-year yield: 5.25% (Yahoo) vs 5.29% (AP). Brent: US$102.59/bbl settle on 29 Sep (-2.6%) vs US$98.99/bbl (+2.9%) quoted by AP on 30 Sep — irreconcilable, so not reported. Gold is the prior-session (29 Sep) figure; a 30 Sep print was not found. AUD/USD is from a 30 Sep FXStreet note."
+  ],
+  "setup": {
+    "spi_level": null,
+    "spi_change_pct": null,
+    "implied_open": null,
+    "implied_open_points": null,
+    "implied_open_pct": null,
+    "prior_close": null,
+    "prior_close_change_pct": 0.89,
+    "approximate": false,
+    "summary": "SPI 200 / ASX 200 futures level and change: not available (no two independent sources found), so an implied open in points and per cent is not given. US equity indices were modestly higher late in the session, led by tech. The ASX 200 closed Wednesday up 75 points (+0.89%) at a near three-week high (index level not available), after August CPI came in slightly below expectations."
+  },
+  "local_events": [
+    "Australia balance of trade (10:30 AEST)."
+  ],
+  "what_moved": "A softer US August PCE print (3.4% y/y vs 3.7% expected; 0.3% m/m) cut Fed rate-hike expectations, pulling the 2-year yield down to about 4.88% and lifting growth and tech shares. The 10-year stayed near multi-decade highs at 5.25%–5.29% on debt and growth concerns. Midday reports had communication services and utilities leading and financials and consumer staples lagging; sector percentages not available. Technology was the only S&P 500 sector with a substantial September gain (about +4.4% for the month).",
+  "news": [
+    {
+      "headline": "US inflation cooler than forecast.",
+      "summary": "August PCE prices rose 3.4% y/y against 3.7% expected, easing pressure on the Fed.",
+      "source": "AP via CP24",
+      "url": "https://www.cp24.com/news/money/2026/09/30/wall-street-closes-in-on-a-winning-september-following-an-encouraging-update-on-inflation/"
+    },
+    {
+      "headline": "Fed's Williams sees \"no need for urgency\".",
+      "summary": "The New York Fed president's comments shifted odds of an October hike to roughly 50-50, from over 70% previously.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-30-dow-sp-500-nasdaq-080339262.html"
+    },
+    {
+      "headline": "Long-end yields at multi-decade highs.",
+      "summary": "The 10-year yield is about 5.25%–5.29%; the 30-year has crossed 5.6%, the highest since June 2002.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-30-134209395.html"
+    },
+    {
+      "headline": "Oil falls as Middle East exports recover.",
+      "summary": "September Gulf crude shipments hit 16.328 million barrels a day, the most since the Iran war began in late February; Brent settled US$102.59/bbl on 29 Sep (-2.6%) with US-Iran Hormuz talks unresolved.",
+      "source": "Rio Times",
+      "url": "https://www.riotimesonline.com/oil-markets-latam-wednesday-september-30-2026"
+    },
+    {
+      "headline": "Australian CPI softer, AUD at two-month low.",
+      "summary": "August CPI was 4.0% y/y (4.1% expected), trimmed mean 3.6%; the ASX 200 rose 0.89% and the 3-year yield fell to 4.92%. AUD/USD traded near 0.6950 after the RBA's hike to 4.60%.",
+      "source": "Market Index",
+      "url": "https://www.marketindex.com.au/news/asx-200-live-today-wednesday-30th-september"
+    },
+    {
+      "headline": "Mixed US activity data.",
+      "summary": "ADP private payrolls rose 90,000 (68,000 expected); on 29 Sep, JOLTS openings fell to 7.079 million and consumer confidence dropped to 81.9, the lowest since 2014.",
+      "source": "TheStreet, Rio Times",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-30-2026"
+    },
+    {
+      "headline": "US dollar near 2026 highs.",
+      "summary": "The dollar was set for its largest monthly gain against the euro in 14 months.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-30-dow-sp-500-nasdaq-080339262.html"
+    },
+    {
+      "headline": "Micron reports after the US close.",
+      "summary": "Results and guidance for the AI memory cycle were not yet available at the time of writing.",
+      "source": "Motley Fool",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/09/30/stock-market-midday-sept-30-markets-rise-on-softer-inflation-data-investors-await-micron-earnings/"
+    }
+  ],
+  "coming_up": "Thursday 1 October: US ISM Manufacturing PMI (14:00 GMT, 00:00 AEST Fri). Friday 2 October: US nonfarm payrolls, unemployment rate and average hourly earnings (12:30 GMT, 22:30 AEST). (Source: LiteFinance)"
+}

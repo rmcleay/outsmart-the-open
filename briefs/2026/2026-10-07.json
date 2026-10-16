@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-07",
+  "status": "published",
+  "published_at": "2026-10-07T06:41:22+11:00",
+  "session_covered": "US and European sessions of Tuesday 6 October",
+  "intro": "Covers the US session of Tuesday 6 October. Sourcing caveat: the AFR column was not accessible, final closes differ slightly between sources, and no verified Wednesday SPI 200 print was found; unresolved items are marked \"not available\".",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 7825.0,
+      "unit": "pts",
+      "change": 0.67,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": 27646.0,
+      "unit": "pts",
+      "change": null,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": 51523.0,
+      "unit": "pts",
+      "change": null,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": null,
+      "unit": "pts",
+      "change": null,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": 5.27,
+      "unit": "%",
+      "change": null,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.697,
+      "unit": "US$",
+      "change": null,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": null,
+      "unit": "US$/bbl",
+      "change": null,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": 4186.2,
+      "unit": "US$/oz",
+      "change": 0.71,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 91.05,
+      "unit": "US$/t",
+      "change": -0.5,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "S&P 500: approximate figure (the email gave \"c.7,825 pts +0.67%\").",
+    "NASDAQ Composite: the email gave \"c.27,646 pts c.+0.6% to +0.8%\", which isn't a single figure, so it isn't shown in full.",
+    "Dow Jones Industrial Average: the email gave \"c.51,523 pts c.+0.5% to +0.7%\", which isn't a single figure, so it isn't shown in full.",
+    "US 10-year Treasury yield: the email gave \"c.5.27% c.-4 to -5 bp\", which isn't a single figure, so it isn't shown in full.",
+    "Index figures are late-session snapshots that differ across Yahoo Finance, TheStreet, FXEmpire and Trading Economics (Nasdaq +0.61% to +0.83%, Dow +0.50% to +0.70%); S&P 500 +0.67% is confirmed by two sources. Brent: sources conflict (US$98.67/bbl, -1.6% vs US$100.82/bbl, +0.5%), so not reported. Gold: Trading Economics shows US$4,175.36 (+0.86%). AUD/USD and iron ore are from ABC's Tuesday Sydney-session wrap. VIX print could not be date-verified."
+  ],
+  "setup": {
+    "spi_level": null,
+    "spi_change_pct": null,
+    "implied_open": null,
+    "implied_open_points": null,
+    "implied_open_pct": null,
+    "prior_close": null,
+    "prior_close_change_pct": null,
+    "approximate": false,
+    "summary": "SPI 200 / ASX 200 futures for this morning: not available (no two independent verified prints). The overnight US risk tone was positive (record S&P 500 and Nasdaq, lower yields), which is consistent with a firmer open, but it is not quantified here. The ASX 200 closed Tuesday at about 8,733-8,736, +0.5% to +0.6%, a third straight gain."
+  },
+  "local_events": [],
+  "what_moved": "Tech led again as US Treasury yields retreated from 24-year highs (the 10-year touched above 5.35% on Monday), easing rate pressure, while crude dipped on Hormuz supply relief. Small caps lagged (Russell 2000 lower, healthcare weak). S&P 500 sector percentages were not reported in the sources accessed.",
+  "news": [
+    {
+      "headline": "Yields ease from multi-decade highs.",
+      "summary": "The 10-year was around 5.26-5.28% and the 30-year about 5.65%, after Monday's highest levels since 2002.",
+      "source": "TheStreet",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-06-2026"
+    },
+    {
+      "headline": "Oil slips on supply signals.",
+      "summary": "A G7 emergency stockpile release and resilient Middle East exports weighed, and tanker traffic through Hormuz improved.",
+      "source": "Investing.com (Reuters)",
+      "url": "https://investing.com/news/economy-news/wall-st-futures-rise-as-yields-oil-dip-4933888"
+    },
+    {
+      "headline": "Fed minutes due Wednesday.",
+      "summary": "The September meeting minutes are out at 2pm ET; markets price about 20% odds of an October hike and about 70% for December (Trading Economics).",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-indexes-rise-104456505.html"
+    },
+    {
+      "headline": "AI trade extends.",
+      "summary": "Constellation Energy rose about 14% on a Google nuclear power deal, and AMD's CEO said compute demand continues to outrun supply.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-october-6-dow-sp-500-nasdaq-080526166.html"
+    },
+    {
+      "headline": "Breadth remains narrow.",
+      "summary": "The Nasdaq logged more than twice as many new 52-week lows as highs despite the record close.",
+      "source": "FXEmpire",
+      "url": "https://fxempire.com/forecasts/article/stock-market-news-sp-500-and-nasdaq-hit-records-as-yields-ease-1635968"
+    },
+    {
+      "headline": "Euro weak on French fiscal worries.",
+      "summary": "The euro sits near 17-month lows, and the Australian dollar hit a 22-month high against it (62.1 euro cents).",
+      "source": "ABC News",
+      "url": "https://www.abc.net.au/news/2026-10-06/asx-markets-business-news-live-updates-tuesday-6-october/107231888"
+    },
+    {
+      "headline": "Australian consumer confidence falls.",
+      "summary": "Westpac's index dropped 4.7% to 80.4 on fuel and borrowing costs.",
+      "source": "ABC News",
+      "url": "https://www.abc.net.au/news/2026-10-06/asx-markets-business-news-live-updates-tuesday-6-october/107231888"
+    },
+    {
+      "headline": "US earnings season starts next week.",
+      "summary": "FactSet growth estimates are near 30%, with high expectations already priced in.",
+      "source": "TheStreet",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-06-2026"
+    }
+  ],
+  "coming_up": "Fed September meeting minutes: Wednesday 7 October, 2pm ET (05:00 Thursday 8 October AEDT). US Q3 earnings season begins next week."
+}

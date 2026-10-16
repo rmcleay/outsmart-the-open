@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-09",
+  "status": "published",
+  "published_at": "2026-10-09T06:42:16+11:00",
+  "session_covered": "US and European sessions of Thursday 8 October",
+  "intro": "Covers the US session of Thursday 8 October. The AFR's own column was not accessible; figures come from Trading Economics (CFD-based), Yahoo Finance, Business Recorder and Market Index, and are marked \"not available\" where they could not be verified.",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 7760.19,
+      "unit": "pts",
+      "change": -0.53,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": null,
+      "unit": "pts",
+      "change": null,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": null,
+      "unit": "pts",
+      "change": null,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": 15.84,
+      "unit": "pts",
+      "change": 5.0,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": 5.23,
+      "unit": "%",
+      "change": -7.0,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.6956,
+      "unit": "US$",
+      "change": -0.1,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": 104.31,
+      "unit": "US$/bbl",
+      "change": 4.1,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": 4128.51,
+      "unit": "US$/oz",
+      "change": 0.43,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 91.13,
+      "unit": "US$/t",
+      "change": -0.05,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "Nasdaq and Dow closes could not be verified (Nasdaq was down roughly 1.4–1.6% intraday late in the session; prior closes 27,538.69 and 51,179.87). S&P 500, yield, AUD, Brent, gold and VIX are Trading Economics CFD-based values; Yahoo Finance intraday showed S&P 500 -0.61% and the 10-year change at -5 bp. VIX % change calculated from the quoted 0.76-pt rise. Iron ore is the 7 October print, the latest available."
+  ],
+  "setup": {
+    "spi_level": null,
+    "spi_change_pct": null,
+    "implied_open": null,
+    "implied_open_points": null,
+    "implied_open_pct": null,
+    "prior_close": 8664.3,
+    "prior_close_change_pct": -0.77,
+    "approximate": false,
+    "summary": "SPI 200 futures: not available. One quote showed Dec futures +0.28% at 8,746.5, but it was undated and contradicts the risk-off overnight tone, so it is excluded. The prior ASX 200 close was 8,664.30, down 0.77% (a second straight fall). With US equities lower and Brent and yields higher, the tone points to a soft open, but no verified futures figure is available to size it."
+  },
+  "local_events": [],
+  "what_moved": "Tech led US equities lower after an FT report that OpenAI's annualised revenue is about US$50bn, versus US$70bn previously estimated, reviving concerns about AI spending. Nvidia fell about 3% and several chip names fell 4–8%. Eight of 11 S&P 500 sectors fell, led by technology and health care, while energy and consumer staples gained (sector percentages not available). Brent rose above US$104/bbl on Gulf tanker attacks, then eased after President Trump said the US would not attack Iran before the midterms. The 10-year yield touched 5.35%, a 24-year high, before closing lower.",
+  "news": [
+    {
+      "headline": "OpenAI revenue report hits the AI trade.",
+      "summary": "The FT report put annualised revenue near US$50bn versus US$70bn expected, pressuring chipmakers and AI-linked names.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market"
+    },
+    {
+      "headline": "Oil jumps on Gulf shipping attacks, then eases.",
+      "summary": "Brent rose about 4% to US$104.31/bbl; Gulf of Mexico output curbs from a tropical storm added to supply worries.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+    },
+    {
+      "headline": "Fed minutes keep a hike on the table.",
+      "summary": "Most officials expect another increase this year, and Governor Waller said more hikes will likely be needed. The 10-year yield ended at 5.23%.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+    },
+    {
+      "headline": "US jobless claims fall to 197,000.",
+      "summary": "This was below the 200,000 forecast, pointing to low layoffs.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-8-dow-sp-500-nasdaq-080537884.html"
+    },
+    {
+      "headline": "ASX 200 slips to 8,664.30.",
+      "summary": "The index fell 0.77%, with the major banks down about 1.5%, BHP down 2.0% and Rio Tinto down 2.9%.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/australia/stock-market"
+    },
+    {
+      "headline": "Tech debt-issuance worries.",
+      "summary": "Reports that Broadcom is lining up US$50bn of financing for OpenAI fed concern about heavy borrowing to fund AI buildouts.",
+      "source": "Business Recorder",
+      "url": "https://brecorder.com/news/40443291/wall-st-slips-as-higher-yields-and-oil-prices-flag-inflation-risk"
+    },
+    {
+      "headline": "PepsiCo cuts annual core profit forecast.",
+      "summary": "Shares nonetheless rose 2.1% after a third-quarter beat.",
+      "source": "Business Recorder",
+      "url": "https://brecorder.com/news/40443291/wall-st-slips-as-higher-yields-and-oil-prices-flag-inflation-risk"
+    }
+  ],
+  "coming_up": "US big-bank earnings, including JPMorgan, are due next week (exact date not confirmed)."
+}

@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-28",
+  "status": "published",
+  "published_at": "2026-09-28T05:46:17+10:00",
+  "session_covered": "US and European sessions of Friday 25 September",
+  "intro": "Covers the last completed overnight session: Wall Street's close on Friday 25 September (US markets were shut over the weekend). A verified SPI 200 futures print could not be sourced this morning. All other figures cross-checked across at least two independent sources where noted.",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 7743.41,
+      "unit": "pts",
+      "change": 0.51,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": 27068.72,
+      "unit": "pts",
+      "change": 0.48,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": 51828.62,
+      "unit": "pts",
+      "change": 0.93,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": 14.87,
+      "unit": "pts",
+      "change": -5.11,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": 5.18,
+      "unit": "%",
+      "change": 2.0,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.7023,
+      "unit": "US$",
+      "change": 0.15,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": 104.32,
+      "unit": "US$/bbl",
+      "change": -2.1,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": 4285.0,
+      "unit": "US$/oz",
+      "change": 0.24,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 97.06,
+      "unit": "US$/t",
+      "change": -0.08,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "Gold reconciled between Trading Economics (US$4,285.00, +0.24%) and USAGOLD's market report (US$4,280.19, +0.12%) — a third aggregator showed a materially higher, uncorroborated print and was excluded. AUD/USD corroborated by Trading Economics (0.7023) and ABC News (0.7022, late-Asia trade). VIX and 10-year yield levels sourced from CNBC/Yahoo Finance market-close coverage and cross-checked against a second wire summary and 24/7 Wall St."
+  ],
+  "setup": {
+    "spi_level": null,
+    "spi_change_pct": null,
+    "implied_open": null,
+    "implied_open_points": null,
+    "implied_open_pct": null,
+    "prior_close": 8665.0,
+    "prior_close_change_pct": -0.43,
+    "approximate": false,
+    "summary": "A verified SPI 200 futures level could not be sourced this morning from two independent, dated providers — not available. Directionally, Friday's positive, broad-based Wall Street close (S&P 500, Nasdaq and Dow all higher, VIX down 5%) is consistent with a firmer implied open, but this is not confirmed by a futures print and should be treated with caution given the RBA decision now just a day away. The ASX 200 closed Friday at 8,665.0 points, down 37.0 points (-0.43%), its lowest level since June and a fourth straight weekly decline, as caution built ahead of this week's RBA meeting."
+  },
+  "local_events": [
+    "The RBA Board begins its two-day policy meeting today; the rate decision is announced tomorrow, Tuesday 29 September at 2:30pm AEST, with all four major Australian banks now forecasting a 25bp hike to 4.60%.",
+    "Chinese industrial profits data (a regional demand read-through) are also due.",
+    "No major ASX-listed earnings are scheduled today."
+  ],
+  "what_moved": "US equities closed a volatile week higher on Friday, with the Dow snapping a three-week losing streak, as a roughly 2% drop in Brent crude on hopes of a US-Iran deal to reopen the Strait of Hormuz offset continued bond-market pressure after the 10-year Treasury yield touched its highest level in nearly two decades (5.18%). Technology (+0.81%) and Industrials (+0.44%) led S&P 500 sector gains, while Communication Services (-1.07%) and Energy (-0.91%) lagged as crude-linked and rate-sensitive names underperformed. US consumer sentiment separately fell to 48.1, a four-month low, on tariff, fuel-price and interest-rate concerns.",
+  "news": [
+    {
+      "headline": "10-year Treasury yield hits a fresh cycle high near 5.18%.",
+      "summary": "The bond sell-off that has dogged markets for weeks pushed long-dated US yields to their highest level in nearly two decades, a persistent headwind for equity valuations and non-yielding assets like gold.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/25/treasury-yields-bonds-debt.html"
+    },
+    {
+      "headline": "Oil slides ~2% on US-Iran diplomatic progress.",
+      "summary": "Brent and WTI both fell as negotiators reportedly explored a phased deal involving Iran reopening the Strait of Hormuz in exchange for the US easing its economic blockade, outweighing lingering supply-risk from Houthi attacks on Saudi Arabia.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/news/oil-prices-fall-markets-look-011125829.html"
+    },
+    {
+      "headline": "All four major Australian banks now expect an RBA hike to 4.60%.",
+      "summary": "CBA joined ANZ, Westpac and NAB in forecasting a 25bp rise at Tuesday's meeting, citing oil-driven inflation risk and stronger-than-expected recent inflation and growth data; markets are pricing roughly 90% odds of a hike, versus about 30% before the July inflation print.",
+      "source": "CommBank Newsroom",
+      "url": "https://www.commbank.com.au/articles/newsroom/2026/09/rba-expected-to-lift-interest-rates-next-week.html"
+    },
+    {
+      "headline": "US consumer sentiment sinks to a four-month low.",
+      "summary": "The University of Michigan index fell to 48.1 in September from 51.7 in August, down 15% since January, as unsolicited tariff mentions and gasoline-price concerns both rose sharply among respondents.",
+      "source": "University of Michigan",
+      "url": "https://news.umich.edu/trade-tensions-high-prices-and-interest-rates-drive-slip-in-consumers-outlook/"
+    },
+    {
+      "headline": "ASX 200 slides to a fourth straight weekly loss.",
+      "summary": "The index closed Friday at a roughly 50-day low, down 0.43% on the day and 0.76% over five sessions, as investors turned cautious into this week's RBA decision; breadth was weak, with the average index member sitting almost 23% below its 52-week high.",
+      "source": "ABC News",
+      "url": "https://www.abc.net.au/news/2026-09-25/asx-markets-business-news-live-updates-sept-25/107184538"
+    },
+    {
+      "headline": "Economists warn petrol could top $2.70/litre.",
+      "summary": "AMP's Shane Oliver flagged the risk if Middle East tensions persist, noting Ukrainian strikes on Russian refineries are also constraining global fuel exports and adding to local bowser pressure.",
+      "source": "ABC News",
+      "url": "https://www.abc.net.au/news/2026-09-25/asx-markets-business-news-live-updates-sept-25/107184538"
+    },
+    {
+      "headline": "Gold eases as high yields dim non-yielding assets' appeal.",
+      "summary": "Spot gold managed only a modest gain Friday and remains down for the week, with dealers citing the surge in Treasury yields to multi-year highs as the metal's chief near-term headwind.",
+      "source": "USAGOLD",
+      "url": "https://www.usagold.com/daily-precious-metals-market-report-september-25-2026/"
+    },
+    {
+      "headline": "Heavy global data week ahead.",
+      "summary": "Beyond Tuesday's RBA decision, the week brings Australian and eurozone August/September CPI, Chinese manufacturing PMI, the US PCE price index and Q2 GDP revision, and US non-farm payrolls on Friday.",
+      "source": "Newsquawk",
+      "url": "https://www.newsquawk.com/headlines/newsquawk-weekly-economic-release-28th-september---2nd-october-2026-"
+    }
+  ],
+  "coming_up": "The RBA's interest rate decision on Tuesday 29 September at 2:30pm AEST is the next major scheduled event, with a 25bp hike to 4.60% widely expected. Australian August CPI and the US PCE price index both follow on Wednesday 30 September."
+}

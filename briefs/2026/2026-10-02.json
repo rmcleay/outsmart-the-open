@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-02",
+  "status": "published",
+  "published_at": "2026-10-02T05:40:46+10:00",
+  "session_covered": "US and European sessions of Thursday 1 October",
+  "intro": "Covers the US/European session of Thursday 1 October. Caveat: at 05:39 AEST the US cash session had not yet closed (close ≈06:00 AEST), so US figures are the latest available intraday prints, not final closes. The AFR column and a Friday SPI 200 figure could not be retrieved.",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 7673.89,
+      "unit": "pts",
+      "change": 0.29,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": 26929.52,
+      "unit": "pts",
+      "change": 0.25,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": 50912.33,
+      "unit": "pts",
+      "change": 0.01,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": 16.35,
+      "unit": "pts",
+      "change": 0.06,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": null,
+      "unit": "%",
+      "change": null,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.6953,
+      "unit": "US$",
+      "change": 0.14,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": 100.6,
+      "unit": "US$/bbl",
+      "change": 2.61,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": 4208.6,
+      "unit": "US$/oz",
+      "change": 0.52,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 92.55,
+      "unit": "US$/t",
+      "change": -0.69,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "US 10-year Treasury yield: the email gave \"~5.24–5.34%** not available\", which isn't a single figure, so it isn't shown in full.",
+    "Intraday, about 15:26 EDT (Yahoo Finance); US close not yet reached at time of writing. Brent from TheStreet (~14:48 EDT); gold is the futures price.  Sources disagree (Yahoo 5.24%, TheStreet 5.33%, intraday peak ~5.34%); change not reconciled.  As at ASX close Thursday (ABC)."
+  ],
+  "setup": {
+    "spi_level": null,
+    "spi_change_pct": null,
+    "implied_open": null,
+    "implied_open_points": null,
+    "implied_open_pct": null,
+    "prior_close": 8614,
+    "prior_close_change_pct": -1.99,
+    "approximate": false,
+    "summary": "SPI 200 futures for Friday: not available (could not be verified against two sources), so no implied open is given. The ASX 200 closed Thursday at 8,614, down 1.99% (174.9 points), its lowest since mid-June, with every sector lower. US indices were marginally higher intraday."
+  },
+  "local_events": [
+    "Bendigo Bank's 0.25-point variable home loan rate rise, following the RBA's recent hike, takes effect 7 October."
+  ],
+  "what_moved": "US stocks were slightly higher intraday, led by technology after Micron beat estimates and raised guidance. Offsetting that, the 10-year Treasury yield touched about 5.34%, the highest since 2002, and Brent rose above US$100/bbl on Middle East tensions and a Chinese fuel export suspension. Energy outperformed and banks lagged (about -0.7%); S&P 500 sector percentages are not available.",
+  "news": [
+    {
+      "headline": "US 10-year yield hits highest since 2002.",
+      "summary": "The yield briefly touched about 5.34% and the 30-year about 5.67% after the worst quarter for bonds in decades.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-oct-1-dow-sp-500-nasdaq-080602402.html"
+    },
+    {
+      "headline": "ASX 200 falls 1.99% on oil, yields and domestic outlook.",
+      "summary": "More than A$50 billion was wiped from the market, with concern over house prices and elevated interest rates.",
+      "source": "ABC News",
+      "url": "https://www.abc.net.au/news/2026-10-01/asx-markets-business-news-live-updates-thursday-1-october/107204216"
+    },
+    {
+      "headline": "Softer US PCE inflation fails to hold gains.",
+      "summary": "Headline PCE slowed to 3.4% versus 3.7% expected, but Wednesday's rally reversed late, and Minneapolis Fed's Kashkari said inflation remains too high.",
+      "source": "Market Index",
+      "url": "https://marketindex.com.au/news/morning-wrap-asx-200-to-fall-s-and-p-500-erases-initial-soft-inflation"
+    },
+    {
+      "headline": "Oil jumps on China fuel export suspension.",
+      "summary": "Brent rose about 2.6% to around US$100.60/bbl intraday, with WTI near US$92.",
+      "source": "TheStreet",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-01-2026"
+    },
+    {
+      "headline": "US jobless claims fall to 197,000.",
+      "summary": "The fourth straight weekly decline, ahead of Friday's payrolls report.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-oct-1-dow-sp-500-nasdaq-080602402.html"
+    },
+    {
+      "headline": "Micron lifts AI-demand sentiment.",
+      "summary": "Micron reported a large earnings beat and guided first-quarter revenue well above expectations, supporting tech.",
+      "source": "HDFC Sky",
+      "url": "https://hdfcsky.com/news/nasdaq-gains-0-46percent-sp-500-rises-0-25percent-and-dow-adds-0-18percent-as-software-stocks-offset-yield-pressure-oct-1-2026"
+    }
+  ],
+  "coming_up": "US non-farm payrolls report, Friday 2 October (US time), which is Saturday 3 October in Australia."
+}

@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-06",
+  "status": "published",
+  "published_at": "2026-10-06T06:40:37+11:00",
+  "session_covered": "US and European sessions of Monday 5 October",
+  "intro": "Covers the US session of Monday 5 October. Sourcing caveat: several figures could not be verified as official closes or conflicted between sources and are marked \"not available\"; Tuesday-morning SPI 200 futures could not be sourced.",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 7788.99,
+      "unit": "pts",
+      "change": 0.86,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": 27403.57,
+      "unit": "pts",
+      "change": 0.7,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": null,
+      "unit": "pts",
+      "change": null,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": null,
+      "unit": "pts",
+      "change": null,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": 5.33,
+      "unit": "%",
+      "change": null,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.6938,
+      "unit": "US$",
+      "change": -0.27,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": null,
+      "unit": "US$/bbl",
+      "change": null,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": null,
+      "unit": "US$/oz",
+      "change": null,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 91.45,
+      "unit": "US$/t",
+      "change": 0.11,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "NASDAQ Composite: approximate figure (the email gave \"~27,403.57 pts (record) +0.7%\").",
+    "US 10-year Treasury yield: approximate figure (the email gave \"~5.33% ~+5bp\").",
+    "S&P 500 and Nasdaq are Trading Economics' latest figures and could not be confirmed as official closes (intraday gains of +0.6% to +0.7% were reported elsewhere). Dow omitted: sources disagreed on direction. 10-year yield ~5.33% (Trading Economics; another source 5.34%) versus Friday's 5.28%, so the ~+5bp change is derived. Brent (US$99.93/bbl -2.27% vs US$102.90/bbl +0.64%) and gold (+0.65% vs -0.17%) conflicted between sources and could not be reconciled. Iron ore: another source cites US$90.90/t."
+  ],
+  "setup": {
+    "spi_level": null,
+    "spi_change_pct": null,
+    "implied_open": null,
+    "implied_open_points": null,
+    "implied_open_pct": null,
+    "prior_close": null,
+    "prior_close_change_pct": null,
+    "approximate": false,
+    "summary": "SPI 200 futures for this morning: not available. The only futures quote found was a stale Monday day-session close (8,745.5, +0.78%) and is not used. Wall Street's tech-led gains point to a firmer start, but no implied open is given. The ASX 200 closed Monday at about 8,691–8,692 (+0.04% to +0.10%) in a quiet session with a NSW public holiday."
+  },
+  "local_events": [],
+  "what_moved": "Technology and communication services led US equities, with the Nasdaq at a record, as Friday's weak September payrolls (+29,000 vs 90,000 expected) cut Fed rate-hike odds. Yields nonetheless rose: the 10-year held around 5.3% and the 30-year about 5.7%. ISM services slowed to 54.9 from 55.4. Sector percentages are not available.",
+  "news": [
+    {
+      "headline": "Weak jobs, higher yields.",
+      "summary": "Payrolls of 29,000 failed to pull yields lower; heavy Treasury supply and energy-driven inflation risk are cited as reasons.",
+      "source": "Market Macro",
+      "url": "https://marketmacro.substack.com/p/twenty-nine-thousand-jobs-and-the"
+    },
+    {
+      "headline": "US services growth eases.",
+      "summary": "ISM services slipped to 54.9 in September from 55.4 in August.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-continues-hit-record-highs-173604388.html"
+    },
+    {
+      "headline": "Euro-area bond stress.",
+      "summary": "The French–German 10-year spread is at 141bp, the widest since 2012.",
+      "source": "Market Macro",
+      "url": "https://marketmacro.substack.com/p/twenty-nine-thousand-jobs-and-the"
+    },
+    {
+      "headline": "Iron ore stays weak.",
+      "summary": "About US$91/t, down roughly 8.6% over the past month.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/commodity/iron-ore"
+    },
+    {
+      "headline": "AUD near multi-month lows.",
+      "summary": "AUD/USD 0.6938 on a firmer US dollar and high Treasury yields; the RBA cash rate is 4.6% after a September hike.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/australia/currency"
+    },
+    {
+      "headline": "Firmus IPO priced.",
+      "summary": "The AI data-centre operator priced at A$11 a share, valuing it at about A$43.7bn.",
+      "source": "Market Index",
+      "url": "https://www.marketindex.com.au/news/asx-200-live-today-monday-5th-october"
+    }
+  ],
+  "coming_up": "Wednesday 7 October (US): 10-year Treasury auction (1pm ET) followed by September FOMC minutes (2pm ET). Thursday 8 October: 30-year reopening."
+}

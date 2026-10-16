@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-13",
+  "status": "published",
+  "published_at": "2026-10-13T06:42:30+11:00",
+  "session_covered": "US and European sessions of Monday 12 October",
+  "intro": "Covers the US session of Monday 12 October (US stocks open; Columbus Day, so the US Treasury market was closed). Official closing prints and Tuesday's SPI 200 reading were not published in any source reachable this morning; US index figures are late-session (~3pm ET) snapshots and are labelled as such.",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 7800.2,
+      "unit": "pts",
+      "change": -0.15,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": 27232.53,
+      "unit": "pts",
+      "change": -0.49,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": 51834.19,
+      "unit": "pts",
+      "change": 0.35,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": 15.32,
+      "unit": "pts",
+      "change": 3.23,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": 5.24,
+      "unit": "%",
+      "change": 0.0,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.6986,
+      "unit": "US$",
+      "change": -0.1,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": 106.76,
+      "unit": "US$/bbl",
+      "change": 1.9,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": 4177.47,
+      "unit": "US$/oz",
+      "change": -0.4,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 91.2,
+      "unit": "US$/t",
+      "change": 0.7,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "Iron ore (62% Fe, CFR China): the email gave \"Iron ore (62% Fe, Singapore Nov futures) US$91.20/t (Mon afternoon) +0.7%\".",
+    "US index figures are not official closes; S&P 500 and Nasdaq levels agree across Yahoo Finance and MarketScreener. Brent was quoted at US$103.46/bbl (-1.2%) in Asian afternoon trade per ABC, a different time and likely a different contract; the US-hours figure is shown. The iron ore figure is a Singapore futures price, not a CFR China print; Friday's quoted price was US$90.60/t. The 10-year yield is the Friday level of ~5.24% carried through the holiday."
+  ],
+  "setup": {
+    "spi_level": null,
+    "spi_change_pct": null,
+    "implied_open": null,
+    "implied_open_points": null,
+    "implied_open_pct": null,
+    "prior_close": 8783,
+    "prior_close_change_pct": 0.8,
+    "approximate": false,
+    "summary": "SPI 200 / ASX 200 futures for Tuesday: not available (no second independent source; Tuesday morning wraps were not yet published). Implied open: not available. The ASX 200 closed Monday up 0.8% at 8,783 pts (All Ords +0.7% to 8,937). US tone was mixed (Dow up, Nasdaq and chips down, oil higher)."
+  },
+  "local_events": [],
+  "what_moved": "Oil rose after deadly strikes on Riyadh's airport over the weekend, partly offset by Trump's announcement that Russia and Ukraine agreed to halt attacks on energy facilities. Intraday, energy (+1.4%), communication services (+1.1% to +1.5%) and financials (+0.7%) led; technology (-1.0%) lagged, with the Philadelphia semiconductor index down 2.7% to a three-week low. Investors are positioned ahead of bank earnings and US inflation data.",
+  "news": [
+    {
+      "headline": "Riyadh airport strike lifts oil.",
+      "summary": "Houthi attacks on Riyadh's airport killed at least 12-13 people; Brent traded above US$106/bbl, near two-week highs.",
+      "source": "Kitco/Reuters",
+      "url": "https://www.kitco.com/news/off-the-wire/2026-10-12/oil-surge-keeps-sp-500-nasdaq-check-earnings-salesforce-lifts-dow"
+    },
+    {
+      "headline": "Russia-Ukraine energy truce and diesel deal.",
+      "summary": "Trump said both sides agreed to halt attacks on energy facilities; a separate deal waives Russian diesel sanctions through April 2027. Zelenskiy has accused Russia of a violation.",
+      "source": "Market Index",
+      "url": "https://marketindex.com.au/news/morning-wrap-asx-200-to-rise-s-and-p-500-nears-record-trump-strikes-russia"
+    },
+    {
+      "headline": "Rates stay in focus.",
+      "summary": "Markets price about a 19% chance of a Fed hike this month; Treasury yields hit 24-year highs earlier in October.",
+      "source": "Kitco/Reuters",
+      "url": "https://www.kitco.com/news/off-the-wire/2026-10-12/oil-surge-keeps-sp-500-nasdaq-check-earnings-salesforce-lifts-dow"
+    },
+    {
+      "headline": "Chip sell-off.",
+      "summary": "The Philadelphia semiconductor index fell 2.7% intraday amid AI-bubble concerns and Chinese memory-maker progress.",
+      "source": "MarketScreener",
+      "url": "https://www.marketscreener.com/news/oil-rally-pressures-s-p-nasdaq-microsoft-salesforce-buoy-dow-ce785dddd980f525"
+    },
+    {
+      "headline": "Earnings season opens.",
+      "summary": "JPMorgan, Goldman Sachs and Citi report Tuesday; S&P 500 Q3 earnings are expected to rise 30.6%.",
+      "source": "Kitco/Reuters",
+      "url": "https://www.kitco.com/news/off-the-wire/2026-10-12/oil-surge-keeps-sp-500-nasdaq-check-earnings-salesforce-lifts-dow"
+    },
+    {
+      "headline": "Hormuz.",
+      "summary": "Tehran said it will respond to a US proposal on reopening the Strait of Hormuz after review.",
+      "source": "TheStreet",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-oct-12-2026-dow-futures-climb-as-wall-street-gears-up-for-busy-week"
+    },
+    {
+      "headline": "Telco shares fall globally.",
+      "summary": "Reports of SpaceX buying spectrum hit telcos; Telstra fell 2.5% as the ASX 200 still rose 0.8%.",
+      "source": "ABC News",
+      "url": "https://www.abc.net.au/news/2026-10-12/asx-markets-business-live-news/107253878"
+    },
+    {
+      "headline": "US consumer sentiment weakens.",
+      "summary": "The index fell to a five-month low of 46.3.",
+      "source": "Market Index",
+      "url": "https://marketindex.com.au/news/morning-wrap-asx-200-to-rise-s-and-p-500-nears-record-trump-strikes-russia"
+    }
+  ],
+  "coming_up": "US September CPI on Wednesday 14 October (US time) is the week's key release; PPI follows on Thursday 15 October."
+}

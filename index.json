@@ -27,6 +27,364 @@
         "Oil stays elevated.",
         "ASX closes slightly lower."
       ]
+    },
+    {
+      "date": "2026-10-15",
+      "status": "published",
+      "published_at": "2026-10-15T06:43:32+11:00",
+      "implied_open_pct": null,
+      "implied_open_points": null,
+      "scoreboard": {
+        "sp500": 7704.36,
+        "dow": 51497.86,
+        "vix": 17.1,
+        "us10y": 5.19,
+        "audusd": 0.698,
+        "brent": 106.0,
+        "gold": 4096.54,
+        "iron_ore": 90.74
+      },
+      "headlines": [
+        "US CPI runs hot.",
+        "Fed hike odds jump.",
+        "Long yields near 2002 highs.",
+        "AI and chip sell-off deepens.",
+        "Bank of America miss weighs on financials.",
+        "Brent holds near US$106.",
+        "ASX 200 slid on Wednesday.",
+        "Iron ore steady, gold lower.",
+        "AUD near US$0.70."
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "status": "published",
+      "published_at": "2026-10-14T06:42:34+11:00",
+      "implied_open_pct": 0.6,
+      "implied_open_points": 52.5,
+      "scoreboard": {
+        "sp500": 7805.0,
+        "nasdaq": 27215.0,
+        "dow": 51680.0,
+        "vix": 15.5,
+        "us10y": 5.22,
+        "audusd": 0.6985,
+        "gold": 4162.0,
+        "iron_ore": 90.83
+      },
+      "headlines": [
+        "Chip stocks slide worldwide.",
+        "US bank earnings season opens.",
+        "Treasury yields near multi-year highs.",
+        "Oil falls.",
+        "ASX 200 ends flat.",
+        "RBA tightening weighs on households."
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "status": "published",
+      "published_at": "2026-10-13T06:42:30+11:00",
+      "implied_open_pct": null,
+      "implied_open_points": null,
+      "scoreboard": {
+        "sp500": 7800.2,
+        "nasdaq": 27232.53,
+        "dow": 51834.19,
+        "vix": 15.32,
+        "us10y": 5.24,
+        "audusd": 0.6986,
+        "brent": 106.76,
+        "gold": 4177.47,
+        "iron_ore": 91.2
+      },
+      "headlines": [
+        "Riyadh airport strike lifts oil.",
+        "Russia-Ukraine energy truce and diesel deal.",
+        "Rates stay in focus.",
+        "Chip sell-off.",
+        "Earnings season opens.",
+        "Hormuz.",
+        "Telco shares fall globally.",
+        "US consumer sentiment weakens."
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "status": "published",
+      "published_at": "2026-10-12T06:41:33+11:00",
+      "implied_open_pct": null,
+      "implied_open_points": null,
+      "scoreboard": {
+        "sp500": 7811.54,
+        "nasdaq": 27366.17,
+        "dow": 51654.95,
+        "us10y": 5.24,
+        "audusd": 0.6983,
+        "brent": 104.72,
+        "gold": 4193.87,
+        "iron_ore": 90.68
+      },
+      "headlines": [
+        "Fed hike pricing.",
+        "Yields near 24-year high.",
+        "US consumer inflation expectations rise.",
+        "Iran uncertainty keeps oil above US$100.",
+        "SpaceX spectrum deal jolts US telecoms.",
+        "Australian labour market softening.",
+        "US bank earnings start Tuesday."
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "status": "published",
+      "published_at": "2026-10-09T06:42:16+11:00",
+      "implied_open_pct": null,
+      "implied_open_points": null,
+      "scoreboard": {
+        "sp500": 7760.19,
+        "vix": 15.84,
+        "us10y": 5.23,
+        "audusd": 0.6956,
+        "brent": 104.31,
+        "gold": 4128.51,
+        "iron_ore": 91.13
+      },
+      "headlines": [
+        "OpenAI revenue report hits the AI trade.",
+        "Oil jumps on Gulf shipping attacks, then eases.",
+        "Fed minutes keep a hike on the table.",
+        "US jobless claims fall to 197,000.",
+        "ASX 200 slips to 8,664.30.",
+        "Tech debt-issuance worries.",
+        "PepsiCo cuts annual core profit forecast."
+      ]
+    },
+    {
+      "date": "2026-10-08",
+      "status": "published",
+      "published_at": "2026-10-08T06:41:12+11:00",
+      "implied_open_pct": null,
+      "implied_open_points": null,
+      "scoreboard": {
+        "sp500": 7798.0,
+        "nasdaq": 27511.0,
+        "dow": 51175.0,
+        "vix": 15.12,
+        "us10y": 5.28,
+        "audusd": 0.6967,
+        "gold": 4135.0,
+        "iron_ore": 91.1
+      },
+      "headlines": [
+        "Fed minutes point to another hike.",
+        "Long-end yields at multi-decade highs.",
+        "Oil firm on Middle East risk.",
+        "India lifts rates.",
+        "Australian rate outlook.",
+        "Bitcoin falls."
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "status": "published",
+      "published_at": "2026-10-07T06:41:22+11:00",
+      "implied_open_pct": null,
+      "implied_open_points": null,
+      "scoreboard": {
+        "sp500": 7825.0,
+        "nasdaq": 27646.0,
+        "dow": 51523.0,
+        "us10y": 5.27,
+        "audusd": 0.697,
+        "gold": 4186.2,
+        "iron_ore": 91.05
+      },
+      "headlines": [
+        "Yields ease from multi-decade highs.",
+        "Oil slips on supply signals.",
+        "Fed minutes due Wednesday.",
+        "AI trade extends.",
+        "Breadth remains narrow.",
+        "Euro weak on French fiscal worries.",
+        "Australian consumer confidence falls.",
+        "US earnings season starts next week."
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "status": "published",
+      "published_at": "2026-10-06T06:40:37+11:00",
+      "implied_open_pct": null,
+      "implied_open_points": null,
+      "scoreboard": {
+        "sp500": 7788.99,
+        "nasdaq": 27403.57,
+        "us10y": 5.33,
+        "audusd": 0.6938,
+        "iron_ore": 91.45
+      },
+      "headlines": [
+        "Weak jobs, higher yields.",
+        "US services growth eases.",
+        "Euro-area bond stress.",
+        "Iron ore stays weak.",
+        "AUD near multi-month lows.",
+        "Firmus IPO priced."
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "status": "published",
+      "published_at": "2026-10-05T06:40:32+11:00",
+      "implied_open_pct": null,
+      "implied_open_points": null,
+      "scoreboard": {
+        "sp500": 7722.72,
+        "nasdaq": 27190.86,
+        "dow": 51176.96,
+        "vix": 15.31,
+        "us10y": 5.29,
+        "audusd": 0.693,
+        "brent": 102.25,
+        "gold": 4142.55
+      },
+      "headlines": [
+        "Payrolls miss.",
+        "G7 oil release.",
+        "Oil.",
+        "Middle East.",
+        "Inflation.",
+        "Bonds.",
+        "Australia.",
+        "RBA."
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "status": "published",
+      "published_at": "2026-10-02T05:40:46+10:00",
+      "implied_open_pct": null,
+      "implied_open_points": null,
+      "scoreboard": {
+        "sp500": 7673.89,
+        "nasdaq": 26929.52,
+        "dow": 50912.33,
+        "vix": 16.35,
+        "audusd": 0.6953,
+        "brent": 100.6,
+        "gold": 4208.6,
+        "iron_ore": 92.55
+      },
+      "headlines": [
+        "US 10-year yield hits highest since 2002.",
+        "ASX 200 falls 1.99% on oil, yields and domestic outlook.",
+        "Softer US PCE inflation fails to hold gains.",
+        "Oil jumps on China fuel export suspension.",
+        "US jobless claims fall to 197,000.",
+        "Micron lifts AI-demand sentiment."
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "status": "published",
+      "published_at": "2026-10-01T05:41:45+10:00",
+      "implied_open_pct": null,
+      "implied_open_points": null,
+      "scoreboard": {
+        "sp500": 7704.0,
+        "nasdaq": 26997.0,
+        "dow": 51363.0,
+        "audusd": 0.695,
+        "gold": 4184.97,
+        "iron_ore": 96.59
+      },
+      "headlines": [
+        "US inflation cooler than forecast.",
+        "Fed's Williams sees \"no need for urgency\".",
+        "Long-end yields at multi-decade highs.",
+        "Oil falls as Middle East exports recover.",
+        "Australian CPI softer, AUD at two-month low.",
+        "Mixed US activity data.",
+        "US dollar near 2026 highs.",
+        "Micron reports after the US close."
+      ]
+    },
+    {
+      "date": "2026-09-30",
+      "status": "published",
+      "published_at": "2026-09-30T05:40:51+10:00",
+      "implied_open_pct": null,
+      "implied_open_points": null,
+      "scoreboard": {
+        "sp500": 7672.6,
+        "dow": 51352.67,
+        "vix": 16.29,
+        "us10y": 5.26,
+        "audusd": 0.702,
+        "brent": 102.52,
+        "gold": 4170.19,
+        "iron_ore": 96.92
+      },
+      "headlines": [
+        "RBA raises cash rate 25 bp to 4.60%.",
+        "US consumer confidence falls to a 12-year low.",
+        "Oil eases on Hormuz diplomacy and reserve release.",
+        "Treasury yields stay near multi-year highs.",
+        "Gold rebounds from a seven-week low.",
+        "AI headlines dominate US tech trading.",
+        "ASX 200 edges higher ahead of the RBA."
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "status": "published",
+      "published_at": "2026-09-29T05:41:10+10:00",
+      "implied_open_pct": null,
+      "implied_open_points": null,
+      "scoreboard": {
+        "vix": 15.9,
+        "us10y": 5.23,
+        "audusd": 0.7021,
+        "gold": 4175.0,
+        "iron_ore": 95.1
+      },
+      "headlines": [
+        "Trump rejects Iran's Hormuz proposal.",
+        "US 10-year yield at a multi-year high.",
+        "RBA decision today.",
+        "Gold falls about 3%.",
+        "Gold Fields bids for Northern Star.",
+        "Iron ore at a five-week low in China."
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "status": "published",
+      "published_at": "2026-09-28T05:46:17+10:00",
+      "implied_open_pct": null,
+      "implied_open_points": null,
+      "scoreboard": {
+        "sp500": 7743.41,
+        "nasdaq": 27068.72,
+        "dow": 51828.62,
+        "vix": 14.87,
+        "us10y": 5.18,
+        "audusd": 0.7023,
+        "brent": 104.32,
+        "gold": 4285.0,
+        "iron_ore": 97.06
+      },
+      "headlines": [
+        "10-year Treasury yield hits a fresh cycle high near 5.18%.",
+        "Oil slides ~2% on US-Iran diplomatic progress.",
+        "All four major Australian banks now expect an RBA hike to 4.60%.",
+        "US consumer sentiment sinks to a four-month low.",
+        "ASX 200 slides to a fourth straight weekly loss.",
+        "Economists warn petrol could top $2.70/litre.",
+        "Gold eases as high yields dim non-yielding assets' appeal.",
+        "Heavy global data week ahead."
+      ]
     }
   ]
 }

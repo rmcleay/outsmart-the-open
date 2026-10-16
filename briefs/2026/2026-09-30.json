@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-30",
+  "status": "published",
+  "published_at": "2026-09-30T05:40:51+10:00",
+  "session_covered": "US and European sessions of Tuesday 29 September",
+  "intro": "Covers the Tuesday 29 September US session. Sourcing caveat: the AFR's Before the Bell column and overnight SPI 200 data could not be accessed this morning; most figures come from a single aggregator (Trading Economics) and are flagged where they could not be cross-checked.",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 7672.6,
+      "unit": "pts",
+      "change": -0.14,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": null,
+      "unit": "pts",
+      "change": null,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": 51352.67,
+      "unit": "pts",
+      "change": -0.25,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": 16.29,
+      "unit": "pts",
+      "change": null,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": 5.26,
+      "unit": "%",
+      "change": 2.0,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.702,
+      "unit": "US$",
+      "change": 0.03,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": 102.52,
+      "unit": "US$/bbl",
+      "change": -2.62,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": 4170.19,
+      "unit": "US$/oz",
+      "change": 1.34,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 96.92,
+      "unit": "US$/t",
+      "change": -0.14,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "NASDAQ Composite: the email showed 30,365.78 (+0.29%), far from the roughly 26,900-27,100 printed on the surrounding days, so it isn't shown.",
+    "VIX: the email gave \"16.29 +0.22 pts (% not available)\", which isn't a single figure, so it isn't shown in full.",
+    "Index, VIX, yield, AUD, Brent and gold levels are from Trading Economics and were not independently confirmed against a second closing-level source; the index figures are consistent with intraday direction reported by TheStreet (S&P 500 down, Nasdaq up, Dow down). Brent: TheStreet showed US$104.80 (-0.47%) mid-session versus US$102.52 (-2.62%) at Trading Economics; the latter is used as the later print. The iron ore print is for 28 September; 29 September was not available. VIX % change is not reported because the source's figure was internally inconsistent."
+  ],
+  "setup": {
+    "spi_level": null,
+    "spi_change_pct": null,
+    "implied_open": null,
+    "implied_open_points": null,
+    "implied_open_pct": null,
+    "prior_close": null,
+    "prior_close_change_pct": 0.3,
+    "approximate": false,
+    "summary": "Overnight SPI 200 level and change: not available (only the day-session close, 8,722.0, -0.06%, was retrievable, which does not reflect the US session). Given a mixed US close (S&P 500 -0.14%, Nasdaq +0.29%), a small move either way at the open is the reasonable expectation, but no implied open is stated. The ASX 200 rose about 0.3% (about +30 points) on Tuesday; the closing level was reported as 8,697 and 8,709 in the same source, so the level is not available."
+  },
+  "local_events": [
+    "Market reaction to the RBA's 25 bp hike to 4.60% (announced 29 September) continues.",
+    "No other scheduled Australian releases were verified this morning."
+  ],
+  "what_moved": "US equities lacked direction, with AI-related headlines the main focus and a Conference Board reading showing consumer confidence at a 12-year low. Treasury yields stayed near multi-year highs (10-year about 5.26%) on Fed hike expectations, while oil fell as US–Iran indirect talks on reopening the Strait of Hormuz and a new US emergency reserve release eased supply concerns. Industrials and technology led the S&P 500; energy lagged (sector percentages not available).",
+  "news": [
+    {
+      "headline": "RBA raises cash rate 25 bp to 4.60%.",
+      "summary": "The unanimous decision cited materialising inflation risks from Middle East energy effects, AI-driven technology prices and domestic capacity pressure; the Board said demand growth needs to stay subdued for a period.",
+      "source": "Reserve Bank of Australia",
+      "url": "https://www.rba.gov.au/media-releases/2026/mr-26-27.html"
+    },
+    {
+      "headline": "US consumer confidence falls to a 12-year low.",
+      "summary": "The weak reading weighed on the S&P 500 and small caps (Russell 2000 down about 0.7% intraday).",
+      "source": "TheStreet",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-29-2026"
+    },
+    {
+      "headline": "Oil eases on Hormuz diplomacy and reserve release.",
+      "summary": "US and Iranian officials held separate indirect talks via mediators; the US will offer up to 40 million barrels from its Strategic Petroleum Reserve (bids due 6 October) and Saudi Arabia has restored about half its pipeline capacity.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+    },
+    {
+      "headline": "Treasury yields stay near multi-year highs.",
+      "summary": "The 10-year is at 5.26%, up about 51 bp over the past month, with markets pricing roughly a 70% chance of a Fed hike by October (Fed funds now 3.75%-4.00%).",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+    },
+    {
+      "headline": "Gold rebounds from a seven-week low.",
+      "summary": "Spot gold rose 1.34% to about US$4,170/oz but is down about 6% over the month on rate-hike pricing.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/commodity/gold"
+    },
+    {
+      "headline": "AI headlines dominate US tech trading.",
+      "summary": "Nvidia authorised a record US$150 billion buyback and AMD agreed an US$8.2 billion acquisition, while reports of an Anthropic IPO prospectus and a White House meeting on AI safety kept sentiment focused on the sector.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-september-29-dow-sp-500-nasdaq-080526442.html"
+    },
+    {
+      "headline": "ASX 200 edges higher ahead of the RBA.",
+      "summary": "The index gained about 0.3% on Tuesday but is down about 4.2% over the past month.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/australia/stock-market"
+    }
+  ],
+  "coming_up": "US ADP employment and the PCE price index are due Wednesday 30 September (US time); ISM Manufacturing on Thursday 1 October; and the September US jobs report on Friday 2 October. PCE and payrolls are the releases most likely to shape October Fed hike expectations."
+}

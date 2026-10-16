@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-29",
+  "status": "published",
+  "published_at": "2026-09-29T05:41:10+10:00",
+  "session_covered": "US and European sessions of Monday 28 September",
+  "intro": "Covers the Monday 28 September US session. Caveat: confirmed final US closing prints and a Tuesday SPI 200 quote could not be retrieved, and sources disagreed on some figures; US figures are last intraday snapshots, not closes, and unresolved items read \"not available\". AFR's Before the Bell was not accessible.",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": null,
+      "unit": "pts",
+      "change": null,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": null,
+      "unit": "pts",
+      "change": null,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": null,
+      "unit": "pts",
+      "change": -0.4,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": 15.9,
+      "unit": "pts",
+      "change": 6.8,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": 5.23,
+      "unit": "%",
+      "change": 5.0,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.7021,
+      "unit": "US$",
+      "change": null,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": null,
+      "unit": "US$/bbl",
+      "change": null,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": 4175.0,
+      "unit": "US$/oz",
+      "change": null,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 95.1,
+      "unit": "US$/t",
+      "change": -0.5,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "S&P 500: the email gave \"~7,690–7,703 pts (intraday) -0.5% to -0.7%\", which isn't a single figure, so it isn't shown in full.",
+    "NASDAQ Composite: the email gave \"~26,854–26,870 pts (intraday) -0.7% to -0.8%\", which isn't a single figure, so it isn't shown in full.",
+    "Dow Jones Industrial Average: the email gave \"~51,601–51,603 pts (intraday) -0.4%\", which isn't a single figure, so it isn't shown in full.",
+    "VIX: approximate figure (the email gave \"~15.9 (intraday) +6.8%\").",
+    "US 10-year Treasury yield: approximate figure (the email gave \"~5.23% (intraday) +5 bp\").",
+    "Spot gold: the email gave \"~US$4,175/oz (intraday) -3.2% to -3.5%\", which isn't a single figure, so it isn't shown in full.",
+    "US index, VIX, yield and gold figures are intraday snapshots from Yahoo Finance, Investing.com, Trading Economics and Benzinga; ranges reflect differing snapshot times. The 10-year yield was 5.27% (+10 bp) in one source. Brent: sources conflict (US$99.19/bbl vs US$108.50/bbl, both intraday), so no figure is given. AUD/USD and iron ore are from the ABC's Monday Sydney summary, not overnight prints."
+  ],
+  "setup": {
+    "spi_level": null,
+    "spi_change_pct": null,
+    "implied_open": null,
+    "implied_open_points": null,
+    "implied_open_pct": null,
+    "prior_close": 8665,
+    "prior_close_change_pct": 0.2,
+    "approximate": false,
+    "summary": "SPI 200 futures: not available (a Tuesday quote could not be confirmed from two sources), so no implied open is given. The overnight risk-off tone points lower. The ASX 200 closed Monday +0.2% at 8,665 points."
+  },
+  "local_events": [
+    "RBA cash rate decision (markets price ~90% odds of a 25 bp hike to 4.60%) and household spending data.",
+    "Monthly CPI is due Wednesday."
+  ],
+  "what_moved": "Oil rose and Treasury yields reached their highest since 2007 after President Trump rejected Iran's proposal to reopen the Strait of Hormuz, weighing on equities with tech weakest. Reported sector moves (intraday, timing unclear): energy +0.8%, technology -1.2%, communication services -1.7%, financials -0.9%. Gold fell about 3%.",
+  "news": [
+    {
+      "headline": "Trump rejects Iran's Hormuz proposal.",
+      "summary": "Oil jumped and Wall Street opened lower; further talks are expected this week.",
+      "source": "Benzinga",
+      "url": "https://www.benzinga.com/markets/market-summary/26/09/62030720/oil-surges-nasdaq-slumps-trump-rejects-iran-deal-markets-monday"
+    },
+    {
+      "headline": "US 10-year yield at a multi-year high.",
+      "summary": "It reached about 5.23–5.27%, the highest since mid-2007, feeding inflation and rate concerns.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-28-134128737.html"
+    },
+    {
+      "headline": "RBA decision today.",
+      "summary": "A 25 bp hike to 4.60% is ~90% priced, which would be the fourth increase of 2026; Governor Bullock's guidance is the focus.",
+      "source": "Yahoo Finance Australia",
+      "url": "https://au.finance.yahoo.com/news/morning-catch-asx-set-cautious-234800141.html"
+    },
+    {
+      "headline": "Gold falls about 3%.",
+      "summary": "Bullion slid sharply alongside higher yields, to around US$4,175/oz intraday.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-28-134128737.html"
+    },
+    {
+      "headline": "Gold Fields bids for Northern Star.",
+      "summary": "An unsolicited A$38bn proposal was rejected; Northern Star rose 6.2% on Monday.",
+      "source": "ABC News",
+      "url": "https://www.abc.net.au/news/2026-09-28/asx-markets-business-live-news-september-28/107201818"
+    },
+    {
+      "headline": "Iron ore at a five-week low in China.",
+      "summary": "Port stocks rose, pressuring prices.",
+      "source": "Rio Times",
+      "url": "https://www.riotimesonline.com/iron-ore-markets-latam-monday-september-28-2026/"
+    }
+  ],
+  "coming_up": "US PCE inflation Wednesday 30 September (US time); US non-farm payrolls Friday 2 October (US time)."
+}

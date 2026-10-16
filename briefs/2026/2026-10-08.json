@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-08",
+  "status": "published",
+  "published_at": "2026-10-08T06:41:12+11:00",
+  "session_covered": "US and European sessions of Wednesday 7 October",
+  "intro": "Covers the Wednesday 7 October US session. Sourcing caveat: the AFR column, official US closing prints and a verified SPI 200 quote were not accessible this run; US figures are late-session (about 3:30pm ET) readings.",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 7798.0,
+      "unit": "pts",
+      "change": -0.27,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": 27511.0,
+      "unit": "pts",
+      "change": -0.32,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": 51175.0,
+      "unit": "pts",
+      "change": -0.67,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": 15.12,
+      "unit": "pts",
+      "change": 0.73,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": 5.28,
+      "unit": "%",
+      "change": null,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.6967,
+      "unit": "US$",
+      "change": -0.21,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": null,
+      "unit": "US$/bbl",
+      "change": null,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": 4135.0,
+      "unit": "US$/oz",
+      "change": -1.24,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 91.1,
+      "unit": "US$/t",
+      "change": -0.18,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "S&P 500: approximate figure (the email gave \"~7,798 pts -0.27%\").",
+    "NASDAQ Composite: approximate figure (the email gave \"~27,511 pts -0.32%\").",
+    "Dow Jones Industrial Average: approximate figure (the email gave \"~51,175 pts -0.67%\").",
+    "VIX: approximate figure (the email gave \"~15.12 +0.73%\").",
+    "US 10-year Treasury yield: the email gave \"~5.28% +1 to +2 bp\", which isn't a single figure, so it isn't shown in full.",
+    "Spot gold: approximate figure (the email gave \"~US$4,135/oz -1.24%\").",
+    "US index, VIX and gold figures are late-session readings (about 3:30pm ET), not official closes; S&P 500 and Dow matched across two sources, Nasdaq Composite and VIX are single-source. 10-year yield: 5.28% and 5.29% reported. AUD/USD and iron ore are as at the ASX close (ABC), not the overnight close; the iron ore grade/basis was not stated. Brent: only an early-session reading (~US$102/bbl, +1.4%) was found, so no last price is shown."
+  ],
+  "setup": {
+    "spi_level": null,
+    "spi_change_pct": null,
+    "implied_open": null,
+    "implied_open_points": null,
+    "implied_open_pct": null,
+    "prior_close": 8727,
+    "prior_close_change_pct": -0.09,
+    "approximate": false,
+    "summary": "SPI 200 futures: not available. One undated quote (+0.78%) contradicted the overnight tone (US equities lower, yields at multi-year highs) and could not be verified, so it is excluded and no implied open is given. Prior ASX 200 close: 8,727, -0.09% (ABC; a Trading Economics CFD figure conflicted)."
+  },
+  "local_events": [],
+  "what_moved": "US equities pulled back from Tuesday's record closes as Treasury yields hit 24-year highs (10-year about 5.35% intraday, 30-year near 5.70%) and September Fed minutes showed most officials expect another hike by year-end. Per Trading Economics, AI-infrastructure names fell while pharmaceuticals and consumer staples rose; S&P 500 sector percentages are not available.",
+  "news": [
+    {
+      "headline": "Fed minutes point to another hike.",
+      "summary": "Most officials expect a further increase by year-end; markets price roughly 17-20% odds of a 25 bp move at the October meeting.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-7-dow-sp-500-nasdaq-080241833.html"
+    },
+    {
+      "headline": "Long-end yields at multi-decade highs.",
+      "summary": "Treasury yields reached their highest since 2002 before easing after a solid 10-year auction.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market"
+    },
+    {
+      "headline": "Oil firm on Middle East risk.",
+      "summary": "Houthi attacks, Strait of Hormuz incidents and a Gulf storm lifted crude early; WTI later eased to about US$88.80.",
+      "source": "TheStreet",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-07-2026"
+    },
+    {
+      "headline": "India lifts rates.",
+      "summary": "The RBI raised its benchmark rate 25 bp to 5.5%, its first rise in almost four years, and signalled more could follow.",
+      "source": "ABC News",
+      "url": "https://www.abc.net.au/news/2026-10-07/asx-markets-business-live-news-wall-st-hits-record-highs/107237036"
+    },
+    {
+      "headline": "Australian rate outlook.",
+      "summary": "Former RBA board member Ian Harper said another rate rise this year is \"plausible\".",
+      "source": "ABC News",
+      "url": "https://www.abc.net.au/news/2026-10-07/asx-markets-business-live-news-wall-st-hits-record-highs/107237036"
+    },
+    {
+      "headline": "Bitcoin falls.",
+      "summary": "Down more than 3% to below US$83,000, weighing on crypto-linked US stocks.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-october-7-dow-sp-500-nasdaq-080241833.html"
+    }
+  ],
+  "coming_up": "Next scheduled macro event: not verified this run."
+}
