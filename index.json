@@ -1,7 +1,35 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-16T08:45:00+11:00",
+  "updated_at": "2026-10-19T06:38:09+11:00",
   "briefs": [
+    {
+      "date": "2026-10-19",
+      "status": "published",
+      "published_at": "2026-10-19T06:38:09+11:00",
+      "implied_open_pct": -0.12,
+      "implied_open_points": -10.6,
+      "scoreboard": {
+        "sp500": 7659.44,
+        "nasdaq": 26140.03,
+        "dow": 52002.41,
+        "vix": 19.99,
+        "us10y": 5.09,
+        "audusd": 0.6946,
+        "brent": 109.86,
+        "gold": 4166.39,
+        "iron_ore": 90.9
+      },
+      "headlines": [
+        "Chip rout caps worst week since June",
+        "Oil extends its run above US$100",
+        "Fed Chair Warsh gives no rate signal",
+        "Hot inflation prints keep yields high",
+        "Soft Australian jobs data trims RBA hike bets",
+        "ASX 200 rallies 1% on Friday",
+        "AI capex worries build",
+        "Weak week for Asian tech-heavy markets"
+      ]
+    },
     {
       "date": "2026-10-16",
       "status": "published",

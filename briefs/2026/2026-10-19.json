@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-19",
+  "status": "published",
+  "published_at": "2026-10-19T06:38:09+11:00",
+  "session_covered": "US session of Friday 16 October",
+  "intro": "Covers the US session of Friday 16 October (Europe's close was not separately sourced). Gold's daily change could not be resolved between sources and is shown as not available.",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 7659.44,
+      "unit": "pts",
+      "change": -1.09,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": 26140.03,
+      "unit": "pts",
+      "change": -2.15,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": 52002.41,
+      "unit": "pts",
+      "change": -0.34,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": 19.99,
+      "unit": "pts",
+      "change": 21.45,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": 5.09,
+      "unit": "%",
+      "change": -1,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.6946,
+      "unit": "US$",
+      "change": 0.36,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": 109.86,
+      "unit": "US$/bbl",
+      "change": 3.72,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": 4166.39,
+      "unit": "US$/oz",
+      "change": null,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 90.9,
+      "unit": "US$/t",
+      "change": 0.36,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "Index closes are for Friday 16 October; Nasdaq and Dow % changes are calculated from the point changes.",
+    "The 10-year yield is 5.09% (AP, Trading Economics; one source shows a +0.01 change, AP and others show -1 bp from 5.10%).",
+    "Gold: Trading Economics shows US$4,166.39 and FNArena US$4,173.22; sources conflict on the sign of the daily move (spot slightly lower vs futures up about 0.5%), so the change is not available.",
+    "AUD/USD and iron ore are CFD-based reference prices from a single source (Trading Economics)."
+  ],
+  "setup": {
+    "spi_level": 8826,
+    "spi_change_pct": -0.12,
+    "implied_open": 8796.1,
+    "implied_open_points": -10.6,
+    "implied_open_pct": -0.12,
+    "prior_close": 8806.7,
+    "prior_close_change_pct": 1.0,
+    "approximate": false,
+    "summary": "SPI 200 futures are around 8,826, down about 0.1% (TradingView -0.12%; a New Zealand market wrap also points to a 0.1% lower open). That implies an ASX 200 open near 8,796, about 11 points or 0.12% lower. Investing.com showed the December contract down 0.23%, a slightly larger fall but the same direction. The ASX 200 closed Friday at 8,806.70, up 86.98 points (+1.00%), a near five-week high, and finished the week about 1% higher."
+  },
+  "local_events": [
+    "No major scheduled Australian data release identified for today.",
+    "RBA Deputy Governor Hauser speaks Wednesday 21 October.",
+    "China's September activity data and Q3 GDP are due this week (exact date not confirmed)."
+  ],
+  "what_moved": "A broad AI and chip sell-off dominated Friday, with semiconductors falling for an eighth straight session and the Nasdaq posting its worst week since June (-4.5%). Rising oil added to the unease as Brent gained for a seventh session on Middle East supply risk. Energy (+2.52%), utilities (+1.34%) and consumer staples (+1.08%) led the S&P 500; technology (-3.03%) and communication services (-1.89%) lagged. The VIX jumped to 19.99.",
+  "news": [
+    {
+      "headline": "Chip rout caps worst week since June",
+      "summary": "The Nasdaq fell 4.5% and the S&P 500 about 2% on the week, while the Dow gained 0.7%; AMD, Intel and Micron each lost roughly 6%.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/markets-news-oct-16-2026-103800633.html"
+    },
+    {
+      "headline": "Oil extends its run above US$100",
+      "summary": "Brent gained about 3.7% to roughly US$109.9/bbl and WTI about US$101.7, with Iranian tanker attacks and Ukrainian strikes on Russian refineries sustaining a supply premium.",
+      "source": "Strategitz",
+      "url": "https://strategitz.substack.com/p/global-markets-close-october-16-2026"
+    },
+    {
+      "headline": "Fed Chair Warsh gives no rate signal",
+      "summary": "Markets price about a 17% chance of a hike at the late-October meeting and about 89% for December, with the question pushed out to December.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/markets-news-oct-16-2026-103800633.html"
+    },
+    {
+      "headline": "Hot inflation prints keep yields high",
+      "summary": "Hotter-than-expected CPI and PPI data sent the 10-year yield to 5.33% on Wednesday before it eased to 5.09% on Friday.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/markets-news-oct-16-2026-103800633.html"
+    },
+    {
+      "headline": "Soft Australian jobs data trims RBA hike bets",
+      "summary": "September employment fell 39,000 and unemployment rose to 4.7%; the next RBA meeting is 3 November and Q3 CPI is due 28 October.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/10/16/the-overnight-report-yields-lower-equities-up/"
+    },
+    {
+      "headline": "ASX 200 rallies 1% on Friday",
+      "summary": "Banks and a BHP-Escondida wage deal that averted a strike lifted the index; gains were capped ahead of China data.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/australia/stock-market"
+    },
+    {
+      "headline": "AI capex worries build",
+      "summary": "Microsoft reportedly exited a UK data-centre deal with Nscale and CoreWeave fell about 12% on debt concerns, ahead of Meta, Tesla and other earnings.",
+      "source": "The Bottom Line",
+      "url": "https://www.thebottomline.co.nz/wall-streets-tech-selloff-keeps-us-earnings-in-focus/"
+    },
+    {
+      "headline": "Weak week for Asian tech-heavy markets",
+      "summary": "Japan's Nikkei fell 5.4% over the week while the FTSE 100 gained 3.1% to 10,881.90.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/10/17/the-market-in-numbers-17-oct-2026/"
+    }
+  ],
+  "coming_up": "Wednesday 21 October: RBA Deputy Governor Hauser speaks, and UK CPI is due. Big-tech earnings (including Meta and Tesla) land later this week and next; Australian Q3 CPI follows on 28 October, ahead of the Fed's late-October meeting and the RBA on 3 November."
+}
