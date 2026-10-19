@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-20",
+  "status": "published",
+  "published_at": "2026-10-20T06:38:00+11:00",
+  "session_covered": "US session of Monday 19 October (late-session figures; Wall Street had not yet closed)",
+  "intro": "Covers the US session of Monday 19 October. The brief was compiled about 25 minutes before the New York close, so US figures are late-session prints and may move slightly by the bell; European figures were not separately sourced.",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 7707.95,
+      "unit": "pts",
+      "change": 0.63,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": 26501.98,
+      "unit": "pts",
+      "change": 1.38,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": 52031.03,
+      "unit": "pts",
+      "change": 0.06,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": 18.19,
+      "unit": "pts",
+      "change": -9.0,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": 5.14,
+      "unit": "%",
+      "change": 4,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.6981,
+      "unit": "US$",
+      "change": 0.5,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": 109.29,
+      "unit": "US$/bbl",
+      "change": -0.52,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": 4144.29,
+      "unit": "US$/oz",
+      "change": -0.53,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 90.95,
+      "unit": "US$/t",
+      "change": 0.06,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "US index and VIX figures are late-session prints (about 15:35 New York time) from Yahoo Finance, consistent with Trading Economics; final closes may differ slightly.",
+    "Yield: Yahoo Finance 5.14% (+4 bp from 5.10%); Trading Economics shows about 5.15%.",
+    "Brent: Trading Economics CFD price (US$109.29, -0.52%) shown, consistent with the previous brief's series; other providers quote lower levels (roughly US$106-108) because of contract and timing differences, but also show a small decline.",
+    "Gold, AUD/USD and iron ore are CFD-based reference prices from a single source (Trading Economics)."
+  ],
+  "setup": {
+    "spi_level": 8791,
+    "spi_change_pct": -0.45,
+    "implied_open": 8805.9,
+    "implied_open_points": -39.8,
+    "implied_open_pct": -0.45,
+    "prior_close": 8845.7,
+    "prior_close_change_pct": 0.44,
+    "approximate": true,
+    "summary": "SPI 200 futures are around 8,791 (December contract), down roughly 0.35-0.55% on the day session's settlement (Investing.com -0.35%, TradingView -0.55%; the midpoint of -0.45% is used). Applied to Monday's ASX 200 cash close of 8,845.70 (+0.44%, a five-week high), that implies an open near 8,806, about 40 points or 0.45% lower (range roughly 31-49 points). The soft futures reading sits oddly against a higher S&P 500 and Nasdaq, but both sources agree on direction; higher US yields and oil, and a flat Dow, are consistent with a cautious lead for the broader market."
+  },
+  "local_events": [
+    "No major scheduled Australian data release confirmed.",
+    "RBA Deputy Governor Hauser speaks on Wednesday 21 October.",
+    "Company results and updates: not confirmed (FNArena's calendar is paywalled)."
+  ],
+  "what_moved": "A rebound in AI and chip stocks drove the US session after the sector's worst week since June: the Philadelphia Semiconductor Index rose about 2% after an eight-day slide of roughly 15.7%, lifting the Nasdaq Composite 1.4% and the S&P 500 0.6%, while the Dow was essentially flat as most stocks outside tech were soft. The VIX fell about 9% to just above 18. Crude rose again, with US oil up about 2% near US$104/bbl on Houthi attacks and renewed strikes on Saudi energy facilities, and the 10-year Treasury yield edged up to about 5.14%. S&P 500 sector performance was not available.",
+  "news": [
+    {
+      "headline": "AI and chip stocks rebound after worst week since June",
+      "summary": "The Philadelphia Semiconductor Index rose about 2% after an eight-day slide, with Amazon up 4.8% on a broker top-pick call and Intel up nearly 3% on an upgrade. CoreWeave slipped on concerns over its roughly US$50 billion debt load despite an analyst upgrade.",
+      "source": "Korea Times (AP)",
+      "url": "https://www.koreatimes.co.kr/world/20261020/ai-stocks-bounce-back-after-bruising-selloff-coreweave-gets-goldman-upgrade"
+    },
+    {
+      "headline": "Oil climbs on Middle East supply risks",
+      "summary": "US crude reversed earlier losses to rise about 2.3% to nearly US$104 a barrel after Houthi attacks in Yemen and renewed strikes on Saudi energy, airport and military facilities. Brent remains above US$100.",
+      "source": "Korea Times (AP)",
+      "url": "https://www.koreatimes.co.kr/world/20261020/ai-stocks-bounce-back-after-bruising-selloff-coreweave-gets-goldman-upgrade"
+    },
+    {
+      "headline": "Fed offers no guidance; rate-hike odds for October are low",
+      "summary": "Fed Chair Kevin Warsh gave no guidance on the 27-28 October meeting, and market odds of an October hike fell to roughly 15%. The 10-year Treasury yield sits near 5.1%.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/10/19/the-monday-report-19-october-2026"
+    },
+    {
+      "headline": "ASX 200 closes at five-week high",
+      "summary": "The ASX 200 rose 0.44% to 8,845.70 on energy, mining and bank gains, helped by a China third-quarter GDP beat. RBA Assistant Governor Kent questioned whether rates are restrictive enough after September's hike.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/australia/stock-market"
+    },
+    {
+      "headline": "Big-tech earnings next in focus",
+      "summary": "SpaceX reports Tuesday and Meta and Tesla report Wednesday, with investors watching how the AI build-out is financed after last week's selloff.",
+      "source": "Korea Times (AP)",
+      "url": "https://www.koreatimes.co.kr/world/20261020/ai-stocks-bounce-back-after-bruising-selloff-coreweave-gets-goldman-upgrade"
+    },
+    {
+      "headline": "Australian CPI and RBA decision loom",
+      "summary": "Economists point to the September-quarter CPI on 28 October as the key input to the RBA's rate decision on 3 November.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/10/16/next-week-at-a-glance-19-23-oct-2026/"
+    }
+  ],
+  "coming_up": "Wednesday 21 October: RBA Deputy Governor Hauser speaks, and Meta and Tesla report in the US. The Fed meets 27-28 October, Australian Q3 CPI is due 28 October, and the RBA decides on 3 November."
+}

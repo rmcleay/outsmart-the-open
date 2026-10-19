@@ -1,7 +1,33 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-19T06:38:09+11:00",
+  "updated_at": "2026-10-20T06:38:00+11:00",
   "briefs": [
+    {
+      "date": "2026-10-20",
+      "status": "published",
+      "published_at": "2026-10-20T06:38:00+11:00",
+      "implied_open_pct": -0.45,
+      "implied_open_points": -39.8,
+      "scoreboard": {
+        "sp500": 7707.95,
+        "nasdaq": 26501.98,
+        "dow": 52031.03,
+        "vix": 18.19,
+        "us10y": 5.14,
+        "audusd": 0.6981,
+        "brent": 109.29,
+        "gold": 4144.29,
+        "iron_ore": 90.95
+      },
+      "headlines": [
+        "AI and chip stocks rebound after worst week since June",
+        "Oil climbs on Middle East supply risks",
+        "Fed offers no guidance; rate-hike odds for October are low",
+        "ASX 200 closes at five-week high",
+        "Big-tech earnings next in focus",
+        "Australian CPI and RBA decision loom"
+      ]
+    },
     {
       "date": "2026-10-19",
       "status": "published",
