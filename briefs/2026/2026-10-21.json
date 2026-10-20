@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-21",
+  "status": "published",
+  "published_at": "2026-10-21T09:03:47+11:00",
+  "session_covered": "US and European sessions of Tuesday 20 October 2026",
+  "intro": "Covers the US and European sessions of Tuesday 20 October 2026. The 06:32 run was deferred because the US session had not closed and sources conflicted; this is the 09:00 retry. The SPI 200 move is shown as a range because sources disagree on its size.",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 7712.57,
+      "unit": "pts",
+      "change": 0.28,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": 26424.82,
+      "unit": "pts",
+      "change": -0.02,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": 52495.88,
+      "unit": "pts",
+      "change": 1.02,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": 17.31,
+      "unit": "pts",
+      "change": -6.13,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": 5.12,
+      "unit": "%",
+      "change": -2,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.7005,
+      "unit": "US$",
+      "change": 0.37,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": 109.16,
+      "unit": "US$/bbl",
+      "change": -0.16,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": 4124.73,
+      "unit": "US$/oz",
+      "change": -0.39,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 90.86,
+      "unit": "US$/t",
+      "change": -0.1,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "US indices and VIX: Yahoo Finance and FNArena agree; Trading Economics' CFD-based S&P 500 (about 7,742) was not used.",
+    "US 10-year: 5.12%, -2bp (Yahoo Finance, FNArena); CBA cites 5.11%, -3bp.",
+    "Gold: Trading Economics; FNArena shows US$4,120.36, -0.52%. Brent: FNArena; CBA cites US$108.79/bbl. Iron ore (CFR Tianjin) and AUD/USD: Trading Economics; FNArena shows AUD at 70.01 US cents."
+  ],
+  "setup": {
+    "spi_level": 8865,
+    "spi_change_pct": 0.62,
+    "implied_open": 8871.6,
+    "implied_open_points": 54.7,
+    "implied_open_pct": 0.62,
+    "prior_close": 8816.9,
+    "prior_close_change_pct": -0.33,
+    "approximate": true,
+    "summary": "SPI 200 futures (December contract) are indicated up at about 8,863-8,866, a gain of roughly 0.4-0.9% (FNArena +32 points, +0.36%; Investing.com +0.88%). TradingView's quote is stale and shows -0.33% over 24 hours, which is inconsistent with the US session and is disregarded. Applying the midpoint of about +0.6% to the prior ASX 200 close of 8,816.90 (-28.83 points, -0.33% on Tuesday) implies an open around 8,872, roughly +55 points (range +32 to +78 points). Figures are approximate."
+  },
+  "local_events": [
+    "RBA Deputy Governor Andrew Hauser speaks at the Citi Australia & New Zealand Investment Conference in Sydney (time not confirmed)",
+    "Quarterly updates: Woodside Energy, Northern Star Resources, Beach Energy, Transurban (plus the Transurban AGM)",
+    "AGMs: Bega Cheese, EBOS Group, EQT Holdings, Fletcher Building, Sigma Healthcare, Service Stream, Vulcan Steel"
+  ],
+  "what_moved": "Wall Street's gains came from a rebound in traditional sectors while AI-linked names stayed under pressure: the Dow rose 1.02%, the S&P 500 0.28% and the Nasdaq Composite slipped 0.02%, with the Russell 2000 up 1.65% and about three in four S&P 500 stocks higher. Long-term Treasury yields eased and oil retreated from a five-month high on an unverified report of renewed US-Iran talks, with the market-implied chance of a Fed hike next week falling. Health care led (a health care gauge hit a record), with banks and asset managers also firm; energy lagged with oil, and technology and communication services weighed. S&P 500 sector percentages are not available.",
+  "news": [
+    {
+      "headline": "Small caps rally as investors rotate out of AI",
+      "summary": "The Russell 2000 rose 1.65%, its best day in more than two months and sixth straight gain, as money moved from AI-linked shares into small caps. CoreWeave hit its lowest since May 2025 before bouncing, and South Korea's Elice fell 32% on its Seoul IPO.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/10/21/the-overnight-report-rotating-into-small-caps/"
+    },
+    {
+      "headline": "Treasury yields ease; Fed hike odds fall",
+      "summary": "The US 10-year yield slipped to about 5.12% as energy prices dropped. CBA puts the chance of a Fed hike at next week's meeting at 17%, down from 32%.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield/news/593498"
+    },
+    {
+      "headline": "Oil retreats from five-month high",
+      "summary": "Brent eased from above US$111/bbl to about US$109 after an unverified report that US-Iran talks may restart, though Iran said two tankers struck mines in Hormuz and Houthi attacks on Saudi energy targets continue.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/10/21/the-overnight-report-rotating-into-small-caps/"
+    },
+    {
+      "headline": "RBA's Hauser speaks today",
+      "summary": "Markets price roughly a one-in-three chance of an RBA hike in November and 56% for December, with the cash rate at 4.60%.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/australia/currency/news/593254"
+    },
+    {
+      "headline": "ASX 200 slips 0.33% on miners and banks",
+      "summary": "The index fell 28.83 points to 8,816.90, with BHP down 1.6%, South32 down 2.4% and three of the big four banks down 0.8% to 1.8%.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/australia/stock-market/news/593317"
+    },
+    {
+      "headline": "US pending home sales hit a record low",
+      "summary": "Pending home sales fell to their lowest level since records began in 2001.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/10/21/the-overnight-report-rotating-into-small-caps/"
+    }
+  ],
+  "coming_up": "The US Federal Reserve meets on 27-28 October, with US PCE inflation data due the same week. The RBA's inflation report is due on 28 October, when Governor Michele Bullock also appears before lawmakers."
+}

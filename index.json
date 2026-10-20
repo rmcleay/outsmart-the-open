@@ -1,12 +1,32 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-21T07:25:00+11:00",
+  "updated_at": "2026-10-21T09:03:47+11:00",
   "briefs": [
     {
       "date": "2026-10-21",
-      "status": "delayed",
-      "delayed_reason": "Overnight sources conflicted (SPI 200 direction, US index closes) and the US session had not closed at the scheduled run time. The brief will be re-run at 09:00 AEDT.",
-      "retry_at": "2026-10-21T09:00:00+11:00"
+      "status": "published",
+      "published_at": "2026-10-21T09:03:47+11:00",
+      "implied_open_pct": 0.62,
+      "implied_open_points": 54.7,
+      "scoreboard": {
+        "sp500": 7712.57,
+        "nasdaq": 26424.82,
+        "dow": 52495.88,
+        "vix": 17.31,
+        "us10y": 5.12,
+        "audusd": 0.7005,
+        "brent": 109.16,
+        "gold": 4124.73,
+        "iron_ore": 90.86
+      },
+      "headlines": [
+        "Small caps rally as investors rotate out of AI",
+        "Treasury yields ease; Fed hike odds fall",
+        "Oil retreats from five-month high",
+        "RBA's Hauser speaks today",
+        "ASX 200 slips 0.33% on miners and banks",
+        "US pending home sales hit a record low"
+      ]
     },
     {
       "date": "2026-10-20",
