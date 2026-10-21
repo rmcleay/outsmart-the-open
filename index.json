@@ -1,7 +1,13 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-21T09:03:47+11:00",
+  "updated_at": "2026-10-22T06:40:00+11:00",
   "briefs": [
+    {
+      "date": "2026-10-22",
+      "status": "delayed",
+      "delayed_reason": "The US session had not yet closed and sources still showed the previous day's data at 06:32 Sydney.",
+      "retry_at": "2026-10-22T09:00:00+11:00"
+    },
     {
       "date": "2026-10-21",
       "status": "published",
