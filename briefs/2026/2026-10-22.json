@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-22",
+  "status": "published",
+  "published_at": "2026-10-22T09:05:38+11:00",
+  "session_covered": "US and European sessions of Wednesday 21 October",
+  "intro": "Covers the US and European sessions of Wednesday 21 October. Delayed from the usual early send because the US session had not closed at 06:30; S&P 500 sector percentages are not available and several figures are reconciled (see footnotes).",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 7757.17,
+      "unit": "pts",
+      "change": 0.58,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": 26702.86,
+      "unit": "pts",
+      "change": 1.05,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": 52856.09,
+      "unit": "pts",
+      "change": 0.69,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": 16.68,
+      "unit": "pts",
+      "change": -3.64,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": 5.15,
+      "unit": "%",
+      "change": 3,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.7026,
+      "unit": "US$",
+      "change": 0.33,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": 109.63,
+      "unit": "US$/bbl",
+      "change": 0.43,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": 4133.92,
+      "unit": "US$/oz",
+      "change": 0.33,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 90.85,
+      "unit": "US$/t",
+      "change": -0.11,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "US 10-year: AP reported 5.12% (earlier snapshot), FNArena and Yahoo 5.15%, Trading Economics 5.13%; 5.15% used. Brent: AP reported a US$108.82 settlement; FNArena and Trading Economics show 109.63 later, used here. Gold is spot; December futures were about US$4,150-4,160. AUD/USD is a single-source CFD price (Trading Economics); iron ore is single-source (FNArena)."
+  ],
+  "setup": {
+    "spi_level": 8848,
+    "spi_change_pct": -0.11,
+    "implied_open": 8821.6,
+    "implied_open_points": -9.7,
+    "implied_open_pct": -0.11,
+    "prior_close": 8831.3,
+    "prior_close_change_pct": 0.16,
+    "approximate": true,
+    "summary": "SPI 200 futures were around 8,848 (Dec contract 8,844), marginally lower, down roughly 0.01-0.21% (midpoint about -0.1%); three sources agree on a flat-to-slightly-lower direction despite Wall Street's gains. Applied to the prior ASX 200 close of 8,831.30 (+14.40 pts, +0.16% on Wednesday), that implies an open about 10 points (0.1%) lower, around 8,822 (range roughly 8,813-8,830)."
+  },
+  "local_events": [
+    "AGMs for BHP, Brambles, IAG, Aurizon, ASX Ltd, APA Group, Cleanaway and others",
+    "Quarterly updates from Fortescue, Santos, Mirvac and Karoon",
+    "NZ Q3 CPI"
+  ],
+  "what_moved": "Tech led Wall Street higher. SpaceX rose 7.8% after a stronger-than-expected profit and Nvidia gained 2.5%, the biggest single contributor to the S&P 500's rise, which left the index about 0.8% below its record. Netflix (-5.3%) and AT&T (-6.4%) fell on soft outlooks. The Treasury 10-year yield held near 5.12-5.15% and Brent stayed in the US$108-111 range amid the Iran conflict. S&P 500 sector percentages are not available.",
+  "news": [
+    {
+      "headline": "SpaceX profit lifts tech.",
+      "summary": "SpaceX jumped 7.8% on a stronger summer profit, and Musk said it had taken a step to consider a possible merger with Tesla (+3.4%).",
+      "source": "AP via BNN Bloomberg",
+      "url": "https://www.bnnbloomberg.ca/markets/2026/10/21/wall-street-gains-ground-after-spacex-helps-lift-ai-stocks/"
+    },
+    {
+      "headline": "Outlooks hit Netflix and AT&T.",
+      "summary": "Both fell despite stronger profits, on forecasts below analyst expectations.",
+      "source": "AP via BNN Bloomberg",
+      "url": "https://www.bnnbloomberg.ca/markets/2026/10/21/wall-street-gains-ground-after-spacex-helps-lift-ai-stocks/"
+    },
+    {
+      "headline": "Treasury yields steady near 5.1%.",
+      "summary": "Markets price about 85% odds the Fed holds at its 27-28 October meeting and about 75% odds of a 25 bp hike in December.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield/news/593858"
+    },
+    {
+      "headline": "Oil stays elevated on Middle East risk.",
+      "summary": "Brent has swung between US$97 and US$112 through October on the Iran war; reported strikes on tankers in the Strait of Hormuz and Saudi energy facilities supported prices.",
+      "source": "AP via BNN Bloomberg",
+      "url": "https://www.bnnbloomberg.ca/markets/2026/10/21/wall-street-gains-ground-after-spacex-helps-lift-ai-stocks/"
+    },
+    {
+      "headline": "RBA hike bets build.",
+      "summary": "The Australian dollar rose to about US$0.7026; markets price roughly 44% odds of an RBA hike on 3 November and 64% by December.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/australia/currency/news/593593"
+    },
+    {
+      "headline": "ASX tech sell-off.",
+      "summary": "The ASX 200 rose 0.16% on Wednesday, but the IT sector fell 3.32% as NextDC dropped over 40% on an earnings downgrade tied to data-centre power delays.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/10/22/the-overnight-report-nvidia-spacex-rally/"
+    },
+    {
+      "headline": "UK inflation 3.5%.",
+      "summary": "UK September CPI was 3.5% y/y and ANZ expects the Bank of England to raise rates to 4.0% next month.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/10/22/the-overnight-report-nvidia-spacex-rally/"
+    }
+  ],
+  "coming_up": "Australian September CPI on Wednesday 28 October, then the FOMC decision on 28 October (meeting 27-28 October); US Q3 GDP and September PCE on 29 October; RBA decision 3 November."
+}

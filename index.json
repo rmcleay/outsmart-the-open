@@ -1,12 +1,33 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-22T06:40:00+11:00",
+  "updated_at": "2026-10-22T09:05:38+11:00",
   "briefs": [
     {
       "date": "2026-10-22",
-      "status": "delayed",
-      "delayed_reason": "The US session had not yet closed and sources still showed the previous day's data at 06:32 Sydney.",
-      "retry_at": "2026-10-22T09:00:00+11:00"
+      "status": "published",
+      "published_at": "2026-10-22T09:05:38+11:00",
+      "implied_open_pct": -0.11,
+      "implied_open_points": -9.7,
+      "scoreboard": {
+        "sp500": 7757.17,
+        "nasdaq": 26702.86,
+        "dow": 52856.09,
+        "vix": 16.68,
+        "us10y": 5.15,
+        "audusd": 0.7026,
+        "brent": 109.63,
+        "gold": 4133.92,
+        "iron_ore": 90.85
+      },
+      "headlines": [
+        "SpaceX profit lifts tech.",
+        "Outlooks hit Netflix and AT&T.",
+        "Treasury yields steady near 5.1%.",
+        "Oil stays elevated on Middle East risk.",
+        "RBA hike bets build.",
+        "ASX tech sell-off.",
+        "UK inflation 3.5%."
+      ]
     },
     {
       "date": "2026-10-21",
