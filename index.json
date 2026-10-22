@@ -1,7 +1,13 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-22T09:05:38+11:00",
+  "updated_at": "2026-10-23T06:40:00+11:00",
   "briefs": [
+    {
+      "date": "2026-10-23",
+      "status": "delayed",
+      "delayed_reason": "Sources conflict on SPI 200 futures direction (TradingView +0.09% vs Investing.com -0.69%) and on the prior ASX 200 close and VIX, while the US session closed sharply lower.",
+      "retry_at": "2026-10-23T09:00:00+11:00"
+    },
     {
       "date": "2026-10-22",
       "status": "published",
