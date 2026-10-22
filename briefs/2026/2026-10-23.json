@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-23",
+  "status": "published",
+  "published_at": "2026-10-23T09:04:07+11:00",
+  "session_covered": "US and European sessions of Thursday 22 October",
+  "intro": "Covers the US and European sessions of Thursday 22 October. Delayed from the early-morning run because sources conflicted; some figures are approximate or single-source, as footnoted.",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 7663.43,
+      "unit": "pts",
+      "change": -1.21,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": 26008.86,
+      "unit": "pts",
+      "change": -2.6,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": 52867.98,
+      "unit": "pts",
+      "change": 0.02,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": 19.03,
+      "unit": "pts",
+      "change": 14.09,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": 4.96,
+      "unit": "%",
+      "change": -17,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.7016,
+      "unit": "US$",
+      "change": 0.0,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": 113.17,
+      "unit": "US$/bbl",
+      "change": 4.0,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": 4039.8,
+      "unit": "US$/oz",
+      "change": -2.66,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 90.1,
+      "unit": "US$/t",
+      "change": -1.0,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "US index, VIX and gold figures are from Yahoo Finance's post-close snapshot; other outlets showed different Nasdaq (-2.07% to -2.87%) and Dow (-0.53% to -0.09%) moves, and Yahoo's levels reconcile with the prior closes. The 10-year yield is the US Treasury daily par yield (4.96% vs 5.13%). AUD/USD, Brent (reported \"above US$113\", +4%) and iron ore (grade not stated) are single-source from ABC News snapshots; gold was US$4,023 (-2.85%) in the same snapshot."
+  ],
+  "setup": {
+    "spi_level": 8794,
+    "spi_change_pct": -0.45,
+    "implied_open": 8753.6,
+    "implied_open_points": -39.6,
+    "implied_open_pct": -0.45,
+    "prior_close": 8793.2,
+    "prior_close_change_pct": -0.43,
+    "approximate": true,
+    "summary": "SPI 200 futures point lower, but sources differ on size: ABC News had them -0.2% at 8,803 and Investing.com -0.67% at 8,785 (TradingView's +0.09% looks stale). Taking the midpoint, futures are down roughly 0.2-0.7% (level 8,785-8,803), implying an ASX 200 open about 40 points (-0.45%) lower, near 8,754 (approximate). The ASX 200 closed Thursday at 8,793.2, down 38.1 points (-0.43%), led lower by miners."
+  },
+  "local_events": [
+    "RBA Governor Bullock appears before parliament",
+    "Flash October PMIs due",
+    "Treasurer Chalmers speaks on business investment"
+  ],
+  "what_moved": "A tech and AI sell-off drove the session after Meta lifted its capex guidance and reported negative free cash flow: the Nasdaq had its worst day since June and the semiconductor index fell more than 6%. Oil jumped about 4% to a five-month high on Houthi attacks on Saudi Arabia and US-Iran escalation fears, while a flight to quality pushed the 10-year yield below 5%. Sector-level S&P 500 returns were not available.",
+  "news": [
+    {
+      "headline": "AI capex worries hit tech.",
+      "summary": "Meta fell about 7% after raising its 2026 capex range to US$135-145 billion, dragging Nvidia (-4%), AMD (-8%) and Micron (-6%).",
+      "source": "ABC News",
+      "url": "https://www.abc.net.au/news/2026-10-23/asx-markets-business-news-live-updates-oct-23/107291840"
+    },
+    {
+      "headline": "Brent at a five-month high.",
+      "summary": "Crude settled above US$113/bbl after further Houthi attacks on Saudi Arabia and concerns about a US-Iran escalation.",
+      "source": "ABC News",
+      "url": "https://www.abc.net.au/news/2026-10-23/asx-markets-business-news-live-updates-oct-23/107291840"
+    },
+    {
+      "headline": "Treasury yields tumble.",
+      "summary": "The 10-year par yield fell 17 bp to 4.96% and the 2-year 16 bp to 4.65% in a flight to quality.",
+      "source": "US Treasury",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610"
+    },
+    {
+      "headline": "RBA signals possible hike.",
+      "summary": "Deputy Governor Hauser put September headline CPI at 4% and hinted at a rate rise on Melbourne Cup Day.",
+      "source": "ABC News",
+      "url": "https://www.abc.net.au/news/programs/the-business/2026-10-21/rba-deputy-governor-hints-at-interest-rate-hike-on-melbourne-cup/107293942"
+    },
+    {
+      "headline": "China stocks in a bear market.",
+      "summary": "The CSI 300 fell 1.8% on Thursday, 20% below its June peak, and the Hang Seng Tech index fell as much as 5.3%.",
+      "source": "ABC News",
+      "url": "https://www.abc.net.au/news/2026-10-23/asx-markets-business-news-live-updates-oct-23/107291840"
+    },
+    {
+      "headline": "Chalmers flags softer growth.",
+      "summary": "The Treasurer said higher rates and inflation are likely to mean softer growth and slightly higher unemployment, while touting a business investment upgrade.",
+      "source": "ABC News",
+      "url": "https://www.abc.net.au/news/2026-10-23/asx-markets-business-news-live-updates-oct-23/107291840"
+    },
+    {
+      "headline": "ASX 200 slips on miners.",
+      "summary": "The index fell 0.43% to 8,793 Thursday; Fortescue lost 4.5%.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/australia/stock-market"
+    }
+  ],
+  "coming_up": "US Federal Reserve meeting on 27-28 October (no projections); RBA decision expected on Melbourne Cup Day, Tuesday 3 November."
+}

@@ -1,12 +1,33 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-23T06:40:00+11:00",
+  "updated_at": "2026-10-23T09:04:07+11:00",
   "briefs": [
     {
       "date": "2026-10-23",
-      "status": "delayed",
-      "delayed_reason": "Sources conflict on SPI 200 futures direction (TradingView +0.09% vs Investing.com -0.69%) and on the prior ASX 200 close and VIX, while the US session closed sharply lower.",
-      "retry_at": "2026-10-23T09:00:00+11:00"
+      "status": "published",
+      "published_at": "2026-10-23T09:04:07+11:00",
+      "implied_open_pct": -0.45,
+      "implied_open_points": -39.6,
+      "scoreboard": {
+        "sp500": 7663.43,
+        "nasdaq": 26008.86,
+        "dow": 52867.98,
+        "vix": 19.03,
+        "us10y": 4.96,
+        "audusd": 0.7016,
+        "brent": 113.17,
+        "gold": 4039.8,
+        "iron_ore": 90.1
+      },
+      "headlines": [
+        "AI capex worries hit tech.",
+        "Brent at a five-month high.",
+        "Treasury yields tumble.",
+        "RBA signals possible hike.",
+        "China stocks in a bear market.",
+        "Chalmers flags softer growth.",
+        "ASX 200 slips on miners."
+      ]
     },
     {
       "date": "2026-10-22",
