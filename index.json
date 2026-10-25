@@ -1,7 +1,33 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-23T09:04:07+11:00",
+  "updated_at": "2026-10-26T06:32:18+11:00",
   "briefs": [
+    {
+      "date": "2026-10-26",
+      "status": "published",
+      "published_at": "2026-10-26T06:32:18+11:00",
+      "implied_open_pct": -0.37,
+      "implied_open_points": -32.1,
+      "scoreboard": {
+        "sp500": 7623.68,
+        "nasdaq": 25955.34,
+        "dow": 52215.16,
+        "vix": 19.45,
+        "us10y": 5.0,
+        "audusd": 0.7032,
+        "brent": 116.72,
+        "gold": 3993.96,
+        "iron_ore": 90.83
+      },
+      "headlines": [
+        "Brent settles at a six-month high near US$117",
+        "US 10-year yield returns to 5%",
+        "Dow leads Wall Street lower, but weekly picture is mixed",
+        "Soft Australian earnings updates weigh on sentiment",
+        "September-quarter CPI and a possible RBA hike in focus",
+        "Saudi Arabia reports intercepting Houthi missiles and drones"
+      ]
+    },
     {
       "date": "2026-10-23",
       "status": "published",

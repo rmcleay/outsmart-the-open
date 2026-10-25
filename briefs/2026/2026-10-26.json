@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-26",
+  "status": "published",
+  "published_at": "2026-10-26T06:32:18+11:00",
+  "session_covered": "US session of Friday 23 October",
+  "intro": "Covers the US session of Friday 23 October. SPI futures sources differ on level, so a range is shown; sector detail and European moves could not be verified.",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 7623.68,
+      "unit": "pts",
+      "change": -0.52,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": 25955.34,
+      "unit": "pts",
+      "change": -0.21,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": 52215.16,
+      "unit": "pts",
+      "change": -1.23,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": 19.45,
+      "unit": "pts",
+      "change": 2.21,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": 5.0,
+      "unit": "%",
+      "change": 4.4,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.7032,
+      "unit": "US$",
+      "change": 0.16,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": 116.72,
+      "unit": "US$/bbl",
+      "change": 3.14,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": 3993.96,
+      "unit": "US$/oz",
+      "change": -0.77,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 90.83,
+      "unit": "US$/t",
+      "change": 0.11,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "SPI 200 futures: TradingView shows the December contract at 8,774 (-0.49%) and Investing.com at 8,764 (-0.24%). Both agree on direction but differ on level, so a range and midpoint are used.",
+    "Gold: Trading Economics CFD reference US$3,993.96 (-0.77%); FNArena's weekly table shows US$4,027.38, a different snapshot time. The later CFD print is used.",
+    "Brent confirmed at US$116.72 by CNBC and Trading Economics. Yield, AUD/USD, gold and iron ore are Trading Economics CFD-based reference prices. The FNArena Monday report was not yet published at time of writing."
+  ],
+  "setup": {
+    "spi_level": 8769,
+    "spi_change_pct": -0.37,
+    "implied_open": 8763.1,
+    "implied_open_points": -32.1,
+    "implied_open_pct": -0.37,
+    "prior_close": 8795.2,
+    "prior_close_change_pct": 0.02,
+    "approximate": true,
+    "summary": "SPI 200 futures are down roughly 0.24-0.49% (level 8,764-8,774, December contract), pointing to an ASX 200 open about 32 points (0.37%) lower, near 8,763, at the midpoint. The ASX 200 closed Friday at 8,795.2, up 0.02%."
+  },
+  "local_events": [
+    "No major scheduled Australian data releases identified for today; September-quarter CPI is due Wednesday 28 October."
+  ],
+  "what_moved": "Wall Street fell on Friday as Brent crude jumped to a six-month high near US$117 on expectations of renewed US strikes on Iran, and the US 10-year yield climbed back to 5.00%. The Dow fell 1.23%, the S&P 500 0.52% and the Nasdaq 0.21%, with the VIX up 2.2% to 19.45. Gold slipped. S&P 500 sector performance could not be verified.",
+  "news": [
+    {
+      "headline": "Brent settles at a six-month high near US$117",
+      "summary": "Brent rose about 3.1% to US$116.72/bbl on Friday, its highest settlement since 29 April and a third straight weekly gain, as markets priced a likely resumption of US strikes on Iran. The Revolutionary Guard said seven vessels were hit or mined near the Strait of Hormuz.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html"
+    },
+    {
+      "headline": "US 10-year yield returns to 5%",
+      "summary": "The 10-year Treasury yield rose about 4 bp to 5.00% on Friday after dipping below that level on Thursday for the first time in a month.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+    },
+    {
+      "headline": "Dow leads Wall Street lower, but weekly picture is mixed",
+      "summary": "The Dow fell 1.23% (about 653 points) on Friday. For the week the S&P 500 lost 0.47% and the Nasdaq 0.71%, while the Dow gained 0.41%; gold fell 3.49% and Brent gained 6.9%.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/10/24/the-market-in-numbers-24-oct-2026"
+    },
+    {
+      "headline": "Soft Australian earnings updates weigh on sentiment",
+      "summary": "AGM updates and quarterlies have largely disappointed, with large guidance misses at Nick Scali and Zip. The ASX 200 slipped about 0.13% on the week and remains flat for the year, with Materials down about 6.6% and Energy down over 3% year to date.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/10/23/next-week-at-a-glance-26-30-oct-2026/"
+    },
+    {
+      "headline": "September-quarter CPI and a possible RBA hike in focus",
+      "summary": "Australia's September-quarter CPI is due this week, and an RBA Deputy Governor's comments have flagged a possible rate hike at the 3 November meeting.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/10/23/next-week-at-a-glance-26-30-oct-2026/"
+    },
+    {
+      "headline": "Saudi Arabia reports intercepting Houthi missiles and drones",
+      "summary": "Saudi Arabia said it intercepted missiles and drones launched by Iran-backed Houthis, adding to Gulf security concerns.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/25/saudi-arabia-houthi-missile-drone-interceptions.html"
+    }
+  ],
+  "coming_up": "Australia's September-quarter CPI is due Wednesday 28 October at 11:30am AEDT, ahead of the RBA decision on Tuesday 3 November, also the eve of the US midterm elections on 3 November."
+}
