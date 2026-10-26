@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-27",
+  "status": "published",
+  "published_at": "2026-10-27T09:05:00+11:00",
+  "session_covered": "US and European sessions of Monday 26 October",
+  "intro": "Covers the US and European sessions of Monday 26 October. This brief was delayed from the early-morning slot because the US session had not yet closed; SPI futures direction is a near-flat call across sources (see footnotes).",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 7676.77,
+      "unit": "pts",
+      "change": 0.7,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": 26169.38,
+      "unit": "pts",
+      "change": 0.82,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": 52361.58,
+      "unit": "pts",
+      "change": 0.28,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": 18.39,
+      "unit": "pts",
+      "change": -5.45,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": 4.99,
+      "unit": "%",
+      "change": -1,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.7018,
+      "unit": "US$",
+      "change": -0.3,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": 115.33,
+      "unit": "US$/bbl",
+      "change": -1.19,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": 4013.35,
+      "unit": "US$/oz",
+      "change": 0.49,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 90.78,
+      "unit": "US$/t",
+      "change": -0.06,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "Brent, gold and the 10-year yield differ slightly between sources (Brent US$115.60/-1.0%, gold US$4,026.20/+0.5%, 10-year 4.98%); the FNArena table values are shown, and the differences are timing/rounding. Commodity prices are CFD-based reference prices."
+  ],
+  "setup": {
+    "spi_level": 8821,
+    "spi_change_pct": 0.0,
+    "implied_open": 8809.9,
+    "implied_open_points": 0.0,
+    "implied_open_pct": 0.0,
+    "prior_close": 8809.9,
+    "prior_close_change_pct": 0.17,
+    "approximate": true,
+    "summary": "SPI 200 futures are at about 8,821 (December contract), essentially flat versus the prior day-session close (roughly -0.07% to +0.07% depending on source), which implies a broadly unchanged ASX 200 open near 8,810, a change of about 0 points. Futures had already risen during Monday's day session, so the Wall Street gain looks largely priced in. The ASX 200 closed Monday at 8,809.9, up 14.7 points (+0.17%), recovering from early losses; Materials, Real Estate and Technology each gained more than 1% while Consumer Staples fell 1.54%."
+  },
+  "local_events": [
+    "No major scheduled Australian data releases; several AGMs are due (including CSL and PLS Group). Q3 CPI is due tomorrow (Wednesday)."
+  ],
+  "what_moved": "US equities rose, led by technology and chip stocks, after Anthropic filed for a Nasdaq IPO, reviving the AI trade ahead of a heavy week of megacap earnings and the Fed decision. Oil eased about 1% on diplomatic efforts to de-escalate Middle East tensions, and the VIX fell to 18.39. Technology and consumer discretionary outperformed; full S&P 500 sector percentages were not available. In Europe the FTSE 100 gained 0.7% and the DAX 0.9%.",
+  "news": [
+    {
+      "headline": "Anthropic files for Nasdaq IPO",
+      "summary": "The AI developer filed to list under the ticker ANT, reportedly targeting up to US$100bn at a valuation near US$2 trillion, which would be the largest listing on record; the filing showed H1 revenue of US$16.3bn alongside large losses.",
+      "source": "MarketScreener (Reuters)",
+      "url": "https://www.marketscreener.com/news/wall-st-rises-as-anthropic-s-ipo-filing-sharpens-focus-on-ai-trade-ce785cdcdd8ff22d"
+    },
+    {
+      "headline": "Fed decision Wednesday, pause expected",
+      "summary": "The Fed meets this week with a hold widely expected, though traders still see a December hike as possible; PCE inflation and Q3 GDP follow on Thursday.",
+      "source": "MarketScreener (Reuters)",
+      "url": "https://www.marketscreener.com/news/wall-st-rises-as-anthropic-s-ipo-filing-sharpens-focus-on-ai-trade-ce785cdcdd8ff22d"
+    },
+    {
+      "headline": "Meta plans up to US$95bn equity raise",
+      "summary": "The AI-infrastructure funding plan pushed Meta shares down about 1.8% and fuelled debate over whether heavy AI spending is paying off, with about a third of the S&P 500 reporting this week.",
+      "source": "MarketScreener (Reuters)",
+      "url": "https://www.marketscreener.com/news/wall-st-rises-as-anthropic-s-ipo-filing-sharpens-focus-on-ai-trade-ce785cdcdd8ff22d"
+    },
+    {
+      "headline": "Oil eases on de-escalation diplomacy",
+      "summary": "Brent fell about 1% to US$115.33/bbl after Saudi and Iranian officials met in Tehran, though Houthi attacks on Saudi Arabia continue and crude remains near six-month highs.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/10/27/the-overnight-report-anthropic-ipo-cometh/"
+    },
+    {
+      "headline": "Brazil election shock hits local assets",
+      "summary": "Lula's fourth-term win against market expectations triggered Brazil's worst equity day since March 2020 and the real's worst day against the US dollar since at least 1994.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/10/27/the-overnight-report-anthropic-ipo-cometh/"
+    },
+    {
+      "headline": "US midterms on 3 November",
+      "summary": "RBC sees a split Congress as neutral to modestly positive for US equities and a Democratic sweep, which betting markets favour, as neutral to negative.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/10/27/the-overnight-report-anthropic-ipo-cometh/"
+    },
+    {
+      "headline": "Australian Q3 CPI due tomorrow",
+      "summary": "The inflation print lands the same day as the Fed decision, with the Australian dollar softer at US$0.7018 and the US dollar index up 0.2% to 102.00.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/10/27/the-overnight-report-anthropic-ipo-cometh/"
+    }
+  ],
+  "coming_up": "Wednesday 28 October: Australian September-quarter CPI, and the US Fed rate decision (early Thursday morning Sydney time). Thursday 29 October (US): PCE inflation and Q3 GDP. US midterm elections: Tuesday 3 November."
+}

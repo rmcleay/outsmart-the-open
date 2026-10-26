@@ -1,12 +1,33 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-27T06:40:00+11:00",
+  "updated_at": "2026-10-27T09:05:00+11:00",
   "briefs": [
     {
       "date": "2026-10-27",
-      "status": "delayed",
-      "delayed_reason": "The US session had not yet closed at 06:30 Sydney (about 3:30pm New York), so only intraday US figures were available.",
-      "retry_at": "2026-10-27T09:00:00+11:00"
+      "status": "published",
+      "published_at": "2026-10-27T09:05:00+11:00",
+      "implied_open_pct": 0.0,
+      "implied_open_points": 0.0,
+      "scoreboard": {
+        "sp500": 7676.77,
+        "nasdaq": 26169.38,
+        "dow": 52361.58,
+        "vix": 18.39,
+        "us10y": 4.99,
+        "audusd": 0.7018,
+        "brent": 115.33,
+        "gold": 4013.35,
+        "iron_ore": 90.78
+      },
+      "headlines": [
+        "Anthropic files for Nasdaq IPO",
+        "Fed decision Wednesday, pause expected",
+        "Meta plans up to US$95bn equity raise",
+        "Oil eases on de-escalation diplomacy",
+        "Brazil election shock hits local assets",
+        "US midterms on 3 November",
+        "Australian Q3 CPI due tomorrow"
+      ]
     },
     {
       "date": "2026-10-26",
