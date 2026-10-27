@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-28",
+  "status": "published",
+  "published_at": "2026-10-28T09:08:00+11:00",
+  "session_covered": "US and European sessions of Tuesday 27 October",
+  "intro": "Covers the US and European sessions of Tuesday 27 October. This is the 09:00 retry after the first attempt was deferred because the US session had not closed; the ASX opens at 10:00.",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 7722.6,
+      "unit": "pts",
+      "change": 0.6,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": 26477.81,
+      "unit": "pts",
+      "change": 1.18,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": 52377.57,
+      "unit": "pts",
+      "change": 0.03,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": 17.52,
+      "unit": "pts",
+      "change": -4.73,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": 4.99,
+      "unit": "%",
+      "change": 1,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.7027,
+      "unit": "US$",
+      "change": 0.2,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": 114.31,
+      "unit": "US$/bbl",
+      "change": -0.88,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": 4062.22,
+      "unit": "US$/oz",
+      "change": 1.22,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 90.78,
+      "unit": "US$/t",
+      "change": 0.0,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "S&P 500 and Nasdaq closes are from FNArena and match other reports; one CBA note quotes S&P +0.8%, which is not used. The Dow is quoted at 52,377.57 (+0.03%) by FNArena and Investing.com.",
+    "Brent is the FNArena reference print (US$114.31, -0.88%); CBA reports the futures settlement at US$113.88/bbl, down 1.7%. Gold is the spot print; gold futures settled at US$4,075/oz (+0.9%). Iron ore is the spot print; futures settled flat at US$90.70/t.",
+    "The 10-year yield is quoted as 4.99% by FNArena's table and 5.00% in its text."
+  ],
+  "setup": {
+    "spi_level": 8884,
+    "spi_change_pct": 0.2,
+    "implied_open": 8867.8,
+    "implied_open_points": 17.7,
+    "implied_open_pct": 0.2,
+    "prior_close": 8850.1,
+    "prior_close_change_pct": 0.46,
+    "approximate": true,
+    "summary": "SPI 200 futures are at 8,884, up 18 points (0.20%) per FNArena; Investing.com shows the same level (Dec contract, 8,884) but a larger +0.71% change from a different reference, and TradingView shows 8,881. Applying 0.20% to the prior ASX 200 close of 8,850.10 (up 40.2 points, 0.46%, led by Materials +2.78%) implies an open about 17.7 points higher, near 8,868. The direction matches the risk-on US session."
+  },
+  "local_events": [
+    "ABS September-quarter CPI: NAB and CBA forecast trimmed mean +1.0% q/q (NAB headline +1.2%), with NAB seeing downside risk to trimmed mean; the print shapes the RBA decision on Tuesday 3 November, where markets price about a 60% chance of a 25bp hike.",
+    "Boss Energy Q1 market update."
+  ],
+  "what_moved": "Wall Street rose as AI-related shares rebounded ahead of big-tech earnings and the Fed decision. Chipmakers led, with Broadcom up almost 4% after banks and Blackstone lined up US$63 billion of financing tied to Anthropic's chip purchases, and the Nasdaq outperformed (+1.18%) while the Dow was flat as Boeing fell about 10%. Oil slipped for a second session on Middle East peace-talk hopes but stayed near six-month highs. Sector breakdowns were not available in the sources used; midday AP reporting had technology leading and energy lagging.",
+  "news": [
+    {
+      "headline": "Fed expected to hold on Wednesday after last month's hike",
+      "summary": "US stocks closed higher ahead of the Federal Reserve decision, with CME FedWatch about 88% for a hold. Markets price at least two more hikes by mid-2027 as inflation indicators stay elevated amid the US-Iran conflict.",
+      "source": "The Spokesman-Review (AP)",
+      "url": "https://www.spokesman.com/stories/2026/oct/27/wall-street-rises-as-ai-momentum-holds-heading-int/"
+    },
+    {
+      "headline": "Record AI debt deal for Anthropic chip purchases",
+      "summary": "Three banks and Blackstone lined up US$63 billion to fund Anthropic's purchase of Broadcom chips, described as the largest AI debt deal on record. Anthropic has also filed for a potentially record IPO.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/10/28/the-overnight-report-oil-anthropic-q3-cpi/"
+    },
+    {
+      "headline": "Australian Q3 CPI due today",
+      "summary": "NAB and CBA expect trimmed mean inflation of 1.0% for the quarter, in line with consensus. Markets price about a 60% chance of an RBA 25bp hike next Tuesday.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/10/28/the-overnight-report-oil-anthropic-q3-cpi/"
+    },
+    {
+      "headline": "Oil eases but stays near six-month highs",
+      "summary": "Brent fell for a second session on hopes for Middle East peace talks, though the Houthi-Saudi conflict and the US-Israeli war with Iran remain risks. Brent futures settled at US$113.88/bbl.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/10/28/the-overnight-report-oil-anthropic-q3-cpi/"
+    },
+    {
+      "headline": "Boeing slides on 737 delay and wider loss",
+      "summary": "Boeing fell roughly 10% after a larger-than-expected adjusted third-quarter loss and a slip in its 737 production target to early 2027, making it the Dow's biggest drag.",
+      "source": "Spokesman-Review (AP)",
+      "url": "https://www.spokesman.com/stories/2026/oct/27/wall-street-rises-as-ai-momentum-holds-heading-int/"
+    },
+    {
+      "headline": "Meta's record equity raise",
+      "summary": "Meta shares slipped after a record US$97.5 billion equity raise to fund AI spending, even as US capital goods orders rose in September.",
+      "source": "Spokesman-Review (AP)",
+      "url": "https://www.spokesman.com/stories/2026/oct/27/wall-street-rises-as-ai-momentum-holds-heading-int/"
+    },
+    {
+      "headline": "Metals firm as ASX Materials surge",
+      "summary": "Gold gained about 1.2% to US$4,062/oz, copper rose 1.8% and aluminium about 2% (CBA), while iron ore was flat near US$90.7/t. ASX Materials rose 2.78% on Tuesday.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/10/28/the-overnight-report-oil-anthropic-q3-cpi/"
+    }
+  ],
+  "coming_up": "The Fed rate decision is due in the US on Wednesday 28 October (early Thursday 29 October Sydney time), with a hold widely expected. The RBA meets on Tuesday 3 November, the same day as the US midterm elections."
+}
