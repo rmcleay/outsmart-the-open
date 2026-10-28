@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-29",
+  "status": "published",
+  "published_at": "2026-10-29T07:19:42+11:00",
+  "session_covered": "US session of Wednesday 28 October",
+  "intro": "Covers the US session of Wednesday 28 October (Fed decision day). Microsoft and Alphabet reported after the US close and their results are not reflected. Delayed from the 06:30 run because the US session had not closed.",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 7743.98,
+      "unit": "pts",
+      "change": 0.28,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": 26549.85,
+      "unit": "pts",
+      "change": 0.27,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": 52475.1,
+      "unit": "pts",
+      "change": 0.19,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": 16.47,
+      "unit": "pts",
+      "change": -6.0,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": 5.03,
+      "unit": "%",
+      "change": 3,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.7056,
+      "unit": "US$",
+      "change": 0.44,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": 113.98,
+      "unit": "US$/bbl",
+      "change": 0.09,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": 4069.49,
+      "unit": "US$/oz",
+      "change": 0.23,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 90.7,
+      "unit": "US$/t",
+      "change": 0.0,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "US index closes and VIX are Yahoo Finance closing prints. Trading Economics shows S&P 500 7,745.05 (+0.28%), Dow 52,586.89 (+0.25%) and VIX 16.89; Yahoo figures used.",
+    "10-year yield is Trading Economics (5.03%); Yahoo's ^TNX shows 5.05%, so the change is approximate.",
+    "Brent, gold, AUD/USD and iron ore are Trading Economics CFD reference prices; Brent was quoted between US$113.9 and US$114.1 across pages, and the iron ore print is unchanged and may be stale."
+  ],
+  "setup": {
+    "spi_level": 8881,
+    "spi_change_pct": -0.03,
+    "implied_open": 8844.3,
+    "implied_open_points": -2.7,
+    "implied_open_pct": -0.03,
+    "prior_close": 8847,
+    "prior_close_change_pct": -0.03,
+    "approximate": true,
+    "summary": "SPI 200 futures (December 2026 contract) are at about 8,881, roughly flat (-0.03% on Investing.com, -0.01% on TradingView). Applied to the prior ASX 200 close of 8,847 (-0.03% on Wednesday), that implies an open about 3 points (-0.03%) lower, near 8,844. Treat as approximate: single contract month, sources show no timestamp."
+  },
+  "local_events": [
+    "No major scheduled Australian data identified in sources checked (September CPI, 4.3% year on year, was released Wednesday).",
+    "Watch the local reaction to Microsoft and Alphabet results."
+  ],
+  "what_moved": "The Fed held the funds rate at 3.75-4.00% in a 10-2 vote, with two officials dissenting in favour of a hike; stocks were choppy around the decision and ended modestly higher. Chair Kevin Warsh said politics played no role. Treasury yields edged up, with the 10-year at about 5.03%, and oil rose on Middle East supply concerns. S&P 500 sector performance is not available.",
+  "news": [
+    {
+      "headline": "Fed holds, two dissent for a hike.",
+      "summary": "The FOMC held rates at 3.75-4.00% by 10-2; Beth Hammack and Lisa Cook preferred a hike.",
+      "source": "CNN",
+      "url": "https://cnn.com/2026/10/28/business/live-news/federal-reserve-interest-rate-october"
+    },
+    {
+      "headline": "Warsh: fewer meetings ahead.",
+      "summary": "The Fed Chair said the central bank will reduce the number of rate-setting meetings in coming years and that politics played no role in the decision.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/28/fed-meeting-today-live-updates.html"
+    },
+    {
+      "headline": "Australian inflation lifts to 4.3%.",
+      "summary": "September annual CPI rose to 4.3%, a six-month high, lifting RBA hike expectations and pushing AUD/USD above US$0.70 to a five-week high.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/australia/currency"
+    },
+    {
+      "headline": "Oil firmer on supply risk.",
+      "summary": "WTI rose about 1.8% to roughly US$101.7/bbl amid reports of a Saudi refinery attack and US-Iran tensions; Brent was near US$114/bbl.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+    },
+    {
+      "headline": "Big Tech reports after the bell.",
+      "summary": "Microsoft and Alphabet reported after the US close; results were not verified at publication. Microsoft had offered buyouts to up to 60,000 employees.",
+      "source": "Investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-flat-with-fed-rate-decision-megacap-tech-earnings-on-tap-4977314"
+    },
+    {
+      "headline": "US 10-year yield above 5%.",
+      "summary": "The 10-year Treasury yield rose to 5.03%, with the Fed on hold and inflation expectations in focus.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+    }
+  ],
+  "coming_up": "Thursday 29 October (US time): US GDP and PCE price index, and the ECB rate decision. Friday 30 October: Bank of Japan decision and euro-area flash GDP."
+}

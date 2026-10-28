@@ -1,12 +1,32 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-29T06:45:00+11:00",
+  "updated_at": "2026-10-29T07:19:42+11:00",
   "briefs": [
     {
       "date": "2026-10-29",
-      "status": "delayed",
-      "delayed_reason": "The US session had not yet closed at 06:30 Sydney (about 15:30 New York), so closing figures for the S&P 500, Nasdaq, Dow, VIX and yields were not final; retrying at 07:15.",
-      "retry_at": "2026-10-29T07:15:00+11:00"
+      "status": "published",
+      "published_at": "2026-10-29T07:19:42+11:00",
+      "implied_open_pct": -0.03,
+      "implied_open_points": -2.7,
+      "scoreboard": {
+        "sp500": 7743.98,
+        "nasdaq": 26549.85,
+        "dow": 52475.1,
+        "vix": 16.47,
+        "us10y": 5.03,
+        "audusd": 0.7056,
+        "brent": 113.98,
+        "gold": 4069.49,
+        "iron_ore": 90.7
+      },
+      "headlines": [
+        "Fed holds, two dissent for a hike.",
+        "Warsh: fewer meetings ahead.",
+        "Australian inflation lifts to 4.3%.",
+        "Oil firmer on supply risk.",
+        "Big Tech reports after the bell.",
+        "US 10-year yield above 5%."
+      ]
     },
     {
       "date": "2026-10-28",
