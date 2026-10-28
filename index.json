@@ -5,8 +5,8 @@
     {
       "date": "2026-10-29",
       "status": "delayed",
-      "delayed_reason": "The US session had not yet closed at 06:30 Sydney (about 15:30 New York), so closing figures for the S&P 500, Nasdaq, Dow, VIX and yields were not final; retrying at 07:00.",
-      "retry_at": "2026-10-29T07:00:00+11:00"
+      "delayed_reason": "The US session had not yet closed at 06:30 Sydney (about 15:30 New York), so closing figures for the S&P 500, Nasdaq, Dow, VIX and yields were not final; retrying at 07:15.",
+      "retry_at": "2026-10-29T07:15:00+11:00"
     },
     {
       "date": "2026-10-28",
