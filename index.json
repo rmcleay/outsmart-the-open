@@ -1,7 +1,13 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-29T07:19:42+11:00",
+  "updated_at": "2026-10-30T07:30:00+11:00",
   "briefs": [
+    {
+      "date": "2026-10-30",
+      "status": "delayed",
+      "delayed_reason": "Verified news, central bank outcomes and the local data calendar could not be confirmed; SPI sources differ on size of the move.",
+      "retry_at": "2026-10-30T08:15:00+11:00"
+    },
     {
       "date": "2026-10-29",
       "status": "published",
