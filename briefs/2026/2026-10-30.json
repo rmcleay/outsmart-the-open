@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-30",
+  "status": "published",
+  "published_at": "2026-10-30T08:19:09+11:00",
+  "session_covered": "US session of Thursday 29 October",
+  "intro": "Covers the US session of Thursday 29 October. This brief was delayed from 07:15 to re-check sources. The SPI 200 futures sources differ on the size of the move, so it is shown as a range, and the European session and ECB/Bank of Japan outcomes could not be verified.",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 7720.39,
+      "unit": "pts",
+      "change": -0.3,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": 26184.73,
+      "unit": "pts",
+      "change": -1.38,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": 52342.56,
+      "unit": "pts",
+      "change": -0.25,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": 16.95,
+      "unit": "pts",
+      "change": 0.24,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": 4.99,
+      "unit": "%",
+      "change": -5.6,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.7028,
+      "unit": "US$",
+      "change": -0.35,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": 116.05,
+      "unit": "US$/bbl",
+      "change": 0.64,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": 4027.01,
+      "unit": "US$/oz",
+      "change": -1.0,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 90.71,
+      "unit": "US$/t",
+      "change": 0.01,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "US index closes and 10-year yield from Yahoo Finance (S&P 500 and Nasdaq moves match Trading Economics commentary); VIX from Yahoo Finance (single source).",
+    "Gold is the Trading Economics CFD spot price (-1.00%); Yahoo's gold futures showed US$4,039.60 (-0.30%).",
+    "Brent is the Trading Economics price; a Yahoo summary put the close near US$115.",
+    "The 10-year yield change is Yahoo's; it implies a 5.0% level a day earlier.",
+    "AUD/USD and iron ore are Trading Economics CFD reference prices."
+  ],
+  "setup": {
+    "spi_level": 8928.5,
+    "spi_change_pct": 0.44,
+    "implied_open": 8931,
+    "implied_open_points": 39.1,
+    "implied_open_pct": 0.44,
+    "prior_close": 8891.8,
+    "prior_close_change_pct": 0.5,
+    "approximate": true,
+    "summary": "SPI 200 futures (December contract) are indicated higher by roughly 0.3-0.6%, at about 8,925-8,932 (TradingView 8,925, +0.30%/+0.39%; Investing.com 8,932, +0.57%). Taking the midpoint of about +0.44%, that implies an ASX 200 open near 8,931, around +39 points (+0.44%), with a range of roughly +27 to +51 points. Note the futures gain sits alongside a weaker Nasdaq; the futures change likely includes the ASX day session, in which the index closed up. The ASX 200 closed Thursday at 8,891.8, up 44.5 points (+0.50%)."
+  },
+  "local_events": [
+    "ABS producer price index for Q3 (previous +1.3% q/q, +3.6% y/y), about 11:30 AEDT (time inferred)",
+    "Private sector credit for September (previous +0.6% m/m, consensus +0.5%), about 11:30 AEDT (time inferred)",
+    "No RBA events are scheduled today"
+  ],
+  "what_moved": "A 12.6% fall in Alphabet after its results, which showed negative free cash flow as capital spending climbed, dragged the Nasdaq down 1.4% and revived concerns about AI spending. The broader S&P 500 lost only 0.3%: health care hit a record high on Eli Lilly's raised forecast and small caps rallied (the Russell 2000 rose about 1% by midday), while Caterpillar fell on its sales outlook. Strong US growth (Q3 GDP +3.4% annualised) and sticky inflation (September PCE +3.6% y/y) kept rate-hike expectations alive. Sector-by-sector percentages were not available.",
+  "news": [
+    {
+      "headline": "Alphabet's slide pulls the Nasdaq lower.",
+      "summary": "Alphabet fell 12.64% to US$283.82, wiping about US$500bn from its value, after reporting negative free cash flow of US$9.1bn despite strong cloud growth.",
+      "source": "StockTitan",
+      "url": "https://www.stocktitan.net/articles/stock-market-today-live-october-29-2026"
+    },
+    {
+      "headline": "Fed holds, two dissent for a hike.",
+      "summary": "The Federal Reserve left rates unchanged on Wednesday, with two members dissenting in favour of a hike amid sticky inflation. The target range and full vote count were not verified.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-29-dow-sp-500-nasdaq-alphabet-microsoft-earnings-130305714.html"
+    },
+    {
+      "headline": "US growth accelerates, inflation stays high.",
+      "summary": "The advance estimate put Q3 US GDP growth at 3.4% annualised, up from 2.2% in Q2, while the September PCE price index rose 3.6% from a year earlier.",
+      "source": "StockTitan",
+      "url": "https://www.stocktitan.net/articles/stock-market-today-live-october-29-2026"
+    },
+    {
+      "headline": "Caterpillar drops on outlook; Lilly lifts health care.",
+      "summary": "Caterpillar beat estimates but fell on its sales outlook, while Eli Lilly raised its full-year revenue forecast after revenue grew 39% to US$24.4bn, taking the S&P 500 health care sector to a record.",
+      "source": "StockTitan",
+      "url": "https://www.stocktitan.net/articles/stock-market-today-live-october-29-2026"
+    },
+    {
+      "headline": "Oil stays elevated on US-Iran diplomacy.",
+      "summary": "Brent traded around US$115-116/bbl as traders weighed efforts to avert a restart of US strikes on Iran; details come from a summary of the live blog and were not independently verified.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-29-dow-sp-500-nasdaq-alphabet-microsoft-earnings-130305714.html"
+    },
+    {
+      "headline": "Australian inflation hotter ahead of the RBA.",
+      "summary": "September CPI rose 4.3% y/y (previous 4.0%) and trimmed mean 3.6%, ahead of the RBA's decision on Tuesday; Trading Economics lists the previous cash rate at 4.60% with a 4.85% forecast.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/australia/calendar"
+    }
+  ],
+  "coming_up": "Tonight (Friday, 8:30am ET) the US Q3 employment cost index is due. The RBA interest rate decision is on Tuesday 3 November at about 2:30pm AEDT, the same day as the US midterm elections. The US payrolls release date was not verified."
+}

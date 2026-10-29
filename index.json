@@ -1,12 +1,32 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-30T07:30:00+11:00",
+  "updated_at": "2026-10-30T08:19:09+11:00",
   "briefs": [
     {
       "date": "2026-10-30",
-      "status": "delayed",
-      "delayed_reason": "Verified news, central bank outcomes and the local data calendar could not be confirmed; SPI sources differ on size of the move.",
-      "retry_at": "2026-10-30T08:15:00+11:00"
+      "status": "published",
+      "published_at": "2026-10-30T08:19:09+11:00",
+      "implied_open_pct": 0.44,
+      "implied_open_points": 39.1,
+      "scoreboard": {
+        "sp500": 7720.39,
+        "nasdaq": 26184.73,
+        "dow": 52342.56,
+        "vix": 16.95,
+        "us10y": 4.99,
+        "audusd": 0.7028,
+        "brent": 116.05,
+        "gold": 4027.01,
+        "iron_ore": 90.71
+      },
+      "headlines": [
+        "Alphabet's slide pulls the Nasdaq lower.",
+        "Fed holds, two dissent for a hike.",
+        "US growth accelerates, inflation stays high.",
+        "Caterpillar drops on outlook; Lilly lifts health care.",
+        "Oil stays elevated on US-Iran diplomacy.",
+        "Australian inflation hotter ahead of the RBA."
+      ]
     },
     {
       "date": "2026-10-29",
