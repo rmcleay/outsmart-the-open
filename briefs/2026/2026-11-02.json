@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-02",
+  "status": "published",
+  "published_at": "2026-11-02T08:18:23+11:00",
+  "session_covered": "US session of Friday 30 October 2026",
+  "intro": "Covers the US session of Friday 30 October (a sharp tech-led sell-off). This is the delayed 08:15 edition: the SPI 200 futures figure is a range because sources differ on level, and one bond-yield figure was reconciled between two sources (see footnotes). No sector breakdown was available.",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 7580.07,
+      "unit": "pts",
+      "change": -1.82,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": 25437.0,
+      "unit": "pts",
+      "change": -2.86,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": 51770.31,
+      "unit": "pts",
+      "change": -1.09,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": 19.42,
+      "unit": "pts",
+      "change": 12.91,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": 4.93,
+      "unit": "%",
+      "change": -6,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.7032,
+      "unit": "US$",
+      "change": 0.03,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": 113.43,
+      "unit": "US$/bbl",
+      "change": 2.37,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": 3875.84,
+      "unit": "US$/oz",
+      "change": -3.62,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 90.71,
+      "unit": "US$/t",
+      "change": 0.0,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "US 10-year: Yahoo shows 4.929% (-6 bp, prior 4.989%); Trading Economics shows 4.934% with a negligible change. The -6 bp figure is used because it matches the prior close we recorded on 30 October.",
+    "VIX: Yahoo and FNArena show a prior close of 17.20; Trading Economics shows an unchanged print. Yahoo used.",
+    "Brent: Trading Economics 113.43 (+2.37%); FNArena 113.95; Yahoo's live blog cited about US$112 intraday. Front-month contract differences.",
+    "Spot gold: a futures quote (GC=F) was US$3,898.90, -3.29%.",
+    "Index closes are Yahoo/Trading Economics official quotes; intraday news text cited slightly larger Dow and S&P falls."
+  ],
+  "setup": {
+    "spi_level": 8907.8,
+    "spi_change_pct": -0.19,
+    "implied_open": 8891.2,
+    "implied_open_points": -16.9,
+    "implied_open_pct": -0.19,
+    "prior_close": 8908.1,
+    "prior_close_change_pct": 0.18,
+    "approximate": true,
+    "summary": "SPI 200 futures (Dec 2026) are slightly lower but sources differ on size: TradingView and FNArena show 8,914 (-0.04%) as at about 08:11 AEDT, while Investing.com shows 8,901.5 (-0.34%) for the Friday close. Taking the midpoint (about 8,908, -0.19%, approximate) implies an ASX 200 open roughly 17 points, or 0.19%, lower, near 8,891. The range is -0.04% to -0.34%; the small move looks mild against the size of the Wall Street fall, so treat the figure with caution. The ASX 200 closed Friday at 8,908.10, up 0.18%."
+  },
+  "local_events": [
+    "Westpac reports.",
+    "RBA decision due tomorrow (Tuesday 3 November), with markets pricing a 25 bp hike.",
+    "No other scheduled Australian data was verified for today."
+  ],
+  "what_moved": "Disappointing mega-cap tech earnings drove a broad sell-off on the last trading day of October, with the Nasdaq Composite falling 2.86% and the S&P 500 1.82%. Alphabet fell roughly 12% on a quarterly miss and Intel slumped on weak guidance, feeding concern over the return on AI spending. Spot gold fell 3.62% to a one-year low while oil rose on reports the US could resume strikes on Iran, and Treasury yields eased as bonds rallied. S&P 500 sector performance was not available.",
+  "news": [
+    {
+      "headline": "Tech earnings misses trigger the worst Nasdaq day since June",
+      "summary": "Alphabet and Amazon reported rare misses and Intel gave weak guidance, hitting chip and AI-linked names as October closed. The Nasdaq lost about 5% for the month.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-131609630.html"
+    },
+    {
+      "headline": "Gold hits a one-year low",
+      "summary": "Spot gold fell 3.62% to US$3,875.84/oz, its weakest in a year, as the sell-off hit broader risk assets.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/commodity/gold/news/596917"
+    },
+    {
+      "headline": "Markets price a possible December Fed hike",
+      "summary": "Third-quarter US GDP grew 3.4% and September PCE rose 0.5% m/m, with core at 3.1% y/y; Fed officials Musalem and Barkin said rates may need to rise. CME FedWatch implied roughly a 72-75% chance of a December hike.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market"
+    },
+    {
+      "headline": "Treasury yields at seven-week lows",
+      "summary": "The 10-year yield ended near 4.93% as bonds rallied on the equity sell-off, having fallen about 36 bp over October.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+    },
+    {
+      "headline": "Oil rises on Iran strike reports",
+      "summary": "Brent finished about 2.4% higher at US$113.43/bbl on reports the US could resume strikes on Iran.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-131609630.html"
+    },
+    {
+      "headline": "Binance hack knocks bitcoin",
+      "summary": "A reported US$6.3bn exploit at the exchange pushed bitcoin down about 5%, to around US$76,600.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-131609630.html"
+    },
+    {
+      "headline": "RBA expected to hike on Tuesday",
+      "summary": "Markets price a 25 bp increase to 4.85% at the 3 November meeting, at about 88% probability.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/australia/currency"
+    }
+  ],
+  "coming_up": "Tuesday 3 November: RBA rate decision (AEDT), and US midterm elections (US time), with results arriving Wednesday morning in Sydney. NAB reports Thursday 5 November and Macquarie on Friday 6 November."
+}

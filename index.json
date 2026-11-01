@@ -1,12 +1,33 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-02T07:20:00+11:00",
+  "updated_at": "2026-11-02T08:18:23+11:00",
   "briefs": [
     {
       "date": "2026-11-02",
-      "status": "delayed",
-      "delayed_reason": "SPI 200 futures direction could not be verified (only a stale undated print and a pre-open Friday figure) and US 10-year/gold sources conflicted.",
-      "retry_at": "2026-11-02T08:15:00+11:00"
+      "status": "published",
+      "published_at": "2026-11-02T08:18:23+11:00",
+      "implied_open_pct": -0.19,
+      "implied_open_points": -16.9,
+      "scoreboard": {
+        "sp500": 7580.07,
+        "nasdaq": 25437.0,
+        "dow": 51770.31,
+        "vix": 19.42,
+        "us10y": 4.93,
+        "audusd": 0.7032,
+        "brent": 113.43,
+        "gold": 3875.84,
+        "iron_ore": 90.71
+      },
+      "headlines": [
+        "Tech earnings misses trigger the worst Nasdaq day since June",
+        "Gold hits a one-year low",
+        "Markets price a possible December Fed hike",
+        "Treasury yields at seven-week lows",
+        "Oil rises on Iran strike reports",
+        "Binance hack knocks bitcoin",
+        "RBA expected to hike on Tuesday"
+      ]
     },
     {
       "date": "2026-10-30",
