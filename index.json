@@ -1,7 +1,13 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-02T08:18:23+11:00",
+  "updated_at": "2026-11-03T07:25:00+11:00",
   "briefs": [
+    {
+      "date": "2026-11-03",
+      "status": "delayed",
+      "delayed_reason": "Sources conflicted on the US index closes for Monday 2 November and the SPI 200 futures prints looked like day-session figures; retrying at 08:15 Sydney.",
+      "retry_at": "2026-11-03T08:15:00+11:00"
+    },
     {
       "date": "2026-11-02",
       "status": "published",
