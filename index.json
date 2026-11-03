@@ -1,12 +1,33 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-04T07:17:53+11:00",
+  "updated_at": "2026-11-04T08:19:32+11:00",
   "briefs": [
     {
       "date": "2026-11-04",
-      "status": "delayed",
-      "delayed_reason": "Closing US index levels and the prior ASX 200 close could not be verified, and SPI 200 sources conflicted on direction (TradingView -0.26% vs Investing.com -0.80%, FNArena stale).",
-      "retry_at": "2026-11-04T08:15:00+11:00"
+      "status": "published",
+      "published_at": "2026-11-04T08:19:32+11:00",
+      "implied_open_pct": -0.26,
+      "implied_open_points": -23.1,
+      "scoreboard": {
+        "sp500": 7568.92,
+        "nasdaq": 25372.01,
+        "dow": 51786.72,
+        "vix": 20.84,
+        "us10y": 4.95,
+        "audusd": 0.6965,
+        "brent": 103.6,
+        "gold": 3923,
+        "iron_ore": 91.03
+      },
+      "headlines": [
+        "RBA lifts cash rate to 4.85%.",
+        "ASX 200 closes higher after the hike.",
+        "US midterms in focus.",
+        "Oil down again on Iran diplomacy hopes.",
+        "Goldman lifts Brent forecast.",
+        "US 10-year yield edges up.",
+        "Australian dollar slips below US$0.70."
+      ]
     },
     {
       "date": "2026-11-03",

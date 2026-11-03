@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-04",
+  "status": "published",
+  "published_at": "2026-11-04T08:19:32+11:00",
+  "session_covered": "US session of Tuesday 3 November (US midterm election day)",
+  "intro": "Covers the US session of Tuesday 3 November (US midterm election day). Sent on the 08:15 retry; SPI 200 futures sources disagreed on level, so that figure is approximate (see notes).",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 7568.92,
+      "unit": "pts",
+      "change": 0.36,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": 25372.01,
+      "unit": "pts",
+      "change": 0.83,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": 51786.72,
+      "unit": "pts",
+      "change": -0.38,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": 20.84,
+      "unit": "pts",
+      "change": -1.47,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": 4.95,
+      "unit": "%",
+      "change": 5.8,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.6965,
+      "unit": "US$",
+      "change": -0.49,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": 103.6,
+      "unit": "US$/bbl",
+      "change": -1.12,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": 3923,
+      "unit": "US$/oz",
+      "change": -0.61,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 91.03,
+      "unit": "US$/t",
+      "change": -0.24,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "US index closes per Yahoo Finance. VIX per Yahoo Finance (prior close 21.15; FNArena showed 21.32 for Monday). 10-year yield per Yahoo Finance (^TNX 4.952%); Trading Economics showed 4.96%. AUD/USD, gold and iron ore are Trading Economics CFD-based reference prices; other sources showed gold between US$3,921 and US$3,932/oz. Brent is the CNBC settlement (down US$1.17); intraday quotes ranged from about US$102 to US$106."
+  ],
+  "setup": {
+    "spi_level": 8864,
+    "spi_change_pct": -0.26,
+    "implied_open": 8863.7,
+    "implied_open_points": -23.1,
+    "implied_open_pct": -0.26,
+    "prior_close": 8886.8,
+    "prior_close_change_pct": 0.34,
+    "approximate": true,
+    "summary": "SPI 200 futures are down about 0.3% (TradingView -0.26% at around 8,864; Stockhead -0.3%). Applied to the ASX 200's prior close of 8,886.8 (+30.3 points, +0.34%, after the RBA's 25bp hike to 4.85%), that implies an open about 23 points (0.26%) lower, near 8,864. Investing.com showed the December contract down 0.80% at 8,853.5, but that quote is a day-session close and is treated as stale. The soft lean contrasts with a firmer US session and reflects uncertainty around the US midterm results and the RBA hike."
+  },
+  "local_events": [
+    "No major scheduled Australian data release or RBA speech was confirmed in the sources checked; market reaction to Tuesday's RBA decision (6-3 vote) and post-decision commentary continues."
+  ],
+  "what_moved": "The S&P 500 broke a three-day losing run, and the Nasdaq Composite rose 0.83%, as chip stocks rebounded on US election day, while the Dow slipped 0.38%. Brent fell for a second day on hopes of US-Iran diplomacy, though reports of a US strike on Iran's Qeshm Island kept oil volatile. Apple fell after warning that memory-chip costs would pressure margins. Sector breakdown for the S&P 500 was not available.",
+  "news": [
+    {
+      "headline": "RBA lifts cash rate to 4.85%.",
+      "summary": "The Reserve Bank raised the cash rate by 25bp, its fifth hike this year and an 18-year high, in a 6-3 vote; three members wanted no change.",
+      "source": "ABC News",
+      "url": "https://www.abc.net.au/news/2026-11-03/rba-interest-rates-markets-live-coverage/107338216"
+    },
+    {
+      "headline": "ASX 200 closes higher after the hike.",
+      "summary": "The index recovered from an initial dip to finish up 0.34% at 8,886.8.",
+      "source": "Motley Fool Australia",
+      "url": "https://www.fool.com.au/2026/11/03/rba-hikes-rates-to-4-85-whats-next-for-asx-shares/"
+    },
+    {
+      "headline": "US midterms in focus.",
+      "summary": "Polls closed with prediction markets favouring a Democratic House; JPMorgan expects a Democratic sweep could lower the S&P 500 by about 0.5%.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-3-dow-sp-500-nasdaq-midterms-amd-earnings-141143244.html"
+    },
+    {
+      "headline": "Oil down again on Iran diplomacy hopes.",
+      "summary": "Brent settled at US$103.60/bbl after Monday's 7.6% plunge, even as reports of a US strike on Qeshm Island emerged.",
+      "source": "CNBC",
+      "url": "https://cnbc.com/2026/11/03/oil-prices-climb-after-us-reportedly-strikes-irans-qeshm-island.html"
+    },
+    {
+      "headline": "Goldman lifts Brent forecast.",
+      "summary": "Goldman Sachs raised its December Brent forecast to US$105 from US$90.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/11/03/the-overnight-report-positive-ahead-of-rba-hike/"
+    },
+    {
+      "headline": "US 10-year yield edges up.",
+      "summary": "The yield rose to about 4.95% ahead of the election results.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+    },
+    {
+      "headline": "Australian dollar slips below US$0.70.",
+      "summary": "The currency hit a two-week low after the split RBA decision.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/australia/currency"
+    }
+  ],
+  "coming_up": "US midterm election results arrive today (Wednesday 4 November, Sydney time), with the market reaction to follow."
+}
