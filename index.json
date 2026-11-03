@@ -1,7 +1,13 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-03T08:20:38+11:00",
+  "updated_at": "2026-11-04T07:17:53+11:00",
   "briefs": [
+    {
+      "date": "2026-11-04",
+      "status": "delayed",
+      "delayed_reason": "Closing US index levels and the prior ASX 200 close could not be verified, and SPI 200 sources conflicted on direction (TradingView -0.26% vs Investing.com -0.80%, FNArena stale).",
+      "retry_at": "2026-11-04T08:15:00+11:00"
+    },
     {
       "date": "2026-11-03",
       "status": "published",
