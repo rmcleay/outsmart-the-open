@@ -1,7 +1,13 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-04T08:19:32+11:00",
+  "updated_at": "2026-11-05T07:17:08+11:00",
   "briefs": [
+    {
+      "date": "2026-11-05",
+      "status": "delayed",
+      "delayed_reason": "The US Wednesday session had not yet closed at 07:16 Sydney, so overnight closes and SPI direction could not be verified.",
+      "retry_at": "2026-11-05T08:15:00+11:00"
+    },
     {
       "date": "2026-11-04",
       "status": "published",
