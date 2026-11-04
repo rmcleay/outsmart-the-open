@@ -1,12 +1,32 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-05T07:17:08+11:00",
+  "updated_at": "2026-11-05T08:20:29+11:00",
   "briefs": [
     {
       "date": "2026-11-05",
-      "status": "delayed",
-      "delayed_reason": "The US Wednesday session had not yet closed at 07:16 Sydney, so overnight closes and SPI direction could not be verified.",
-      "retry_at": "2026-11-05T08:15:00+11:00"
+      "status": "published",
+      "published_at": "2026-11-05T08:20:29+11:00",
+      "implied_open_pct": 1.9,
+      "implied_open_points": 167.8,
+      "scoreboard": {
+        "sp500": 7688.62,
+        "vix": 16.69,
+        "us10y": 4.88,
+        "audusd": 0.7008,
+        "brent": 94.62,
+        "gold": 4065.19,
+        "iron_ore": 91.95
+      },
+      "headlines": [
+        "US stocks surge as the Dow gains more than 1,500 points after midterms.",
+        "Brent plunges 8.7% to US$94.62.",
+        "RBA lifts the cash rate to 4.85% on Cup Day.",
+        "ASX 200 closes at a one-week low.",
+        "US job openings jump to 7.5 million in September.",
+        "Vance distances the administration from the Iran war after midterm losses.",
+        "US strikes in the Strait of Hormuz.",
+        "Canada trade talks \"encouraging\"."
+      ]
     },
     {
       "date": "2026-11-04",

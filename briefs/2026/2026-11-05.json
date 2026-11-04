@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-05",
+  "status": "published",
+  "published_at": "2026-11-05T08:20:29+11:00",
+  "session_covered": "US and European sessions of Wednesday 4 November",
+  "intro": "Covers the US session of Wednesday 4 November and the European session. This is the 08:15 retry edition (the 07:16 attempt was deferred because the US session had not closed). The Nasdaq and Dow index levels could not be verified and are shown as \"not available\"; see footnotes.",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 7688.62,
+      "unit": "pts",
+      "change": 1.58,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": null,
+      "unit": "pts",
+      "change": 1.4,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": null,
+      "unit": "pts",
+      "change": 3.0,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": 16.69,
+      "unit": "pts",
+      "change": -19.84,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": 4.88,
+      "unit": "%",
+      "change": -7,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.7008,
+      "unit": "US$",
+      "change": 0.59,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": 94.62,
+      "unit": "US$/bbl",
+      "change": -8.7,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": 4065.19,
+      "unit": "US$/oz",
+      "change": 3.4,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 91.95,
+      "unit": "US$/t",
+      "change": 1.01,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "S&P 500: Yahoo Finance cash close (AP reports +1.6%); Trading Economics CFD quotes differ slightly.",
+    "Nasdaq: +1.4% per AP's closing update; a Trading Economics summary said +0.9% and no verified closing level was found.",
+    "Dow: AP reported a gain of more than 1,500 points (about 3%); Trading Economics cited +1,569 points; the closing level was not verified.",
+    "VIX: Yahoo Finance header (-19.84%; a Yahoo summary line cited -19.15%).",
+    "10-year yield: 4.88% per AP (Trading Economics 4.89%, -8 bp).",
+    "Brent: AP (US$94.62, -8.7%); Trading Economics showed US$95.00, -8.2%.",
+    "AUD/USD, spot gold and iron ore are CFD-based Trading Economics reference prices (one source each; Yahoo gold futures +3.4%)."
+  ],
+  "setup": {
+    "spi_level": 9027,
+    "spi_change_pct": 1.9,
+    "implied_open": 9002,
+    "implied_open_points": 167.8,
+    "implied_open_pct": 1.9,
+    "prior_close": 8834,
+    "prior_close_change_pct": -0.59,
+    "approximate": true,
+    "summary": "ASX 200 (SPI) futures were indicated about 1.9% (+171 points) higher at 9,027 around 07:05 AEDT (ABC live blog); TradingView (9,037) and Investing.com (9,028.5) agree on the level, though their percentage changes differ (see note). Applied to the 8,834 cash close, that implies an open near 9,002, up roughly 168 points (+1.9%). Prior ASX 200 close: 8,834, down 0.6% (-52 points), a one-week low, the day after the RBA's rate rise. Futures % change is single-source and approximate: TradingView showed an unsigned 1.29%, which would imply about +114 points."
+  },
+  "local_events": [
+    "Australian international trade in goods and services, September (due Thursday; release time not confirmed).",
+    "The fate of David Jones, which is in administration, was also expected to be announced today."
+  ],
+  "what_moved": "Wall Street rallied hard after the US midterms handed Democrats control of Congress, with the S&P 500 up about 1.6% in what AP called its best day since roughly April. Brent fell 8.7% to its lowest in two months on expectations that a Democratic-led Congress could push to wind back the US war with Iran, and the 10-year yield eased to 4.88%. Defence and energy shares lagged (Lockheed Martin -6.7%, ExxonMobil -4.9%) while healthcare and consumer discretionary names rallied (HCA Healthcare +10.9%, Dollar Tree +8.7%); Nvidia fell 2%. S&P 500 sector percentages were not available. Abroad, London rose 1.8%, Paris 2% and Shanghai 2.2%, while Japan's Nikkei 225 fell 1.4%.",
+  "news": [
+    {
+      "headline": "US stocks surge as the Dow gains more than 1,500 points after midterms.",
+      "summary": "Republicans lost sole control of Washington, with Democrats set to control both chambers; AP quoted a strategist saying \"earnings trump elections\".",
+      "source": "AP via The Baltimore Sun",
+      "url": "https://www.baltimoresun.com/2026/11/04/financial-markets-midterm-elections/"
+    },
+    {
+      "headline": "Brent plunges 8.7% to US$94.62.",
+      "summary": "Traders priced in the chance that Congress presses the White House to pull back from the Iran war; Brent has traded between about US$70 and US$120 since the conflict began.",
+      "source": "AP via The Baltimore Sun",
+      "url": "https://www.baltimoresun.com/2026/11/04/financial-markets-midterm-elections/"
+    },
+    {
+      "headline": "RBA lifts the cash rate to 4.85% on Cup Day.",
+      "summary": "The 25 bp move was the fifth increase of 2026; the major banks are passing it on to variable mortgage rates.",
+      "source": "ABC News",
+      "url": "https://www.abc.net.au/news/2026-11-04/australian-banks-lift-interest-rates-after-rba-cash-rate-hike/107341858"
+    },
+    {
+      "headline": "ASX 200 closes at a one-week low.",
+      "summary": "The index fell 0.6% to 8,834 on Wednesday, with traders cautious ahead of September trade data.",
+      "source": "ABC News",
+      "url": "https://www.abc.net.au/news/2026-11-04/asx-markets-business-live-news-nov-4/107343406"
+    },
+    {
+      "headline": "US job openings jump to 7.5 million in September.",
+      "summary": "Openings rose from a revised 7.19 million in August, layoffs fell to 1.64 million and quits rose to 3.37 million.",
+      "source": "AP via The Baltimore Sun",
+      "url": "https://www.baltimoresun.com/2026/11/03/us-job-postings-september/"
+    },
+    {
+      "headline": "Vance distances the administration from the Iran war after midterm losses.",
+      "summary": "The vice president blamed the war and the oil-price spike it caused for Republican losses, adding to the uncertainty over US policy on the conflict.",
+      "source": "AP via The Baltimore Sun",
+      "url": "https://www.baltimoresun.com/2026/11/04/vance-tries-to-distance-himself-from-iran-war-after-gops-deep-losses-in-midterm-elections/"
+    },
+    {
+      "headline": "US strikes in the Strait of Hormuz.",
+      "summary": "AP reported US strikes on Iranian targets in the strait that, unlike earlier in the war, were not publicly announced.",
+      "source": "AP via The Baltimore Sun",
+      "url": "https://www.baltimoresun.com/2026/11/03/us-strikes-iranian-targets-strait-of-hormuz/"
+    },
+    {
+      "headline": "Canada trade talks \"encouraging\".",
+      "summary": "A Canadian industry group said progress was encouraging after President Trump and PM Mark Carney spoke by phone; Canada tables its federal budget today.",
+      "source": "BNN Bloomberg",
+      "url": "https://www.bnnbloomberg.ca/tariffs/2026/11/03/progress-on-trade-talks-is-encouraging-says-canadian-industry-group/"
+    }
+  ],
+  "coming_up": "Friday 6 November: US October jobs report; FactSet forecasts +65,000 jobs (September: +29,000) and unemployment at 4.2%."
+}
