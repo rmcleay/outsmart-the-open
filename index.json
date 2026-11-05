@@ -1,12 +1,33 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-06T07:25:00+11:00",
+  "updated_at": "2026-11-06T08:18:30+11:00",
   "briefs": [
     {
       "date": "2026-11-06",
-      "status": "delayed",
-      "delayed_reason": "US session closing figures conflict across sources (S&P 500 down roughly 3.2-4.1%) and SPI 200 futures quotes look stale and point up, contradicting the risk-off tone.",
-      "retry_at": "2026-11-06T08:15:00+11:00"
+      "status": "published",
+      "published_at": "2026-11-06T08:18:30+11:00",
+      "implied_open_pct": null,
+      "implied_open_points": null,
+      "scoreboard": {
+        "sp500": 7353.73,
+        "nasdaq": 24315.0,
+        "dow": 51523.06,
+        "vix": 27.78,
+        "us10y": 4.84,
+        "audusd": 0.6931,
+        "brent": 98.49,
+        "gold": 4088.0,
+        "iron_ore": 93.12
+      },
+      "headlines": [
+        "Chip rout wipes out post-election rally.",
+        "Data-centre regulation fears.",
+        "Volatility spikes.",
+        "Brent jumps.",
+        "Treasury yields ease.",
+        "Gold edges higher.",
+        "ASX 200 surges before the rout."
+      ]
     },
     {
       "date": "2026-11-05",

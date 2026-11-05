@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-06",
+  "status": "published",
+  "published_at": "2026-11-06T08:18:30+11:00",
+  "session_covered": "US session of Thursday 5 November",
+  "intro": "Covers the US session of Thursday 5 November. This is the 08:15 retry: official US closing prints and a reliable Friday SPI 200 futures quote could not be verified, so several figures are footnoted or marked not available.",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 7353.73,
+      "unit": "pts",
+      "change": -4.36,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": 24315.0,
+      "unit": "pts",
+      "change": -5.52,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": 51523.06,
+      "unit": "pts",
+      "change": -3.44,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": 27.78,
+      "unit": "pts",
+      "change": 66.69,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": 4.84,
+      "unit": "%",
+      "change": -5,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.6931,
+      "unit": "US$",
+      "change": -1.08,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": 98.49,
+      "unit": "US$/bbl",
+      "change": 4.1,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": 4088.0,
+      "unit": "US$/oz",
+      "change": 0.68,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 93.12,
+      "unit": "US$/t",
+      "change": 1.27,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "US index figures are from the Yahoo Finance end-of-session ticker (official closes not confirmed); Trading Economics showed S&P 500 7,346.93 (-4.16%) and Dow 51,363.94 (-3.40%).",
+    "10-year yield per Yahoo (4.837%, about -5.7 bp); Trading Economics 4.841% (-4.8 bp).",
+    "Gold per Trading Economics; Yahoo futures showed US$4,093.50 (+0.50%).",
+    "Iron ore is a single-source figure (Trading Economics).",
+    "AUD/USD per Yahoo; Trading Economics 0.6929 (-1.09%)."
+  ],
+  "setup": {
+    "spi_level": null,
+    "spi_change_pct": null,
+    "implied_open": null,
+    "implied_open_points": null,
+    "implied_open_pct": null,
+    "prior_close": 9065.1,
+    "prior_close_change_pct": 2.61,
+    "approximate": true,
+    "summary": "SPI 200 futures: not available. The only quotes found (TradingView 9,029, +0.07%; Investing.com 9,046.0, +0.19%, on volume of 6) are thin, stale Thursday prints that conflict with each other and with the overnight US selloff, so no implied open is given. The ASX 200 closed Thursday at 9,065.10, up 2.61% (230.6 points), a two-month high."
+  },
+  "local_events": [
+    "Not available (scheduled Australian releases and RBA speakers could not be verified in this run)."
+  ],
+  "what_moved": "A sharp selloff in chip and AI-related stocks erased the post-election rally on Wall Street. The Nasdaq fell about 5.5%, the S&P 500 about 4.4% and the Dow about 3.4%, with the Philadelphia Semiconductor index down about 12%; Nvidia, Micron, AMD and Lam Research led the losses. Investors cited worries that Democratic midterm wins could bring tighter rules on data centres. The VIX jumped to 27.78 from 16.61. S&P 500 sector performance was not available.",
+  "news": [
+    {
+      "headline": "Chip rout wipes out post-election rally.",
+      "summary": "Nasdaq -5.5%, S&P 500 -4.4%, Dow -3.4%; semiconductors down about 12%.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html"
+    },
+    {
+      "headline": "Data-centre regulation fears.",
+      "summary": "The selloff was attributed to expectations the Democrats will push for tighter rules on computing hubs used in AI development.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market"
+    },
+    {
+      "headline": "Volatility spikes.",
+      "summary": "The VIX closed at 27.78, up 66.7% from 16.61.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/%5EVIX/"
+    },
+    {
+      "headline": "Brent jumps.",
+      "summary": "Brent gained about 4.1% to US$98.49/bbl, its first rise in four sessions.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+    },
+    {
+      "headline": "Treasury yields ease.",
+      "summary": "The US 10-year yield fell to about 4.84%, near two-month lows, as equities sold off.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+    },
+    {
+      "headline": "Gold edges higher.",
+      "summary": "Spot gold rose about 0.7% to US$4,088/oz, extending its post-election rally.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/commodity/gold"
+    },
+    {
+      "headline": "ASX 200 surges before the rout.",
+      "summary": "The index jumped 2.61% to 9,065.10 on Thursday, a two-month high, before the US selloff.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/%5EAXJO/"
+    }
+  ],
+  "coming_up": "Next scheduled macro event: not available (could not be verified in this run)."
+}
