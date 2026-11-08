@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-09",
+  "status": "published",
+  "published_at": "2026-11-09T07:25:00+11:00",
+  "session_covered": "US session of Friday 6 November (markets shut over the weekend)",
+  "intro": "Covers Friday 6 November's US session, the most recent close (markets were shut over the weekend). SPI futures could not be pinned to a single level, so section 2 gives a range.",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 7376.86,
+      "unit": "pts",
+      "change": 0.31,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": 24579.42,
+      "unit": "pts",
+      "change": 1.09,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": 51285.73,
+      "unit": "pts",
+      "change": -0.46,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": 25.64,
+      "unit": "pts",
+      "change": -9.01,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": 4.87,
+      "unit": "%",
+      "change": 2.8,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.6864,
+      "unit": "US$",
+      "change": -0.95,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": 98.32,
+      "unit": "US$/bbl",
+      "change": 0.03,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": 4070.41,
+      "unit": "US$/oz",
+      "change": -0.42,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 92.7,
+      "unit": "US$/t",
+      "change": -0.45,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "Nasdaq +1.09% is derived from the 24,579.42 close (one source rounded to +1.3% for the Nasdaq 100). Dow close 51,285.73 per two sources; a third cited 51,277. Gold, iron ore, Brent, AUD/USD and the 10-year yield are Trading Economics CFD/reference prices."
+  ],
+  "setup": {
+    "spi_level": 9042,
+    "spi_change_pct": 0.13,
+    "implied_open": 9032,
+    "implied_open_points": 11.3,
+    "implied_open_pct": 0.13,
+    "prior_close": 9020.8,
+    "prior_close_change_pct": -0.49,
+    "approximate": true,
+    "summary": "SPI 200 futures (Dec 2026) are up modestly: TradingView shows 9,036 (+0.22%), while Investing.com's Friday-close print is 9,048.5 (+0.03%). The sources agree on direction but not level, so the futures are up roughly 0.03-0.22% (level 9,036-9,048.5; midpoint 9,042, +0.13%). Applied to Friday's ASX 200 close, that implies an open around 9,032, up about 11 points (+0.13%), approximate. The ASX 200 closed Friday at 9,020.80, down 44.27 points (-0.49%), though it gained 1.3% for the week."
+  },
+  "local_events": [
+    "No major scheduled Australian data release identified for Monday.",
+    "Later this week: Westpac consumer sentiment (Tuesday 10 November, 10:30 AEDT), the business survey and RBA Deputy Governor Hunter speaking (dates not confirmed)."
+  ],
+  "what_moved": "A strong US October jobs report (payrolls +165,000 vs about 65,000 expected, unemployment 4.1%) lifted the 10-year yield to 4.87% and pushed up the odds of a Fed rate hike, weighing on the Dow. Chipmakers led a rebound after Thursday's worst session since April 2025, which had put the Nasdaq into correction; technology was the best-performing S&P 500 sector and consumer staples the weakest (sector percentages not available). The dollar firmed and gold slipped.",
+  "news": [
+    {
+      "headline": "US jobs beat forecasts.",
+      "summary": "October payrolls rose 165,000 against a 65,000 forecast, with unemployment at 4.1% and wage growth above expectations, raising expectations of a Fed hike.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+    },
+    {
+      "headline": "Chips rebound after Thursday's rout.",
+      "summary": "Nvidia rose about 3.9% and AMD about 10.8%, but the Nasdaq still fell 3.4% on the week after AI-spending worries.",
+      "source": "CoinCentral",
+      "url": "https://coincentral.com/nasdaq-ends-week-3-4-lower-despite-friday-tech-rebound-as-jobs-data-tops-forecasts"
+    },
+    {
+      "headline": "RBA hiked to 4.85%.",
+      "summary": "The Reserve Bank raised the cash rate 25 bp in a 6-3 vote, its fifth hike this year, with guidance seen as less hawkish; markets price about a 6% chance of a December hike.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/australia/currency"
+    },
+    {
+      "headline": "Australian dollar slides.",
+      "summary": "AUD/USD fell 0.95% to 0.6864, its lowest in months, on the global equity sell-off and US midterm-driven worries about tighter AI regulation.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/australia/currency"
+    },
+    {
+      "headline": "Oil steady on Iran risk.",
+      "summary": "Brent held near US$98 as traders weighed possible renewed US action against Iran and the stalled Strait of Hormuz talks; one account says it fell over 12% on the week.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+    },
+    {
+      "headline": "Gold dips on the dollar.",
+      "summary": "Gold fell 0.42% to US$4,070.41/oz as the jobs data firmed the dollar, but gained over 4% on the week.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/commodity/gold"
+    },
+    {
+      "headline": "ASX 200 slips on Friday.",
+      "summary": "The index fell 0.49% to 9,020.80 as BHP and Rio Tinto dropped with copper at its lowest since July; the major banks rose 0.6-2.7%.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/australia/stock-market"
+    }
+  ],
+  "coming_up": "US October CPI is due Tuesday 10 November at 13:30 UTC (00:30 Wednesday AEDT; one calendar lists a different day), with headline expected around 0.3% m/m. US PPI follows on Friday 13 November."
+}
