@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-10",
+  "status": "published",
+  "published_at": "2026-11-10T08:18:22+11:00",
+  "session_covered": "US session of Monday 9 November 2026",
+  "intro": "Covers the US session of Monday 9 November (closed around 08:00 Sydney). This is the 08:15 retry: the SPI 200 readings are undated and differ between sources, and the prior ASX 200 close could not be reconciled, so futures are shown as a range and the implied open in points is not available.",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 7549.94,
+      "unit": "pts",
+      "change": 2.35,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": 25253.14,
+      "unit": "pts",
+      "change": 2.74,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": 52389.75,
+      "unit": "pts",
+      "change": 2.15,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": 20.08,
+      "unit": "pts",
+      "change": -21.8,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": 4.878,
+      "unit": "%",
+      "change": 1.1,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.6925,
+      "unit": "US$",
+      "change": 0.89,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": 92.8,
+      "unit": "US$/bbl",
+      "change": -5.59,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": 4137.77,
+      "unit": "US$/oz",
+      "change": 1.65,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 92.71,
+      "unit": "US$/t",
+      "change": 0.01,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "Index closes and VIX from Yahoo Finance (VIX page header shows 20.04, -21.83%). Yield, AUD/USD, Brent, gold and iron ore are Trading Economics CFD-based reference prices; Yahoo shows the 10-year at 4.864% and gold futures at US$4,147.40/oz; Trading Economics text gives Brent at US$92.76 and AUD/USD at 0.6928. Iron ore is essentially flat and may be a stale print."
+  ],
+  "setup": {
+    "spi_level": 9127,
+    "spi_change_pct": 0.8,
+    "implied_open": null,
+    "implied_open_points": null,
+    "implied_open_pct": 0.8,
+    "prior_close": null,
+    "prior_close_change_pct": null,
+    "approximate": true,
+    "summary": "SPI 200 futures (December contract) are indicated higher, roughly +0.6% to +1.0% (about 9,118 to 9,135.5; midpoint about +0.8%). The two readings (TradingView +0.63%, Investing.com +0.96%) are undated and may predate the US rally, so treat the figure as approximate. That implies an ASX 200 open roughly 0.6-1.0% higher. An implied open in points is not available because Monday's ASX 200 close could not be reconciled (sources show 9,100.9, +0.10%, and about 9,030, +0.2%)."
+  },
+  "local_events": [
+    "Westpac consumer sentiment (November, around 10:30 AEDT, consensus 78.3)",
+    "NAB business survey (October, around 11:30 AEDT, prior confidence -13, consensus -14)",
+    "Times are approximate. Notable local earnings: not available."
+  ],
+  "what_moved": "Wall Street rallied sharply as Brent fell about 5.6% on reports that further US strikes on Iran are \"highly unlikely\" if talks progress, easing inflation worries, and as buyers returned after last week's tech/AI selloff (the Nasdaq fell about 5.5% on 5 November). Strong October payrolls (about 165k vs about 65k expected) kept a December Fed hike priced at roughly 80% but did not stop the rally. S&P 500 sector moves: not available; among large caps Caterpillar, Tesla, Meta and Goldman Sachs gained while Nvidia fell about 4%.",
+  "news": [
+    {
+      "headline": "Oil slumps on Iran hopes.",
+      "summary": "Brent fell about 5.6% to US$92.80/bbl after reports that the US sees further strikes on Iran as unlikely if talks progress, though other reports cited a tanker hit near Hormuz and a US strike on Qeshm Island.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+    },
+    {
+      "headline": "Strong US jobs, Fed hike odds high.",
+      "summary": "October payrolls rose about 165k against about 65k forecast with unemployment at 4.1%; markets price about an 80% chance of a 25bp Fed hike in December (fed funds 4.00%).",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+    },
+    {
+      "headline": "Tech rebounds after selloff.",
+      "summary": "The Nasdaq Composite gained 2.74% after last week's AI-led slide, though Nvidia fell about 4% amid headlines about a probe of its CEO and ongoing debate over AI investment payoffs.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/%5EIXIC/"
+    },
+    {
+      "headline": "RBA lifts cash rate to 4.85%.",
+      "summary": "The RBA raised rates for a fifth time this year in a 6-3 vote and dropped its tightening bias; swaps imply about 80% odds rates have peaked.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/australia/currency"
+    },
+    {
+      "headline": "US midterms shift Congress.",
+      "summary": "Democrats won control of both chambers, and markets are weighing the prospect of tighter AI regulation.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/commodity/gold"
+    },
+    {
+      "headline": "China's central bank adds gold.",
+      "summary": "The PBoC bought 25.8 t in October, its largest monthly addition in three years, according to World Gold Council data.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/commodity/gold"
+    }
+  ],
+  "coming_up": "US October CPI is due Tuesday 10 November at 8:30am ET (00:30 AEDT Wednesday 11 November); consensus is +0.2% m/m and 3.8% y/y headline, core 2.7% y/y. RBA Assistant Governor Baker speaks around 10:30 AEDT Thursday 12 November; US PPI follows Friday 13 November."
+}

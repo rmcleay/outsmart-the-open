@@ -1,12 +1,32 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-10T07:16:29+11:00",
+  "updated_at": "2026-11-10T08:18:22+11:00",
   "briefs": [
     {
       "date": "2026-11-10",
-      "status": "delayed",
-      "delayed_reason": "The US session had not yet closed at 07:15 Sydney (S&P 500 still trading), so overnight closes and SPI direction could not be verified.",
-      "retry_at": "2026-11-10T08:15:00+11:00"
+      "status": "published",
+      "published_at": "2026-11-10T08:18:22+11:00",
+      "implied_open_pct": 0.8,
+      "implied_open_points": null,
+      "scoreboard": {
+        "sp500": 7549.94,
+        "nasdaq": 25253.14,
+        "dow": 52389.75,
+        "vix": 20.08,
+        "us10y": 4.878,
+        "audusd": 0.6925,
+        "brent": 92.8,
+        "gold": 4137.77,
+        "iron_ore": 92.71
+      },
+      "headlines": [
+        "Oil slumps on Iran hopes.",
+        "Strong US jobs, Fed hike odds high.",
+        "Tech rebounds after selloff.",
+        "RBA lifts cash rate to 4.85%.",
+        "US midterms shift Congress.",
+        "China's central bank adds gold."
+      ]
     },
     {
       "date": "2026-11-09",
