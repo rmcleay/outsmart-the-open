@@ -1,7 +1,13 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-09T07:25:00+11:00",
+  "updated_at": "2026-11-10T07:16:29+11:00",
   "briefs": [
+    {
+      "date": "2026-11-10",
+      "status": "delayed",
+      "delayed_reason": "The US session had not yet closed at 07:15 Sydney (S&P 500 still trading), so overnight closes and SPI direction could not be verified.",
+      "retry_at": "2026-11-10T08:15:00+11:00"
+    },
     {
       "date": "2026-11-09",
       "status": "published",
