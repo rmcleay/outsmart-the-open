@@ -1,7 +1,13 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-10T08:18:22+11:00",
+  "updated_at": "2026-11-11T07:20:00+11:00",
   "briefs": [
+    {
+      "date": "2026-11-11",
+      "status": "delayed",
+      "delayed_reason": "At 07:15 Sydney the US session had not yet closed (closes ~08:00) and sources gave conflicting intraday figures and ASX 200 close.",
+      "retry_at": "2026-11-11T08:15:00+11:00"
+    },
     {
       "date": "2026-11-10",
       "status": "published",
