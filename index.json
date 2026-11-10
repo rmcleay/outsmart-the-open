@@ -1,12 +1,34 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-11T07:20:00+11:00",
+  "updated_at": "2026-11-11T08:19:25+11:00",
   "briefs": [
     {
       "date": "2026-11-11",
-      "status": "delayed",
-      "delayed_reason": "At 07:15 Sydney the US session had not yet closed (closes ~08:00) and sources gave conflicting intraday figures and ASX 200 close.",
-      "retry_at": "2026-11-11T08:15:00+11:00"
+      "status": "published",
+      "published_at": "2026-11-11T08:19:25+11:00",
+      "implied_open_pct": -0.12,
+      "implied_open_points": -10.5,
+      "scoreboard": {
+        "sp500": 7520.93,
+        "nasdaq": 25065.88,
+        "dow": 52231.89,
+        "vix": 19.54,
+        "us10y": 4.98,
+        "audusd": 0.6867,
+        "brent": 91.96,
+        "gold": 4030.93,
+        "iron_ore": 92.54
+      },
+      "headlines": [
+        "Hot CPI raises Fed hike odds.",
+        "Fed officials lean hawkish.",
+        "10-year yield tests 5%.",
+        "Gold slides.",
+        "Oil eases on Iran talk.",
+        "RBA hikes again.",
+        "ASX 200 hits two-month high.",
+        "Nvidia board probe."
+      ]
     },
     {
       "date": "2026-11-10",

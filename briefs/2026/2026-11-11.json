@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "status": "published",
+  "published_at": "2026-11-11T08:19:25+11:00",
+  "session_covered": "US session of Tuesday 10 November",
+  "intro": "Covers the US session of Tuesday 10 November. Delayed from the first attempt; some SPI and calendar items could not be fully verified (see footnotes).",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 7520.93,
+      "unit": "pts",
+      "change": -0.38,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": 25065.88,
+      "unit": "pts",
+      "change": -0.74,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": 52231.89,
+      "unit": "pts",
+      "change": -0.3,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": 19.54,
+      "unit": "pts",
+      "change": -1.9,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": 4.98,
+      "unit": "%",
+      "change": 12,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.6867,
+      "unit": "US$",
+      "change": -0.86,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": 91.96,
+      "unit": "US$/bbl",
+      "change": -0.66,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": 4030.93,
+      "unit": "US$/oz",
+      "change": -2.65,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 92.54,
+      "unit": "US$/t",
+      "change": -0.18,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "Index closes and VIX from Yahoo Finance; Trading Economics CFD quotes differed slightly (S&P 500 7,528.50, -0.32%; Dow 52,282, -0.18%; VIX 19.45). 10-year yield: Trading Economics 4.99%, +10 bp. Spot gold per Trading Economics; gold futures fell 1.84% (Yahoo). AUD/USD, Brent, gold and iron ore are Trading Economics CFD-based reference prices."
+  ],
+  "setup": {
+    "spi_level": 9119,
+    "spi_change_pct": -0.12,
+    "implied_open": 9118.5,
+    "implied_open_points": -10.5,
+    "implied_open_pct": -0.12,
+    "prior_close": 9129.0,
+    "prior_close_change_pct": 1.1,
+    "approximate": true,
+    "summary": "SPI 200 futures are indicated at about 9,119 (Dec contract), roughly flat to slightly lower: -0.05% (TradingView) to -0.18% (Investing.com). The quotes carry no timestamp and may not fully reflect the post-US-close move, so treat the figure as approximate. Applying the midpoint (-0.12%) to the prior ASX 200 close of 9,129.0 (+1.10% on Tuesday, a two-month closing high) implies an open about 10 points lower, near 9,118."
+  },
+  "local_events": [
+    "No scheduled Australian releases could be verified (the FNArena calendar is members-only)."
+  ],
+  "what_moved": "Wall Street reversed part of Monday's strong rally after October US CPI came in hotter than expected (+0.4% m/m vs 0.3% forecast; core +0.3% vs 0.2%), lifting bets on a December Fed rate hike. The 10-year yield climbed to about 5%, and Nvidia fell around 5% amid reports of a board investigation into its CEO. Sector-level S&P 500 moves were not available from the sources used.",
+  "news": [
+    {
+      "headline": "Hot CPI raises Fed hike odds.",
+      "summary": "October CPI rose 0.4% m/m and core 0.3%; markets price roughly 80% or more odds of a December hike.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market/news/600147"
+    },
+    {
+      "headline": "Fed officials lean hawkish.",
+      "summary": "Governor Waller reportedly backs a 50 bp December hike if inflation keeps accelerating; Dallas Fed's Logan reportedly backs at least two more 25 bp hikes.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/commodity/gold/news/600010"
+    },
+    {
+      "headline": "10-year yield tests 5%.",
+      "summary": "The US 10-year moved above 5% intraday before settling near 4.98%.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield/news/600014"
+    },
+    {
+      "headline": "Gold slides.",
+      "summary": "Spot gold fell about 2.7% to around US$4,031/oz on the rate-hike repricing.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/commodity/gold/news/600010"
+    },
+    {
+      "headline": "Oil eases on Iran talk.",
+      "summary": "Brent slipped 0.7% after Trump said further strikes may not be needed and Qatar mediated, though tanker attacks in Hormuz continued.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/commodity/brent-crude-oil/news/599981"
+    },
+    {
+      "headline": "RBA hikes again.",
+      "summary": "The RBA raised rates for a fifth time this year (6-3 vote) and dropped its tightening bias; swaps imply about 80% odds rates have peaked.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/australia/currency/news/599770"
+    },
+    {
+      "headline": "ASX 200 hits two-month high.",
+      "summary": "The index gained about 1.1% on Tuesday, led by industrials, tech and logistics.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/australia/stock-market/news/599849"
+    },
+    {
+      "headline": "Nvidia board probe.",
+      "summary": "Nvidia fell about 5% on reports of a board investigation into its CEO.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/11/10/the-overnight-report-oil-falls-tech-recovers/"
+    }
+  ],
+  "coming_up": "Thursday 12 November: RBA board member Marnie Baker speaks. Nvidia earnings are due around 17 November."
+}
