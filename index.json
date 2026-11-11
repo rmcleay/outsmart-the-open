@@ -1,12 +1,33 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-12T07:20:00+11:00",
+  "updated_at": "2026-11-12T10:43:44+11:00",
   "briefs": [
     {
       "date": "2026-11-12",
-      "status": "delayed",
-      "delayed_reason": "The US session had not yet closed at 07:15 Sydney (final index closes unavailable), so the brief is deferred to 08:15.",
-      "retry_at": "2026-11-12T08:15:00+11:00"
+      "status": "published",
+      "published_at": "2026-11-12T10:43:44+11:00",
+      "implied_open_pct": -0.48,
+      "implied_open_points": -44.4,
+      "scoreboard": {
+        "sp500": 7619.38,
+        "nasdaq": 25466.19,
+        "dow": 52486.49,
+        "vix": 17.61,
+        "us10y": 5.0,
+        "audusd": 0.6844,
+        "brent": 92.51,
+        "gold": 3984.91,
+        "iron_ore": 92.15
+      },
+      "headlines": [
+        "AI trade roars back on CoreWeave.",
+        "Dollar hits a 19-month high; December hike odds near 90-100%.",
+        "Waller backs a 50 bp December hike.",
+        "Gold falls under US$4,000.",
+        "Brent settles above US$92 on Middle East risk.",
+        "Anthropic IPO oversubscribed by up to US$1.4trn.",
+        "Australian housing lending at a five-quarter low."
+      ]
     },
     {
       "date": "2026-11-11",

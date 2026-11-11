@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-12",
+  "status": "published",
+  "published_at": "2026-11-12T10:43:44+11:00",
+  "session_covered": "US and European sessions of Wednesday 11 November 2026 (US Treasury market closed for Veterans Day)",
+  "intro": "Covers the US and European sessions of Wednesday 11 November 2026; the US Treasury market was closed for Veterans Day, so bond yields are unchanged from Tuesday. This is a late retry run: SPI futures quotes span two sources and contract months and are marked approximate (see footnotes).",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 7619.38,
+      "unit": "pts",
+      "change": 1.31,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": 25466.19,
+      "unit": "pts",
+      "change": 1.6,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": 52486.49,
+      "unit": "pts",
+      "change": 0.49,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": 17.61,
+      "unit": "pts",
+      "change": -9.51,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": 5.0,
+      "unit": "%",
+      "change": null,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.6844,
+      "unit": "US$",
+      "change": -0.39,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": 92.51,
+      "unit": "US$/bbl",
+      "change": 0.61,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": 3984.91,
+      "unit": "US$/oz",
+      "change": -1.18,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 92.15,
+      "unit": "US$/t",
+      "change": -0.42,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "S&P 500, NASDAQ Composite and Dow closes per FNArena and Yahoo Finance, which agreed. VIX per FNArena at 17.61 (-9.51%); Yahoo Finance showed 17.49 (-10.12%).",
+    "US bond market closed Wednesday for Veterans Day; the US 10-year is quoted around 5.00% (Yahoo 4.998%, Trading Economics 4.99%) with no Wednesday move to report - FNArena's +0.30% is a carry-over from Tuesday.",
+    "AUD/USD per Yahoo Finance (prior close 0.6871); Trading Economics CFD showed 0.6843 (-0.34%). Brent per FNArena settlement; Trading Economics CFD showed 92.47 (+1.39%) after touching US$94.6 intraday. Spot gold per Trading Economics; FNArena showed US$3,984.23/oz (-1.15%). Iron ore per FNArena and Trading Economics, which agreed."
+  ],
+  "setup": {
+    "spi_level": 9156,
+    "spi_change_pct": -0.48,
+    "implied_open": 9108.8,
+    "implied_open_points": -44.4,
+    "implied_open_pct": -0.48,
+    "prior_close": 9153.2,
+    "prior_close_change_pct": 0.27,
+    "approximate": true,
+    "summary": "SPI 200 futures are quoted at 9,156, down 0.4-0.6%: FNArena shows -37 points (-0.40%) and the TradingView December contract -0.57%. The prior ASX 200 cash close was 9,153.20 (+0.27% on Wednesday). Applying the futures range to that close implies an open of about 9,101-9,117, roughly 44 points or 0.48% lower, near 9,109 at the midpoint. The quotes span contract months and pre-open timing, so treat the level as approximate."
+  },
+  "local_events": [
+    "No scheduled Australian data releases or RBA speeches were listed for Thursday.",
+    "Earnings due: Xero (1H27), Aristocrat Leisure, GrainCorp, Orica, Paladin Energy.",
+    "ASX AGMs: AMR, CHC, CPU, CTD, GYG and others."
+  ],
+  "what_moved": "The AI trade roared back overnight: strength in artificial-intelligence names, led by CoreWeave, lifted the NASDAQ Composite 1.60% and the S&P 500 1.31%, even as the US dollar index hit a 19-month high at 102.93 and markets pushed December Fed-hike odds toward 90-100%. The hawkish tone kept spot gold under US$4,000/oz (-1.2%) and the Australian dollar at US$0.6844, while Brent held above US$92/bbl on Middle East security concerns; sector-level S&P 500 moves were not available from the sources used. The US Treasury market was closed Wednesday for Veterans Day, so yields are unchanged from Tuesday.",
+  "news": [
+    {
+      "headline": "AI trade roars back on CoreWeave.",
+      "summary": "CoreWeave-led strength in AI names lifted the NASDAQ Composite 1.60% and the S&P 500 1.31%, capping a risk-on session for US equities.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/11/12/the-overnight-report-ai-trade-roars-back/"
+    },
+    {
+      "headline": "Dollar hits a 19-month high; December hike odds near 90-100%.",
+      "summary": "The US dollar index reached a 19-month high at 102.93 and markets pushed the odds of a December Fed rate hike toward 90-100%.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/11/12/the-overnight-report-ai-trade-roars-back/"
+    },
+    {
+      "headline": "Waller backs a 50 bp December hike.",
+      "summary": "Fed Governor Waller signalled support for a 50 bp move in December if inflation keeps running hot, per reports.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/11/12/the-overnight-report-ai-trade-roars-back/"
+    },
+    {
+      "headline": "Gold falls under US$4,000.",
+      "summary": "Spot gold dropped about 1.2% to around US$3,985/oz on the stronger dollar and higher rate-hike odds.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/commodity/gold"
+    },
+    {
+      "headline": "Brent settles above US$92 on Middle East risk.",
+      "summary": "Brent settled around US$92.7/bbl after touching US$94.6 intraday, as reports that Treasury Secretary Bessent was moved to a military base stoked security concerns.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+    },
+    {
+      "headline": "Anthropic IPO oversubscribed by up to US$1.4trn.",
+      "summary": "The Anthropic Nasdaq listing expected next week is reportedly oversubscribed by up to US$1.4 trillion.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/11/12/the-overnight-report-ai-trade-roars-back/"
+    },
+    {
+      "headline": "Australian housing lending at a five-quarter low.",
+      "summary": "Q3 Australian housing credit growth hit a five-quarter low, alongside soft consumer sentiment readings.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/australia/currency"
+    }
+  ],
+  "coming_up": "The Fed's December meeting looms with a 50 bp hike now seen as increasingly likely, and the ECB has signalled a 25 bp move at its own December meeting. Anthropic's Nasdaq listing is expected next week; Nvidia reports earnings around 17 November."
+}
