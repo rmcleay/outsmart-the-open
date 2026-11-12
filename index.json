@@ -1,12 +1,33 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-13T07:20:00+11:00",
+  "updated_at": "2026-11-13T08:20:00+11:00",
   "briefs": [
     {
       "date": "2026-11-13",
-      "status": "delayed",
-      "delayed_reason": "The US session had not closed at 07:16 Sydney and sources only showed conflicting intraday levels for the US indices.",
-      "retry_at": "2026-11-13T08:15:00+11:00"
+      "status": "published",
+      "published_at": "2026-11-13T08:20:00+11:00",
+      "implied_open_pct": -0.27,
+      "implied_open_points": null,
+      "scoreboard": {
+        "sp500": 7592.4,
+        "nasdaq": 25366.09,
+        "dow": 52297.09,
+        "vix": 18.78,
+        "us10y": 5.1,
+        "audusd": 0.6805,
+        "brent": 96.07,
+        "gold": 3872.97,
+        "iron_ore": 91.6
+      },
+      "headlines": [
+        "Nvidia CEO resigns",
+        "Fed hike pricing builds",
+        "Oil jumps",
+        "Gold slides",
+        "Australian dollar at nine-month low",
+        "RBA peak debate",
+        "Small caps weaker"
+      ]
     },
     {
       "date": "2026-11-12",
