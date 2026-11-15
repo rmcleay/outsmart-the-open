@@ -1,7 +1,35 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-13T08:20:00+11:00",
+  "updated_at": "2026-11-16T08:55:35+11:00",
   "briefs": [
+    {
+      "date": "2026-11-16",
+      "status": "published",
+      "published_at": "2026-11-16T08:55:35+11:00",
+      "implied_open_pct": -0.02,
+      "implied_open_points": -1.8,
+      "scoreboard": {
+        "sp500": 7561.67,
+        "nasdaq": 25136.27,
+        "dow": 52347.55,
+        "vix": 19.3,
+        "us10y": 5.14,
+        "audusd": 0.6771,
+        "brent": 95.84,
+        "gold": 3881.75,
+        "iron_ore": 91.6
+      },
+      "headlines": [
+        "Nvidia leadership shake-up keeps pressure on chips",
+        "Hot US producer prices reinforce Fed hike bets",
+        "Fed's Goolsbee: central bank \"has definitely got work to do\" on inflation",
+        "Gold and EUR/USD hit 2026 lows as US yields surge",
+        "Aussie dollar at 10-month low as yield gap flips",
+        "ASX 200 near record, with resistance flagged at 9,200-9,250",
+        "Middle East tension and oil",
+        "Anthropic IPO and Nvidia earnings set the week's agenda"
+      ]
+    },
     {
       "date": "2026-11-13",
       "status": "published",

@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-16",
+  "status": "published",
+  "published_at": "2026-11-16T08:55:35+11:00",
+  "session_covered": "US and European sessions of Friday 13 November",
+  "intro": "Covers the US and European sessions of Friday 13 November. This brief is later than usual (published after the 08:15 target), and several figures were reconciled across sources; see the footnotes.",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 7561.67,
+      "unit": "pts",
+      "change": -0.4,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": 25136.27,
+      "unit": "pts",
+      "change": -0.91,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": 52347.55,
+      "unit": "pts",
+      "change": 0.1,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": 19.3,
+      "unit": "pts",
+      "change": 3.21,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": 5.14,
+      "unit": "%",
+      "change": 1,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.6771,
+      "unit": "US$",
+      "change": -0.54,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": 95.84,
+      "unit": "US$/bbl",
+      "change": 0.02,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": 3881.75,
+      "unit": "US$/oz",
+      "change": 0.14,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 91.6,
+      "unit": "US$/t",
+      "change": -0.6,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "US 10-year: Trading Economics shows 5.145% (+1.1 bp) and ANZ +1 bp to 5.14%; FNArena's table shows 5.15% (+5 bp), so the larger move is not confirmed.",
+    "Brent: FNArena shows US$96.00 (+3.77%) but Trading Economics shows US$95.84 (+0.02%); the levels agree, the change does not. The TE figure is used because it is consistent with the prior brief's Brent level (US$96.07).",
+    "Gold: FNArena shows US$3,874.34 (-2.76%) and ANZ -1.8% to US$3,884.5, while Trading Economics shows US$3,881.75 (+0.14%); levels agree, the daily change is unresolved, and the TE figure is used.",
+    "Iron ore: FNArena US$91.60 (-0.60%) used; Trading Economics shows US$91.48 (-0.13%).",
+    "AUD/USD is from a single source (Trading Economics, CFD-based). Commodity and FX prices are CFD-based reference prices."
+  ],
+  "setup": {
+    "spi_level": 9114,
+    "spi_change_pct": -0.02,
+    "implied_open": 9080.4,
+    "implied_open_points": -1.8,
+    "implied_open_pct": -0.02,
+    "prior_close": 9082.2,
+    "prior_close_change_pct": -0.71,
+    "approximate": false,
+    "summary": "SPI 200 futures are around 9,114, down 0.02% (FNArena and TradingView agree), pointing to a flat open: about 9,080 on the ASX 200, roughly -1.8 points or -0.02%. The ASX 200 closed Friday at 9,082.20, down 0.71% (-64.6 points), but still rose 0.68% over the week, its third straight weekly gain."
+  },
+  "local_events": [
+    "BHP investor briefing",
+    "Elders FY26 earnings",
+    "BlueScope Steel AGM",
+    "Offshore: China October industrial production, retail sales and unemployment; Japan Q3 GDP (preliminary); US Empire State manufacturing survey",
+    "No major Australian data release was identified for today"
+  ],
+  "what_moved": "Wall Street drifted lower, led down by technology, as a renewed chip-sector sell-off around Nvidia's leadership change and a hot producer-price reading combined with surging Treasury yields. The Nasdaq Composite fell 0.91% and the S&P 500 0.40%, while the Dow edged up 0.10%. Even so, the major US averages finished the week higher. Nvidia ended the week down about 13%, with money rotating into Apple, AMD and Broadcom earlier in the week. Markets are pricing roughly an 85-89% chance of a Federal Reserve rate hike in December, and the US dollar is at a multi-month high. S&P 500 sector percentages for Friday were not available from the sources checked.",
+  "news": [
+    {
+      "headline": "Nvidia leadership shake-up keeps pressure on chips",
+      "summary": "Nvidia fell again and its market value slipped below US$4 trillion after reports CEO Jensen Huang is stepping down, and HSBC downgraded the stock to hold, saying it will struggle until a new CEO is named.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/13/hsbc-downgrades-nvidia-says-stock-to-struggle-until-new-ceo-named.html"
+    },
+    {
+      "headline": "Hot US producer prices reinforce Fed hike bets",
+      "summary": "October PPI rose 0.3% m/m (0.4% expected) but the annual rate was the highest since November 2022, and markets treat a 9 December Fed hike as close to certain.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/11/16/the-monday-report-16-november-2026/"
+    },
+    {
+      "headline": "Fed's Goolsbee: central bank \"has definitely got work to do\" on inflation",
+      "summary": "The Chicago Fed president's comments added to the hawkish tone as Treasury yields extended a sharp four-session rise.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/13/chicago-feds-goolsbee-says-central-bank-has-definitely-got-work-to-do-on-inflation.html"
+    },
+    {
+      "headline": "Gold and EUR/USD hit 2026 lows as US yields surge",
+      "summary": "A stronger US dollar and rate-hike pricing weighed on gold and the euro; the dollar index is at its highest in around 19 months.",
+      "source": "StoneX",
+      "url": "https://www.stonex.com/en-gb/news-and-analysis/gold-eur-usd-hit-2026-lows-as-us-yields-erupt-2026-11-12/"
+    },
+    {
+      "headline": "Aussie dollar at 10-month low as yield gap flips",
+      "summary": "Australian bond yields have fallen below US equivalents, leaving AUD/USD under pressure ahead of this week's Australian jobs data and RBA minutes.",
+      "source": "StoneX",
+      "url": "https://www.stonex.com/en-gb/news-and-analysis/aud-usd-outlook-historic-yield-squeeze-leaves-aussie-bears-in-control-2026-11-13/"
+    },
+    {
+      "headline": "ASX 200 near record, with resistance flagged at 9,200-9,250",
+      "summary": "The index has rallied about six weeks from a swing low near 8,600, with the focus on whether the RBA is near its peak rate.",
+      "source": "StoneX",
+      "url": "https://www.stonex.com/en-gb/news-and-analysis/asx-200-outlook-sector-rotation-builds-as-rally-nears-record-high-2026-11-12/"
+    },
+    {
+      "headline": "Middle East tension and oil",
+      "summary": "Iran reportedly struck a helicopter base in Bahrain with drones over the weekend while its parliament speaker said talks remain open; Brent has hovered near US$96/bbl after briefly dipping below US$90 earlier in the week.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/11/16/the-monday-report-16-november-2026/"
+    },
+    {
+      "headline": "Anthropic IPO and Nvidia earnings set the week's agenda",
+      "summary": "Nvidia reports after the US close on Tuesday, and the Anthropic IPO is expected to price on Wednesday at US$70-78 per share and begin trading on Thursday.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/13/stock-market-next-week-outlook-for-nov-16-20-2026.html"
+    }
+  ],
+  "coming_up": "Tuesday 17 November (US): October retail sales and industrial production, and Nvidia earnings after the close (Wednesday morning AEDT). Wednesday 18 November (US): FOMC minutes. Australian jobs data and RBA minutes are also due this week; exact dates were not verified."
+}
