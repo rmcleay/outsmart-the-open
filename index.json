@@ -1,7 +1,13 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-16T08:55:35+11:00",
+  "updated_at": "2026-11-17T07:20:00+11:00",
   "briefs": [
+    {
+      "date": "2026-11-17",
+      "status": "delayed",
+      "delayed_reason": "SPI 200 futures sources conflicted (stale/mixed readings) and Brent and some US closes could not be confirmed after the US session.",
+      "retry_at": "2026-11-17T08:15:00+11:00"
+    },
     {
       "date": "2026-11-16",
       "status": "published",
