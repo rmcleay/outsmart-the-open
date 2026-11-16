@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-17",
+  "status": "published",
+  "published_at": "2026-11-17T08:20:00+11:00",
+  "session_covered": "US session of Monday 16 November (European session also lower)",
+  "intro": "Covers the Monday 16 November US session (European session also lower). Published after an 08:15 retry to settle conflicting SPI futures readings; the SPI figure is a range and some figures are approximate (see notes).",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 7416.59,
+      "unit": "pts",
+      "change": -1.92,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": 24509.76,
+      "unit": "pts",
+      "change": -2.49,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": 51608.17,
+      "unit": "pts",
+      "change": -1.41,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": 23.6,
+      "unit": "pts",
+      "change": 22.28,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": 5.12,
+      "unit": "%",
+      "change": -3.3,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.6734,
+      "unit": "US$",
+      "change": -0.38,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": 92.29,
+      "unit": "US$/bbl",
+      "change": -3.7,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": 3851.08,
+      "unit": "US$/oz",
+      "change": -0.79,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 91.6,
+      "unit": "US$/t",
+      "change": -0.6,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "US index figures are from FNArena's post-close snapshot, consistent with ABC and Reuters (Dow). Other reports gave S&P 500 7,400-7,427 (-1.8% to -2.1%), Nasdaq 24,469-24,557 (-2.3% to -2.65%) and Dow 51,516-51,689 (-1.3% to -1.6%).",
+    "10-year yield per FNArena; Trading Economics and Reuters showed 5.13%, down 1-2bp. AUD/USD per FNArena; one source showed 0.6739 with a different base.",
+    "Brent per Bloomberg via Motley Fool (Trading Economics 92.17, -3.84%). Gold is a CFD-based spot price (other sources 3,853-3,863). Iron ore is the prior-session print (another source 91.48, -0.13%)."
+  ],
+  "setup": {
+    "spi_level": 9037,
+    "spi_change_pct": -0.65,
+    "implied_open": 8986,
+    "implied_open_points": -58.8,
+    "implied_open_pct": -0.65,
+    "prior_close": 9044.7,
+    "prior_close_change_pct": -0.41,
+    "approximate": true,
+    "summary": "SPI 200 futures point lower: down roughly 0.5-0.8% (December contract about 9,032-9,041; ABC -0.5% to 9,041, Motley Fool -0.75% / -68 points, Investing.com 9,032, -0.79%). Using the midpoint of -0.65%, the implied ASX 200 open is about 8,986, roughly 59 points lower. The ASX 200 closed Monday at 9,044.7, down 0.41%."
+  },
+  "local_events": [
+    "RBA Governor Michele Bullock speaks at the ASIC Annual Forum at 10:00 AEDT",
+    "RBA board meeting minutes at 11:30 AEDT",
+    "Catapult Sports half-year result"
+  ],
+  "what_moved": "AI and chip stocks led a broad sell-off ahead of Nvidia's earnings (due Tuesday US time) and Anthropic's IPO, after Nvidia chief executive Jensen Huang's resignation and a new US rule restricting China's access to advanced AI chips. The Philadelphia semiconductor index fell 4.6% and Nvidia about 4-5%; decliners outnumbered advancers about 3.2-to-1. An S&P 500 sector breakdown was not available in the sources retrieved.",
+  "news": [
+    {
+      "headline": "Nvidia CEO resigns before earnings.",
+      "summary": "Jensen Huang resigned last week; CFO Colette Kress is interim CEO. Nvidia has lost about US$1.9 trillion of market value since early October.",
+      "source": "Reuters (Investing.com)",
+      "url": "https://au.investing.com/news/economy-news/morning-bid-ai-selloff-resumes-as-nvidia-earnings-loom-4772225"
+    },
+    {
+      "headline": "US tightens China AI-chip access.",
+      "summary": "A new interim rule restricts China's access to top AI chips, issued ahead of a planned Trump-Xi meeting. The Nasdaq is now more than 10% below its 6 October record close.",
+      "source": "Korea Times",
+      "url": "https://www.koreatimes.co.kr/world/20261117/wall-street-slumps-on-ai-jitters-ahead-of-nvidia-results-anthropic-ipo"
+    },
+    {
+      "headline": "Fed hike pricing.",
+      "summary": "Fed Chair Kevin Warsh said AI could either lift growth or raise unemployment; CME FedWatch priced a 93.7% chance of a 25bp December hike, while Reuters cited about an 8% chance of a half-point move.",
+      "source": "Korea Times",
+      "url": "https://www.koreatimes.co.kr/world/20261117/wall-street-slumps-on-ai-jitters-ahead-of-nvidia-results-anthropic-ipo"
+    },
+    {
+      "headline": "Anthropic IPO nears.",
+      "summary": "The offer is set to price Wednesday US time, with Nasdaq trading a day later, and is reportedly about seven times oversubscribed.",
+      "source": "Stockhead",
+      "url": "https://stockhead.com.au/news/rise-and-shine-everything-you-need-to-know-before-the-asx-opens-926/"
+    },
+    {
+      "headline": "Asia sold off.",
+      "summary": "Taiex fell more than 4% and Japan and South Korea slumped on AI caution; Democrats' US midterm win raised concern about tougher data-centre regulation.",
+      "source": "Reuters (Investing.com)",
+      "url": "https://au.investing.com/news/economy-news/morning-bid-ai-selloff-resumes-as-nvidia-earnings-loom-4772225"
+    },
+    {
+      "headline": "Oil and gold slide.",
+      "summary": "Brent fell about 3.7% to near US$92/bbl, and a stronger US dollar pushed gold to a one-year low.",
+      "source": "Motley Fool Australia",
+      "url": "https://www.fool.com.au/2026/11/17/5-things-to-watch-on-the-asx-200-on-tuesday-17-november-2026/"
+    },
+    {
+      "headline": "ASX ended lower Monday.",
+      "summary": "The ASX 200 fell 0.41% to 9,044.7, led down by miners (materials -2.17%).",
+      "source": "Stockhead",
+      "url": "https://stockhead.com.au/news/closing-bell-wrong-way-or-more-wrong-way-asx-and-miners-say-yes/"
+    }
+  ],
+  "coming_up": "Nvidia reports quarterly earnings after the US close on Tuesday 17 November (US time); US retail sales are also due Tuesday. Fed October meeting minutes are due Wednesday 18 November (US time), and Anthropic's IPO is due to price the same day."
+}

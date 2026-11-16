@@ -1,12 +1,33 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-17T07:20:00+11:00",
+  "updated_at": "2026-11-17T08:20:00+11:00",
   "briefs": [
     {
       "date": "2026-11-17",
-      "status": "delayed",
-      "delayed_reason": "SPI 200 futures sources conflicted (stale/mixed readings) and Brent and some US closes could not be confirmed after the US session.",
-      "retry_at": "2026-11-17T08:15:00+11:00"
+      "status": "published",
+      "published_at": "2026-11-17T08:20:00+11:00",
+      "implied_open_pct": -0.65,
+      "implied_open_points": -58.8,
+      "scoreboard": {
+        "sp500": 7416.59,
+        "nasdaq": 24509.76,
+        "dow": 51608.17,
+        "vix": 23.6,
+        "us10y": 5.12,
+        "audusd": 0.6734,
+        "brent": 92.29,
+        "gold": 3851.08,
+        "iron_ore": 91.6
+      },
+      "headlines": [
+        "Nvidia CEO resigns before earnings.",
+        "US tightens China AI-chip access.",
+        "Fed hike pricing.",
+        "Anthropic IPO nears.",
+        "Asia sold off.",
+        "Oil and gold slide.",
+        "ASX ended lower Monday."
+      ]
     },
     {
       "date": "2026-11-16",
