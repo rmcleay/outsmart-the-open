@@ -1,7 +1,13 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-17T08:20:00+11:00",
+  "updated_at": "2026-11-18T07:18:00+11:00",
   "briefs": [
+    {
+      "date": "2026-11-18",
+      "status": "delayed",
+      "delayed_reason": "Sources conflicted on SPI 200 futures direction and on the US index closes; retrying at 08:15.",
+      "retry_at": "2026-11-18T08:15:00+11:00"
+    },
     {
       "date": "2026-11-17",
       "status": "published",
