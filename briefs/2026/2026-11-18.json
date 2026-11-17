@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-18",
+  "status": "published",
+  "published_at": "2026-11-18T08:32:00+11:00",
+  "session_covered": "US session of Tuesday 17 November and ASX session of Tuesday 17 November",
+  "intro": "Covers the US session of Tuesday 17 November (closed 08:00 AEDT) and the ASX session of Tuesday 17 November. This is the 08:15 retry after the first attempt was deferred. SPI 200 futures could not be verified from any source, so the implied open is not available.",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 7340.53,
+      "unit": "pts",
+      "change": -1.03,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": 24328.38,
+      "unit": "pts",
+      "change": -0.74,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": 50759.42,
+      "unit": "pts",
+      "change": -1.64,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": 25.55,
+      "unit": "pts",
+      "change": 11.5,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": 5.1,
+      "unit": "%",
+      "change": -1.8,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.6736,
+      "unit": "US$",
+      "change": -0.63,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": 92.94,
+      "unit": "US$/bbl",
+      "change": 0.54,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": 3849.57,
+      "unit": "US$/oz",
+      "change": -0.18,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 90.58,
+      "unit": "US$/t",
+      "change": -0.36,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "US index, VIX, 10-year yield, AUD/USD and Brent figures are closing/last prints from Yahoo Finance, calculated against the prior session close, and cross-checked with Trading Economics (CFD-based reference prices: S&P 500 7,341 / -1.19%, Dow -1.85%, Nasdaq 100 -0.72%, VIX 25.46). Differences are timing and CFD-versus-index basis.",
+    "Spot gold is from Trading Economics (CFD); Yahoo gold futures were -0.06% at US$3,850.70. Iron ore is a single-source print (Trading Economics CFD) and is approximate.",
+    "SPI 200 futures: TradingView showed +0.19% but flagged \"No trades\" and conflicts with the risk-off session; Investing.com and Market Index could not be read, FNArena's report was not yet published and Yahoo had no data. Level and direction are therefore not available."
+  ],
+  "setup": {
+    "spi_level": null,
+    "spi_change_pct": null,
+    "implied_open": null,
+    "implied_open_points": null,
+    "implied_open_pct": null,
+    "prior_close": 8883.2,
+    "prior_close_change_pct": -1.79,
+    "approximate": true,
+    "summary": "SPI 200 futures level and change are not available: sources could not be verified or conflicted (see footnotes), so no implied ASX 200 open is given. For reference, the ASX 200 closed Tuesday at 8,883.2, down 161.5 points or 1.79%, its fourth straight fall and biggest one-day drop since 1 October, with miners, tech and the big four banks lower. A sharp US tech-led fall points to a soft start, but this is not quantified here."
+  },
+  "local_events": [
+    "Not available: no scheduled Australian data releases, RBA speeches or earnings could be verified from a source in this run. RBA Governor Bullock has been speaking this week, so further commentary is possible."
+  ],
+  "what_moved": "US stocks closed lower on Tuesday as a tech-led selloff deepened ahead of Nvidia's results, due after the US close. The S&P 500 fell 1.0% to its lowest since July, the Nasdaq Composite fell 0.7% and the Dow lost about 849 points. Rate worries added to the pressure, with markets pricing about a 93-95% chance of a 25bp Fed hike in December, and the VIX rose to 25.55. Sector performance was not available; Microsoft, Oracle and big banks such as JPMorgan and Goldman Sachs were among the weaker large caps.",
+  "news": [
+    {
+      "headline": "US tech selloff deepens before Nvidia results",
+      "summary": "The S&P 500 closed at its lowest since July as tech led losses, with Nvidia's leadership turmoil after CEO Jensen Huang's departure and new US limits on remote access to advanced AI chips for companies serving Chinese customers weighing on sentiment.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/stock-market"
+    },
+    {
+      "headline": "Fed hike pricing builds",
+      "summary": "Markets see about a 93-95% chance of a 25bp Fed hike in December. St. Louis Fed President Musalem said as many as four hikes may be needed, while Cleveland's Hammack favours gradual increases. The 10-year yield held near 5.10%.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+    },
+    {
+      "headline": "ASX 200 falls 1.8% for a fourth session",
+      "summary": "The index closed at 8,883, its biggest drop since 1 October, tracking Wall Street's tech selloff. Iron ore at multi-year lows and weaker copper hit BHP, Rio Tinto and Fortescue (down 2.2-3.5%), and the big four banks fell 0.5-2.6%.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/australia/stock-market"
+    },
+    {
+      "headline": "RBA minutes lean hawkish; AUD at January low",
+      "summary": "November minutes showed six of nine board members considered the fifth rate hike necessary, and Governor Bullock said inflation risks remain tilted to the upside. The Australian dollar slipped to around US$0.67, its lowest since mid-January.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/australia/currency"
+    },
+    {
+      "headline": "Gold hovers near a one-year low",
+      "summary": "Gold traded near US$3,850/oz after touching a one-year low of US$3,830 on Monday, with the US dollar near a 19-month high on Fed hike expectations.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/commodity/gold"
+    },
+    {
+      "headline": "Brent steadies near US$93 on Hormuz tension",
+      "summary": "Brent rebounded after a 3.6% fall on Monday as Iran escalated threats against US forces and shipping around the Strait of Hormuz, with reports of tankers struck by mines or projectiles.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+    },
+    {
+      "headline": "Nvidia turmoil frames the AI trade",
+      "summary": "Ousted CEO Jensen Huang said he wants to return, and Nvidia reports earnings after the US close. A reported outage at a US intelligence agency network also added to unease about technical disruptions.",
+      "source": "Sharecafe",
+      "url": "https://www.sharecafe.com.au/2026/11/18/australian-shares-brace-for-lower-open-amid-nvidia-turmoil/"
+    }
+  ],
+  "coming_up": "Nvidia's results (reported after the US close, not reflected here) set the tone for tech. The FOMC minutes are due Wednesday in the US (Thursday morning in Sydney), and a Xi-Trump-Putin meeting in Shenzhen is expected on Thursday. The Fed's December meeting is the next rate decision markets are focused on."
+}

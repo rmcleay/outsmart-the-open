@@ -1,12 +1,33 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-18T07:18:00+11:00",
+  "updated_at": "2026-11-18T08:32:00+11:00",
   "briefs": [
     {
       "date": "2026-11-18",
-      "status": "delayed",
-      "delayed_reason": "Sources conflicted on SPI 200 futures direction and on the US index closes; retrying at 08:15.",
-      "retry_at": "2026-11-18T08:15:00+11:00"
+      "status": "published",
+      "published_at": "2026-11-18T08:32:00+11:00",
+      "implied_open_pct": null,
+      "implied_open_points": null,
+      "scoreboard": {
+        "sp500": 7340.53,
+        "nasdaq": 24328.38,
+        "dow": 50759.42,
+        "vix": 25.55,
+        "us10y": 5.1,
+        "audusd": 0.6736,
+        "brent": 92.94,
+        "gold": 3849.57,
+        "iron_ore": 90.58
+      },
+      "headlines": [
+        "US tech selloff deepens before Nvidia results",
+        "Fed hike pricing builds",
+        "ASX 200 falls 1.8% for a fourth session",
+        "RBA minutes lean hawkish; AUD at January low",
+        "Gold hovers near a one-year low",
+        "Brent steadies near US$93 on Hormuz tension",
+        "Nvidia turmoil frames the AI trade"
+      ]
     },
     {
       "date": "2026-11-17",
