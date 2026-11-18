@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-19",
+  "status": "published",
+  "published_at": "2026-11-19T08:17:33+11:00",
+  "session_covered": "US session of Wednesday 18 November 2026",
+  "intro": "Covers the US session of Wednesday 18 November (and the ASX session of the same day). This is the 08:15 retry; an earlier 07:15 attempt was deferred because closing prints and SPI figures were unconfirmed. Caveats on reconciled figures are in the footnotes.",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 7323.63,
+      "unit": "pts",
+      "change": -0.23,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": 24429.88,
+      "unit": "pts",
+      "change": 0.42,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": 50198.17,
+      "unit": "pts",
+      "change": -1.11,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": 24.61,
+      "unit": "pts",
+      "change": -3.34,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": 5.07,
+      "unit": "%",
+      "change": -5,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.6714,
+      "unit": "US$",
+      "change": -0.33,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": 91.84,
+      "unit": "US$/bbl",
+      "change": -1.83,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": 3724.91,
+      "unit": "US$/oz",
+      "change": -3.24,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 90.62,
+      "unit": "US$/t",
+      "change": -0.32,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "US index closes from CNBC (updated 4:13pm ET), cross-checked against Yahoo Finance; VIX and US 10-year yield from Yahoo Finance and Trading Economics (10-year change -4bp to -5bp across sources; -5bp shown).",
+    "Brent: Trading Economics 91.84 (-1.83%) used; CNBC showed about US$90.83 in the afternoon. Gold, AUD/USD and Brent are CFD-based reference prices.",
+    "Iron ore print is dated 17 November (Trading Economics); no 18 November print was available.",
+    "SPI 200 futures: sources agree on level (about 8,787) and direction but differ on the change (-0.53% TradingView, -0.84% Investing.com); midpoint shown."
+  ],
+  "setup": {
+    "spi_level": 8787,
+    "spi_change_pct": -0.69,
+    "implied_open": 8761,
+    "implied_open_points": -60.9,
+    "implied_open_pct": -0.69,
+    "prior_close": 8821.8,
+    "prior_close_change_pct": -0.69,
+    "approximate": true,
+    "summary": "SPI 200 futures were around 8,787 (Dec contract), down roughly 0.5-0.8% (TradingView -0.53%, Investing.com -0.84%; midpoint -0.69% used). Applied to the prior ASX 200 close of about 8,822 (-0.69% on Wednesday, a two-week low), that implies an open about 61 points (0.69%) lower, near 8,761. Trading Economics' ASX 200 table showed a conflicting 8,744; the 8,822 figure matches its news text and the -0.7% headline."
+  },
+  "local_events": [
+    "ABS October labour force (jobs) data, due today per Trading Economics; release time not verified",
+    "RBA speeches and other local data: none verified for today"
+  ],
+  "what_moved": "US stocks closed mixed as hawkish Fed minutes and a hot-inflation backdrop outweighed Nvidia's earnings beat: the Dow fell 1.11% and the S&P 500 slipped 0.23% for a fifth straight loss, while the Nasdaq rose 0.42%. Energy was the weakest S&P 500 sector, down nearly 3% as oil fell, and healthcare dragged the Dow; a full sector table was not available. Gold dropped more than 3% to its lowest since September 2025 on a firmer US dollar and rate-hike pricing, and AUD/USD fell to its weakest since January.",
+  "news": [
+    {
+      "headline": "Fed minutes point to further rate hikes",
+      "summary": "Minutes of the October FOMC meeting showed almost all participants judged further tightening would likely be appropriate, with some favouring a 25bp hike in October and AI demand flagged as a material source of inflation risk.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/17/stock-market-today-live-updates.html"
+    },
+    {
+      "headline": "Waller floats half-point December hike",
+      "summary": "Fed Governor Christopher Waller said a 50bp increase at the 8-9 December meeting is \"probably necessary\"; CME FedWatch put the odds of a 50bp cumulative move by end-January at about 69%.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-earnings-anthropic-ipo-143530588.html"
+    },
+    {
+      "headline": "Gold slides to lowest since September 2025",
+      "summary": "Spot gold fell more than 3% below US$3,800/oz on a firmer US dollar and rising Fed hike expectations.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/commodity/gold"
+    },
+    {
+      "headline": "Nvidia beats but shares close lower",
+      "summary": "Third-quarter revenue rose 103% year on year and guidance was lifted, yet the shares closed 2.9% lower amid CEO leadership turmoil, a delayed 10-Q filing and a reported SEC probe, weighing on AI-linked stocks.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/17/stock-market-today-live-updates.html"
+    },
+    {
+      "headline": "S&P 500 posts fifth straight loss as energy sinks",
+      "summary": "The index fell for a fifth session, its longest losing run since June; the energy sector dropped nearly 3% as oil slid, and a UnitedHealth slump dragged the Dow to a session low.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/17/stock-market-today-live-updates.html"
+    },
+    {
+      "headline": "Anthropic IPO set to price, trading Thursday",
+      "summary": "The AI developer was expected to price at US$70-78 a share (US$1.3-1.45 trillion valuation) with trading starting Thursday in New York.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-earnings-anthropic-ipo-143530588.html"
+    },
+    {
+      "headline": "ASX 200 at two-week low; Australian dollar weakest since January",
+      "summary": "The ASX 200 fell about 0.7% on Wednesday to a two-week low, and AUD/USD slipped to 0.671, its weakest level since mid-January.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/australia/stock-market"
+    },
+    {
+      "headline": "Bank Indonesia hikes; UK inflation at 3.6%",
+      "summary": "Bank Indonesia delivered a surprise 25bp hike to 6%, and UK CPI printed at 3.6%, adding to the global tightening backdrop.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-earnings-anthropic-ipo-143530588.html"
+    }
+  ],
+  "coming_up": "Thursday 19 November: Anthropic begins trading in New York and US-China leader talks are due at APEC in Shenzhen. Next major macro event: the FOMC meeting on 8-9 December, where a 50bp hike has been floated."
+}
