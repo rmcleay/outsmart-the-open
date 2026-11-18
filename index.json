@@ -1,7 +1,13 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-18T08:32:00+11:00",
+  "updated_at": "2026-11-19T07:25:00+11:00",
   "briefs": [
+    {
+      "date": "2026-11-19",
+      "status": "delayed",
+      "delayed_reason": "US Wednesday closes could not be verified (sources only showed intraday figures) and SPI 200 sources disagreed on the size of the fall (-0.53% vs -0.84%).",
+      "retry_at": "2026-11-19T08:15:00+11:00"
+    },
     {
       "date": "2026-11-18",
       "status": "published",
