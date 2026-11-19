@@ -1,12 +1,31 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-20T07:20:00+11:00",
+  "updated_at": "2026-11-20T08:17:42+11:00",
   "briefs": [
     {
       "date": "2026-11-20",
-      "status": "delayed",
-      "delayed_reason": "The US session had not yet closed at 07:16 Sydney (Wall Street still ~45 minutes from the close), so only intraday figures were available.",
-      "retry_at": "2026-11-20T08:15:00+11:00"
+      "status": "published",
+      "published_at": "2026-11-20T08:17:42+11:00",
+      "implied_open_pct": -1.35,
+      "implied_open_points": -117.9,
+      "scoreboard": {
+        "sp500": 7175.83,
+        "nasdaq": 23879.2,
+        "dow": 49097.06,
+        "vix": 28.99,
+        "us10y": 5.05,
+        "audusd": 0.6662,
+        "brent": 92.6,
+        "gold": 3660.48,
+        "iron_ore": 90.86
+      },
+      "headlines": [
+        "Wall Street sells off as Anthropic debuts",
+        "Weak US labour and survey data",
+        "Gold at a 14-month low",
+        "ASX 200 falls to a 20-day low",
+        "Fed hike talk and metals rout (Wednesday session)"
+      ]
     },
     {
       "date": "2026-11-19",

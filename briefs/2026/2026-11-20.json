@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-20",
+  "status": "published",
+  "published_at": "2026-11-20T08:17:42+11:00",
+  "session_covered": "US session of Thursday 19 November",
+  "intro": "Covers the US session of Thursday 19 November. Published after a delay so the US close could be captured; the SPI futures figure is a range and its level is not verified for this session (see footnotes).",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 7175.83,
+      "unit": "pts",
+      "change": -2.02,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": 23879.2,
+      "unit": "pts",
+      "change": -2.25,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": 49097.06,
+      "unit": "pts",
+      "change": -2.19,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": 28.99,
+      "unit": "pts",
+      "change": 18.18,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": 5.05,
+      "unit": "%",
+      "change": -2,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.6662,
+      "unit": "US$",
+      "change": -0.8,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": 92.6,
+      "unit": "US$/bbl",
+      "change": 0.74,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": 3660.48,
+      "unit": "US$/oz",
+      "change": -1.75,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 90.86,
+      "unit": "US$/t",
+      "change": 0.15,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "US index and VIX figures are from Yahoo Finance quote pages (market closed), consistent with Wednesday's closes (S&P 7,323.63, Nasdaq 24,429.89, Dow 50,198.17) and Yahoo's live report of a roughly 2% fall with the Dow down over 1,100 points.",
+    "The 10-year change is versus the 5.07% close reported by FNArena (Yahoo shows -1 bp, Trading Economics -3 bp).",
+    "Brent, gold, AUD/USD and iron ore are Trading Economics CFD reference prices dated 19 Nov; Yahoo's Brent futures quote (US$90.08) differs and is not used. Spot gold fell 1.75% (gold futures about -2.2%)."
+  ],
+  "setup": {
+    "spi_level": null,
+    "spi_change_pct": -1.35,
+    "implied_open": 8612.5,
+    "implied_open_points": -117.9,
+    "implied_open_pct": -1.35,
+    "prior_close": 8730.4,
+    "prior_close_change_pct": -1.04,
+    "approximate": true,
+    "summary": "SPI 200 futures point sharply lower: Motley Fool Australia's pre-open note has the ASX 200 set to open 105 points or 1.2% lower, while Investing.com shows the December contract down 1.5% (8,655 vs 8,787.5). A TradingView figure of -0.5% looks stale and is disregarded. Taking the midpoint of 1.2-1.5%, the implied ASX 200 open is roughly -118 points or -1.35%, around 8,612 (range about 8,600-8,625). The ASX 200 closed Thursday at 8,730.40, down 91.4 points or 1.04%, a 20-day low. The futures level itself is not verified for this session."
+  },
+  "local_events": [
+    "No major scheduled Australian data release or RBA event identified in this run; check FNArena's financial calendar for 20 November.",
+    "Economists are flagging recession risk after recent local data."
+  ],
+  "what_moved": "A broad risk-off session: the S&P 500 and Nasdaq each lost about 2% and the Dow more than 1,100 points, extending a losing run (the S&P 500 was heading for a sixth straight loss) as the Anthropic IPO debut drew attention away from the rest of the market and rate-hike worries kept pressure on equities and metals. Per Yahoo Finance's sector heatmap, Energy (+1.29%) and Utilities (+0.44%) led; Consumer Cyclical (-2.84%), Communication Services (-2.82%), Industrials (-2.20%) and Technology (-2.00%) lagged. The VIX jumped about 18% to near 29.",
+  "news": [
+    {
+      "headline": "Wall Street sells off as Anthropic debuts",
+      "summary": "Anthropic shares rose sharply in the largest US listing debut on record while the broader market fell; reports differ on the closing gain (about 17% to 27%).",
+      "source": "Benzinga",
+      "url": "https://benzinga.com/markets/equities/26/11/63446162/stock-market-today-anthropic-ipo-debut-sp-500-sixth-loss-november-19"
+    },
+    {
+      "headline": "Weak US labour and survey data",
+      "summary": "Initial jobless claims rose to 203,000 (consensus 197,000), continuing claims rose 70,000 to 1.763 million, and the Philadelphia Fed manufacturing index fell to 6.3 from 20.9.",
+      "source": "Yahoo Finance",
+      "url": "https://uk.finance.yahoo.com/news/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-live-141306032.html"
+    },
+    {
+      "headline": "Gold at a 14-month low",
+      "summary": "Gold slid on a stronger US dollar and rising rate-hike bets.",
+      "source": "Motley Fool Australia",
+      "url": "https://www.fool.com.au/2026/11/20/5-things-to-watch-on-the-asx-200-on-friday-20-november-2026/"
+    },
+    {
+      "headline": "ASX 200 falls to a 20-day low",
+      "summary": "The index lost 1.04% to 8,730.40 as miners and gold stocks sold off; economists warn the data shows Australia approaching recession.",
+      "source": "ABC News",
+      "url": "https://abc.net.au/news/2026-11-19/asx-markets-business-news-live-updates-thursday-19-november/107401802"
+    },
+    {
+      "headline": "Fed hike talk and metals rout (Wednesday session)",
+      "summary": "Fed Governor Waller argued a 50bp hike in December was possible if the FOMC does not signal another hike in January; copper fell to its lowest since April and a BofA survey showed net tech overweight falling to 12% from 37%.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/11/19/the-overnight-report-commodities-crushed/"
+    }
+  ],
+  "coming_up": "The next FOMC decision (December; exact date not verified in this run) is the key event, with Fed commentary on further hikes in focus. Weekly US jobless claims are due next Thursday."
+}
