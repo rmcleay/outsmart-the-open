@@ -1,7 +1,34 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-20T08:17:42+11:00",
+  "updated_at": "2026-11-23T07:17:45+11:00",
   "briefs": [
+    {
+      "date": "2026-11-23",
+      "status": "published",
+      "published_at": "2026-11-23T07:17:45+11:00",
+      "implied_open_pct": -0.57,
+      "implied_open_points": -49.0,
+      "scoreboard": {
+        "sp500": 6910.39,
+        "nasdaq": 22617.73,
+        "dow": 48147.33,
+        "vix": 35.89,
+        "us10y": 4.94,
+        "audusd": 0.663,
+        "brent": 92.57,
+        "gold": 3535.0,
+        "iron_ore": 90.67
+      },
+      "headlines": [
+        "AI selloff pushes S&P 500 and Dow into correction.",
+        "Anthropic IPO fails to steady sentiment.",
+        "Fed seen hiking in December.",
+        "Korea steps in as Kospi falls 5.2%.",
+        "ASX 200 posts worst week in years.",
+        "Gold falls to lowest since September 2025.",
+        "Oil heads for a third weekly loss."
+      ]
+    },
     {
       "date": "2026-11-20",
       "status": "published",

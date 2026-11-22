@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-23",
+  "status": "published",
+  "published_at": "2026-11-23T07:17:45+11:00",
+  "session_covered": "US session of Friday 20 November (Europe not separately sourced)",
+  "intro": "Covers the US session of Friday 20 November (Europe not separately sourced). Figures come from Trading Economics (CFD-based), Reuters via Yahoo Finance, TradingKey, Yahoo VIX, TradingView and Capital Brief; see footnotes for reconciliations.",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 6910.39,
+      "unit": "pts",
+      "change": -3.7,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": 22617.73,
+      "unit": "pts",
+      "change": -5.28,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": 48147.33,
+      "unit": "pts",
+      "change": -1.93,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": 35.89,
+      "unit": "pts",
+      "change": 26.2,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": 4.94,
+      "unit": "%",
+      "change": -10,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.663,
+      "unit": "US$",
+      "change": -0.44,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": 92.57,
+      "unit": "US$/bbl",
+      "change": 0.64,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": 3535.0,
+      "unit": "US$/oz",
+      "change": -2.51,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 90.67,
+      "unit": "US$/t",
+      "change": -0.21,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "Index closes per TradingKey/Reuters and Trading Economics; FNArena's weekly table shows slightly different levels (S&P 6,932.65, Dow 48,225.97) that appear to be a different snapshot.",
+    "Gold: Trading Economics US$3,535 (-2.51%) used; FNArena's US$3,660 matches Thursday's level.",
+    "10-year yield 4.94% (Trading Economics summary text says 4.95%).",
+    "Gold, AUD/USD, iron ore and yield are CFD-based reference prices."
+  ],
+  "setup": {
+    "spi_level": 8556,
+    "spi_change_pct": -0.57,
+    "implied_open": 8543.6,
+    "implied_open_points": -49.0,
+    "implied_open_pct": -0.57,
+    "prior_close": 8592.6,
+    "prior_close_change_pct": -1.58,
+    "approximate": false,
+    "summary": "SPI 200 futures (Dec) are at about 8,556, down roughly 0.57% (TradingView and Capital Brief agree; Investing.com's -1.03% reflects Friday's day session only). Applied to Friday's ASX 200 close of 8,592.60 (-1.58%, a seventh straight loss and -5.4% for the week), that implies an open about 49 points (0.57%) lower, near 8,544."
+  },
+  "local_events": [
+    "No major scheduled Australian data identified today",
+    "Australian October CPI due Wednesday 25 November",
+    "Next RBA meeting 8 December",
+    "Orica in focus after reported approach from Syensqo"
+  ],
+  "what_moved": "The AI-trade unwind accelerated: the Nasdaq fell 5.28% for its worst week since March 2020, and the S&P 500 and Dow entered correction (more than 10% below record closes), with the S&P down seven sessions in a row. Nvidia fell about 13.8% despite strong earnings amid a reported SEC probe, and AMD, Broadcom, Marvell and Applied Materials each lost more than 10%; health insurers fell on a planned Medicare Advantage audit. S&P 500 sector percentages were not available. Treasury yields fell as investors sought safety, though markets price a near-certain 25 bp Fed hike in December.",
+  "news": [
+    {
+      "headline": "AI selloff pushes S&P 500 and Dow into correction.",
+      "summary": "The S&P fell for a seventh session, its longest streak since February 2020, and the VIX closed at its highest since April 2025.",
+      "source": "Reuters via Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-slip-anthropic-104746137.html"
+    },
+    {
+      "headline": "Anthropic IPO fails to steady sentiment.",
+      "summary": "Shares closed 17.1% above the US$83 offer on Thursday, then fell 9.1% on Friday.",
+      "source": "Reuters via Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-slip-anthropic-104746137.html"
+    },
+    {
+      "headline": "Fed seen hiking in December.",
+      "summary": "Markets price about a 99% chance of a 25 bp hike after a hot October inflation report, with Governor Waller floating 50 bp.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/commodity/gold"
+    },
+    {
+      "headline": "Korea steps in as Kospi falls 5.2%.",
+      "summary": "Seoul held an emergency meeting and is preparing a stock stabilisation fund.",
+      "source": "Capital Brief",
+      "url": "https://www.capitalbrief.com/newsletter/wall-streets-ai-meltdown-heads-for-asx-299242db-896a-45cc-91c9-272f2ddc0e99/"
+    },
+    {
+      "headline": "ASX 200 posts worst week in years.",
+      "summary": "The index fell 1.58% Friday and 5.4% on the week after weak jobs data, following five RBA hikes this year.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/australia/stock-market"
+    },
+    {
+      "headline": "Gold falls to lowest since September 2025.",
+      "summary": "Down 2.51% to US$3,535/oz on a hawkish Fed and stronger US dollar; copper fell 9% on the LME last week.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/commodity/gold"
+    },
+    {
+      "headline": "Oil heads for a third weekly loss.",
+      "summary": "Brent held near US$92.57/bbl as supply recovers and the IEA sees a surplus of about 2 million barrels per day.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+    }
+  ],
+  "coming_up": "Australian October CPI, Wednesday 25 November. US markets close for Thanksgiving on Thursday 26 November."
+}
