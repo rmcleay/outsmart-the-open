@@ -1,12 +1,31 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-24T07:16:33+11:00",
+  "updated_at": "2026-11-24T08:17:56+11:00",
   "briefs": [
     {
       "date": "2026-11-24",
-      "status": "delayed",
-      "delayed_reason": "US index closes were only available as intraday snapshots with differing levels, and sources conflicted on the prior ASX 200 close (8,686 vs 8,571); VIX and Brent could not be verified.",
-      "retry_at": "2026-11-24T08:15:00+11:00"
+      "status": "published",
+      "published_at": "2026-11-24T08:17:56+11:00",
+      "implied_open_pct": 1.63,
+      "implied_open_points": 139.7,
+      "scoreboard": {
+        "sp500": 7237.17,
+        "nasdaq": 24089.56,
+        "dow": 49595.31,
+        "vix": 26.65,
+        "us10y": 4.92,
+        "audusd": 0.6625,
+        "gold": 3640.61,
+        "iron_ore": 90.67
+      },
+      "headlines": [
+        "Nvidia reinstates Huang as CEO.",
+        "Wall Street posts its best day since April 2025.",
+        "Markets still price a December Fed hike.",
+        "CrowdStrike to buy Zscaler.",
+        "US growth momentum softens.",
+        "ASX 200 slides to a six-month low."
+      ]
     },
     {
       "date": "2026-11-23",

@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-24",
+  "status": "published",
+  "published_at": "2026-11-24T08:17:56+11:00",
+  "session_covered": "US session of Monday 23 November 2026",
+  "intro": "Covers the US session of Monday 23 November (a sharp Nvidia-led rebound after last week's rout). This is the delayed 08:15 edition: closing prints were checked against several sources, but Brent and S&P 500 sector moves could not be verified and are marked \"not available\".",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 7237.17,
+      "unit": "pts",
+      "change": 4.73,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": 24089.56,
+      "unit": "pts",
+      "change": 6.51,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": 49595.31,
+      "unit": "pts",
+      "change": 3.01,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": 26.65,
+      "unit": "pts",
+      "change": -25.6,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": 4.92,
+      "unit": "%",
+      "change": 0.6,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.6625,
+      "unit": "US$",
+      "change": -0.07,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": null,
+      "unit": "US$/bbl",
+      "change": null,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": 3640.61,
+      "unit": "US$/oz",
+      "change": 2.99,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 90.67,
+      "unit": "US$/t",
+      "change": -0.21,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "Index closes are from Yahoo Finance quotes cross-checked against Fox Business percentages and the prior Friday closes (S&P 500 6,910.39; Nasdaq 22,617.73; Dow 48,147.33). The Dow's point change differs slightly between sources (+1,447.98 vs +1,450.39).",
+    "The VIX is a single-source close (Yahoo); other reports imply 26.8-27.5.",
+    "The 10-year yield is from Yahoo; Trading Economics showed a 2 bp fall.",
+    "Gold is the Trading Economics spot reference (CFD-based); gold futures were US$3,634.60, +3.39%.",
+    "Brent was not available: no verified settlement was found (US crude futures fell about 3.7%).",
+    "The iron ore print is dated 20 November, the latest available."
+  ],
+  "setup": {
+    "spi_level": 8712,
+    "spi_change_pct": 1.63,
+    "implied_open": 8710.3,
+    "implied_open_points": 139.7,
+    "implied_open_pct": 1.63,
+    "prior_close": 8570.6,
+    "prior_close_change_pct": -0.26,
+    "approximate": true,
+    "summary": "SPI 200 futures (December contract) are up about 1.6%, at roughly 8,707-8,717 (range between TradingView and Investing.com; snapshot times unconfirmed, so treat as approximate). Applied to the ASX 200's prior close of about 8,570.6 (-0.26%, an eighth straight daily loss and a six-month low), that implies an open near 8,710, up about 140 points or 1.6%."
+  },
+  "local_events": [
+    "No major scheduled Australian releases or RBA decisions were confirmed for today.",
+    "October monthly CPI is due later this week (date unconfirmed; September was 4.3%).",
+    "No notable local earnings were identified."
+  ],
+  "what_moved": "Nvidia's board reinstated Jensen Huang as CEO, sending the stock up about 31% and lifting the whole AI and semiconductor complex, in the best session for the three major indexes since April 2025. The S&P 500 recovered more than half of last week's roughly 8.6% plunge and moved out of correction territory; the VIX fell about a quarter. Semiconductors and technology led by a wide margin; S&P 500 sector percentages were not available. Gold rebounded about 3% and US crude fell, while Treasury yields were little changed.",
+  "news": [
+    {
+      "headline": "Nvidia reinstates Huang as CEO.",
+      "summary": "The board restored Jensen Huang as CEO, president and chair effective immediately, with President Trump publicly pushing for his return. Nvidia rose about 31%, adding close to US$1 trillion in market value.",
+      "source": "Spectrum News (AP)",
+      "url": "https://spectrumlocalnews.com/us/snplus/business/2026/11/23/u-s--stocks-soar-after-jensen-huang-returns-to-nvidia"
+    },
+    {
+      "headline": "Wall Street posts its best day since April 2025.",
+      "summary": "The Dow gained about 1,450 points and the Nasdaq Composite jumped 6.5% after a week in which all three indexes entered correction and the Nasdaq had its worst week since 2020.",
+      "source": "Fox Business",
+      "url": "https://www.foxbusiness.com/markets/stocks-november-23-2026"
+    },
+    {
+      "headline": "Markets still price a December Fed hike.",
+      "summary": "Futures put the odds of a 25 bp rate rise at the December meeting at about 96%, per CME FedWatch.",
+      "source": "Fox Business",
+      "url": "https://www.foxbusiness.com/markets/stocks-november-23-2026"
+    },
+    {
+      "headline": "CrowdStrike to buy Zscaler.",
+      "summary": "The US$43.9 billion deal is among the largest cybersecurity takeovers on record.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html"
+    },
+    {
+      "headline": "US growth momentum softens.",
+      "summary": "S&P Global's flash PMIs showed US manufacturing growth at a three-month low and services at a four-month low, though both remain above 50.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html"
+    },
+    {
+      "headline": "ASX 200 slides to a six-month low.",
+      "summary": "The index fell 0.26% on Monday, its eighth straight daily loss and about 5% lower on the week before, ahead of the overnight rebound.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/australia/stock-market"
+    }
+  ],
+  "coming_up": "US October PCE inflation is due Wednesday 25 November at 8:30am ET. US markets are closed Thursday 26 November for Thanksgiving and close at 1pm ET on Friday 27 November."
+}
