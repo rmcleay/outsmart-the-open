@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-25",
+  "status": "published",
+  "published_at": "2026-11-25T08:18:38+11:00",
+  "session_covered": "US session of Tuesday 24 November 2026",
+  "intro": "Covers the US session of Tuesday 24 November. This is the 08:15 retry; SPI futures direction could not be resolved across sources, so the futures figure and implied open are not available.",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 7201.09,
+      "unit": "pts",
+      "change": -0.5,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": 23733.54,
+      "unit": "pts",
+      "change": -1.48,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": 50018.7,
+      "unit": "pts",
+      "change": 0.85,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": 26.15,
+      "unit": "pts",
+      "change": -1.77,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": 4.93,
+      "unit": "%",
+      "change": -1.6,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.6641,
+      "unit": "US$",
+      "change": 0.18,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": 90.82,
+      "unit": "US$/bbl",
+      "change": 1.7,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": 3550.47,
+      "unit": "US$/oz",
+      "change": -2.32,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 90.67,
+      "unit": "US$/t",
+      "change": 0.0,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "Index closes and VIX per Yahoo Finance, cross-checked against Trading Economics CFD prices (S&P 500 -0.50%, Dow +0.90%, VIX 26.36 -0.26%). Nasdaq Composite had no second source (TE Nasdaq-100 CFD -1.99%).",
+    "Brent, gold, AUD/USD, 10-year and iron ore are Trading Economics CFD/OTC snapshots for 24 Nov; FNArena's Monday 10-year figure was 4.92% vs TE's 4.95% previous, so the change is TE's.",
+    "Iron ore is unchanged on the day and may be a stale assessed price."
+  ],
+  "setup": {
+    "spi_level": null,
+    "spi_change_pct": null,
+    "implied_open": null,
+    "implied_open_points": null,
+    "implied_open_pct": null,
+    "prior_close": 8726.4,
+    "prior_close_change_pct": 1.82,
+    "approximate": true,
+    "summary": "SPI 200 futures: not available. Sources conflict on direction: TradingView shows the Dec contract at 8,719 (-0.25%, \"no trades\", undated); Investing.com shows 8,720 (+0.14%, stale snapshot); FNArena's last confirmed reading (8,716, +1.49%) is from Tuesday morning. No implied open is calculated. The ASX 200 closed Tuesday at 8,726.40, up 155.84 points (+1.82%) from Monday's 8,570.60, ending an eight-day losing streak."
+  },
+  "local_events": [
+    "October monthly CPI is due and expected to be high on credit-card surcharge pass-throughs (FNArena; release time not confirmed).",
+    "RBA speakers: none found."
+  ],
+  "what_moved": "Tech led the decline: the Nasdaq Composite fell 1.48% and the S&P 500 0.50%, while the Dow rose 0.85%, giving back part of Monday's surge (S&P +4.73%, Nasdaq +6.51%) that followed Nvidia reinstating Jensen Huang as CEO. Gold fell 2.32% after Monday's 2.8% jump; Brent rose 1.7% after Monday's slide on Russia-Ukraine peace-talk hopes. S&P 500 sector performance and Tuesday-specific drivers could not be verified: not available.",
+  "news": [
+    {
+      "headline": "Nvidia reinstates Huang as CEO.",
+      "summary": "Monday's rally was the biggest since 2008 on short covering and dealer hedge unwinds, adding over US$900bn to Nvidia's market value; Huang faces a House committee on 1 December.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/11/24/the-overnight-report-biggest-rally-since-2008/"
+    },
+    {
+      "headline": "Fed December pricing.",
+      "summary": "Markets had priced a 25bp December hike with the 50bp option dropped; the 10-year closed the week to 20 Nov at 4.92%.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/11/24/us-bonds-equity-shocks-override-hawkish-fed/"
+    },
+    {
+      "headline": "ECB and euro-area PMIs.",
+      "summary": "ANZ expects a 25bp ECB hike in December to 2.75%; November composite PMI was 55.0 in Germany (prior 53.4) and 46.2 in France (prior 46.4).",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/11/24/the-overnight-report-biggest-rally-since-2008/"
+    },
+    {
+      "headline": "Oil swings on Ukraine talks.",
+      "summary": "Brent fell 3.5% to US$89.32/bbl on Monday on Russia-Ukraine peace-talk hopes, then rose 1.7% on Tuesday.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/11/24/the-overnight-report-biggest-rally-since-2008/"
+    },
+    {
+      "headline": "Australian October CPI due today.",
+      "summary": "The print is expected to be high on credit-card surcharge pass-throughs.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/11/20/next-week-at-a-glance-23-27-nov-2026/"
+    },
+    {
+      "headline": "ASX 200 ends losing streak.",
+      "summary": "The index rallied 1.82% on Tuesday on broad-based gains.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/australia/stock-market"
+    }
+  ],
+  "coming_up": "US October PCE inflation print this week; House committee questioning of Huang on 1 December; RBA rates decision on 8 December (per FNArena)."
+}
