@@ -1,7 +1,13 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-24T08:17:56+11:00",
+  "updated_at": "2026-11-25T07:20:00+11:00",
   "briefs": [
+    {
+      "date": "2026-11-25",
+      "status": "delayed",
+      "delayed_reason": "US session had not yet closed at 07:16 Sydney (DST), so index, VIX and SPI figures were intraday and conflicting across sources.",
+      "retry_at": "2026-11-25T08:15:00+11:00"
+    },
     {
       "date": "2026-11-24",
       "status": "published",
