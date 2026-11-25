@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-26",
+  "status": "published",
+  "published_at": "2026-11-26T08:18:24+11:00",
+  "session_covered": "US session of Wednesday 25 November (Thanksgiving eve)",
+  "intro": "Covers the US session of Wednesday 25 November (Thanksgiving eve). Sourcing caveat: SPI 200 futures sources disagreed on direction and could not be resolved, so that figure and the implied open are \"not available\"; sector data and Australian scheduled events could not be verified.",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 7182.78,
+      "unit": "pts",
+      "change": -0.25,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": 23585.8,
+      "unit": "pts",
+      "change": -0.62,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": 50182.95,
+      "unit": "pts",
+      "change": 0.33,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": 28.31,
+      "unit": "pts",
+      "change": 7.36,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": 4.87,
+      "unit": "%",
+      "change": -6,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.6629,
+      "unit": "US$",
+      "change": -0.17,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": 94.65,
+      "unit": "US$/bbl",
+      "change": 3.46,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": 3572.98,
+      "unit": "US$/oz",
+      "change": 0.45,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 90.64,
+      "unit": "US$/t",
+      "change": -0.03,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "Index and VIX closes are from Yahoo Finance; Trading Economics showed the S&P 500 at -0.24% and the Dow at +0.46%. Press reports during the session described a far deeper selloff (VIX intraday high 34.95), consistent with a sharp intraday reversal.",
+    "The 10-year yield is the Trading Economics figure (Yahoo 4.85%; one Trading Economics line said 4.81%). Brent ranged US$94.42-94.65 across pages. Yield, AUD, Brent, gold and iron ore are CFD-based reference prices."
+  ],
+  "setup": {
+    "spi_level": null,
+    "spi_change_pct": null,
+    "implied_open": null,
+    "implied_open_points": null,
+    "implied_open_pct": null,
+    "prior_close": 8692.4,
+    "prior_close_change_pct": -0.39,
+    "approximate": true,
+    "summary": "SPI 200 futures: not available. Sources disagreed on direction (one showed the December contract +0.10% at 8,729; another showed 8,669 with no trades, below the cash close), so no implied open is given. Prior ASX 200 close: 8,692.4, -0.39% (Trading Economics, CFD-based)."
+  },
+  "local_events": [
+    "Not available: no scheduled Australian releases could be verified from the sources checked."
+  ],
+  "what_moved": "Volatility was the story. Hot October PCE inflation (3.8% y/y headline, 3.3% core, per Benzinga), reported new US tariffs on 16 trading partners and doubts over AI spending hit chipmakers hard during the session, with the VIX touching 34.95. Indices pared most losses into the close: the S&P 500 -0.25%, the NASDAQ -0.62% and the Dow +0.33%. US 10-year yields eased and Brent rose about 3.5% on the unresolved US-Iran conflict. S&P 500 sector performance: not available.",
+  "news": [
+    {
+      "headline": "Hot PCE inflation",
+      "summary": "October PCE rose 0.3% m/m and 3.8% y/y (core 3.3%), the last inflation reading before the Fed's December meeting.",
+      "source": "Benzinga via TradingView",
+      "url": "https://www.tradingview.com/news/benzinga:5f725ceb1094b:0-amd-micron-nvidia-lead-ai-stocks-lower-as-market-tumbles-into-thanksgiving/"
+    },
+    {
+      "headline": "Tariffs on 16 partners reported",
+      "summary": "The administration is reportedly about to announce tariffs targeting \"excess industrial capacity\" across 16 trading partners including China.",
+      "source": "Benzinga via TradingView",
+      "url": "https://www.tradingview.com/news/benzinga:5f725ceb1094b:0-amd-micron-nvidia-lead-ai-stocks-lower-as-market-tumbles-into-thanksgiving/"
+    },
+    {
+      "headline": "AI stocks lead the slide",
+      "summary": "Micron, AMD and Nvidia fell sharply intraday on doubts about debt-funded AI capex returns; the S&P 500 is down about 5% in November to Tuesday's close.",
+      "source": "Benzinga via TradingView",
+      "url": "https://www.tradingview.com/news/benzinga:5f725ceb1094b:0-amd-micron-nvidia-lead-ai-stocks-lower-as-market-tumbles-into-thanksgiving/"
+    },
+    {
+      "headline": "Brent jumps",
+      "summary": "Brent rose about 3.5% to roughly US$94.65/bbl.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+    },
+    {
+      "headline": "ASX 200 slips",
+      "summary": "The ASX 200 fell 0.39% to 8,692.4 on Wednesday.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/australia/stock-market"
+    },
+    {
+      "headline": "US holiday schedule",
+      "summary": "US markets are closed Thursday for Thanksgiving and close early (1pm ET) on Friday.",
+      "source": "IG",
+      "url": "https://www.ig.com/en-ch/news-and-trade-ideas/thanksgiving-stock-market-hours-sp500-effect-261125"
+    }
+  ],
+  "coming_up": "US markets are closed Thursday 26 November (Thanksgiving), with an early 1pm ET close on Friday 27 November and normal hours from Monday 30 November. The Fed's December meeting is the next major policy event (date not verified here)."
+}

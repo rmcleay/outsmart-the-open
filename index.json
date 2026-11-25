@@ -1,12 +1,32 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-26T07:16:57+11:00",
+  "updated_at": "2026-11-26T08:18:24+11:00",
   "briefs": [
     {
       "date": "2026-11-26",
-      "status": "delayed",
-      "delayed_reason": "Sources conflict on the S&P 500 close for 25 Nov (about -0.4% vs about -2.2%) and SPI 200 futures could not be verified.",
-      "retry_at": "2026-11-26T08:15:00+11:00"
+      "status": "published",
+      "published_at": "2026-11-26T08:18:24+11:00",
+      "implied_open_pct": null,
+      "implied_open_points": null,
+      "scoreboard": {
+        "sp500": 7182.78,
+        "nasdaq": 23585.8,
+        "dow": 50182.95,
+        "vix": 28.31,
+        "us10y": 4.87,
+        "audusd": 0.6629,
+        "brent": 94.65,
+        "gold": 3572.98,
+        "iron_ore": 90.64
+      },
+      "headlines": [
+        "Hot PCE inflation",
+        "Tariffs on 16 partners reported",
+        "AI stocks lead the slide",
+        "Brent jumps",
+        "ASX 200 slips",
+        "US holiday schedule"
+      ]
     },
     {
       "date": "2026-11-25",
