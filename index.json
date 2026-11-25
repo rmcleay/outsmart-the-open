@@ -1,7 +1,13 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-25T08:18:38+11:00",
+  "updated_at": "2026-11-26T07:16:57+11:00",
   "briefs": [
+    {
+      "date": "2026-11-26",
+      "status": "delayed",
+      "delayed_reason": "Sources conflict on the S&P 500 close for 25 Nov (about -0.4% vs about -2.2%) and SPI 200 futures could not be verified.",
+      "retry_at": "2026-11-26T08:15:00+11:00"
+    },
     {
       "date": "2026-11-25",
       "status": "published",
