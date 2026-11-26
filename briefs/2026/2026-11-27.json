@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-27",
+  "status": "published",
+  "published_at": "2026-11-27T08:18:15+11:00",
+  "session_covered": "European session of Thursday 26 November; US markets closed for Thanksgiving (US figures are Wednesday 25 November closes)",
+  "intro": "Wall Street was closed on Thursday 26 November for Thanksgiving, so there was no US session overnight; US figures below are the last closes (Wednesday 25 November). Europe and commodities did trade. This is a delayed, second-attempt brief: the SPI 200 futures direction, VIX and spot gold could not be reliably verified and are marked \"not available\".",
+  "scoreboard": [
+    {
+      "key": "sp500",
+      "name": "S&P 500",
+      "value": 7182.78,
+      "unit": "pts",
+      "change": null,
+      "change_unit": "%"
+    },
+    {
+      "key": "nasdaq",
+      "name": "NASDAQ Composite",
+      "value": 23585.8,
+      "unit": "pts",
+      "change": null,
+      "change_unit": "%"
+    },
+    {
+      "key": "dow",
+      "name": "Dow Jones Industrial Average",
+      "value": 50182.95,
+      "unit": "pts",
+      "change": null,
+      "change_unit": "%"
+    },
+    {
+      "key": "vix",
+      "name": "VIX",
+      "value": null,
+      "unit": "pts",
+      "change": null,
+      "change_unit": "%"
+    },
+    {
+      "key": "us10y",
+      "name": "US 10-year Treasury yield",
+      "value": 4.85,
+      "unit": "%",
+      "change": null,
+      "change_unit": "bp"
+    },
+    {
+      "key": "audusd",
+      "name": "AUD/USD",
+      "value": 0.6635,
+      "unit": "US$",
+      "change": 0.11,
+      "change_unit": "%"
+    },
+    {
+      "key": "brent",
+      "name": "Brent crude",
+      "value": 95.91,
+      "unit": "US$/bbl",
+      "change": 1.38,
+      "change_unit": "%"
+    },
+    {
+      "key": "gold",
+      "name": "Spot gold",
+      "value": null,
+      "unit": "US$/oz",
+      "change": null,
+      "change_unit": "%"
+    },
+    {
+      "key": "iron_ore",
+      "name": "Iron ore (62% Fe, CFR China)",
+      "value": 90.64,
+      "unit": "US$/t",
+      "change": -0.03,
+      "change_unit": "%"
+    }
+  ],
+  "footnotes": [
+    "US index and 10-year yield levels are Wednesday 25 November closes (S&P 500 -0.25%, NASDAQ -0.62%, Dow +0.33%, 10-year about -6bp); US equity and bond markets did not trade Thursday.",
+    "VIX: sources conflicted (FNArena 28.08 at Wednesday's close vs a Yahoo Finance print of 26.80 on a holiday), so it is not available.",
+    "Gold: Trading Economics showed US$3,567/oz down 0.6% while Yahoo gold futures showed US$3,593/oz up 0.8%; direction unresolved, so not available.",
+    "Iron ore is the 25 November print (no later one found). AUD/USD, Brent and iron ore are CFD-based reference prices (Trading Economics); Brent +1.38% is for Thursday's trade."
+  ],
+  "setup": {
+    "spi_level": 8791,
+    "spi_change_pct": null,
+    "implied_open": null,
+    "implied_open_points": null,
+    "implied_open_pct": null,
+    "prior_close": 8764,
+    "prior_close_change_pct": 0.82,
+    "approximate": true,
+    "summary": "The overnight direction of SPI 200 futures is not available: quotes found were undated or stale (Investing.com Dec contract 8,791, +0.71% vs a previous settle of 8,729, which appears to be Thursday's day-session close; TradingView 8,794, +0.22% with \"No trades\"), and no 27 November market wrap was published when checked. An implied ASX 200 open is therefore not available. For reference, the last day-session futures level was about 8,791. The ASX 200 closed Thursday at about 8,764, up 0.82% (Trading Economics; 8,692.4 prior close), as European shares rallied strongly."
+  },
+  "local_events": [
+    "No scheduled Australian data releases, RBA speeches or notable earnings could be confirmed from the sources checked; consult the ASX and ABS calendars."
+  ],
+  "what_moved": "With Wall Street shut for Thanksgiving, Europe led: the DAX rose 2.08%, the FTSE 100 1.75%, the Euro Stoxx 50 2.18% and the STOXX Europe 600 1.75% (Trading Economics, CFD-based), a rebound after Wednesday's volatile US session in which the Nasdaq was down as much as 4.6% intraday before recovering. Brent rose about 1.4% to US$95.91/bbl. S&P 500 sector moves are not available as there was no US session.",
+  "news": [
+    {
+      "headline": "Wall Street closed for Thanksgiving",
+      "summary": "US equity and bond markets were shut Thursday; the last readings are Wednesday's, when the S&P 500 fell 0.25% to 7,182.78 after a sharp intraday sell-off and late rebound.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/11/26/the-overnight-report-sharp-rebound-off-lows/"
+    },
+    {
+      "headline": "Hot US inflation keeps Fed hike in view",
+      "summary": "October PCE rose 0.3% m/m for both headline and core (3.8% and 3.3% y/y), and markets price about a 95% chance of a 25bp Fed hike at the 8–9 December meeting.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/11/26/the-overnight-report-sharp-rebound-off-lows/"
+    },
+    {
+      "headline": "US growth revised higher",
+      "summary": "Q3 GDP was revised up to 4.3% annualised.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/11/26/the-overnight-report-sharp-rebound-off-lows/"
+    },
+    {
+      "headline": "New tariffs and AI-credit worries weighed on Wednesday",
+      "summary": "New \"deal rate\" tariffs on 14 economies and concerns over AI-linked borrowing costs (credit insurance on CoreWeave and Oracle debt has more than doubled in six months) drove the intraday sell-off.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/11/26/the-overnight-report-sharp-rebound-off-lows/"
+    },
+    {
+      "headline": "Australian CPI hotter than forecast",
+      "summary": "October CPI ran at 4.9% y/y, with trimmed mean up 0.47% m/m (3.8% y/y); the RBA is expected to stay on hold.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/11/26/the-overnight-report-sharp-rebound-off-lows/"
+    },
+    {
+      "headline": "European shares rally strongly",
+      "summary": "The DAX gained 2.08% and the FTSE 100 1.75% on Thursday.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/euro-area/stock-market"
+    },
+    {
+      "headline": "ASX 200 closes higher; AUD near lows",
+      "summary": "The ASX 200 rose about 0.8% to roughly 8,764 on Thursday, while AUD/USD edged up 0.11% to US$0.6635 after hitting a 51-week low on Wednesday.",
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/australia/stock-market"
+    },
+    {
+      "headline": "Brent climbs",
+      "summary": "Brent crude rose about 1.4% to US$95.91/bbl on Thursday, following a 4.3% jump on Wednesday.",
+      "source": "FNArena",
+      "url": "https://fnarena.com/2026/11/26/the-overnight-report-sharp-rebound-off-lows/"
+    }
+  ],
+  "coming_up": "Wall Street trades a shortened session on Friday 27 November (US time) after the holiday. The next major scheduled event confirmed in the sources is the US Federal Reserve meeting on 8–9 December."
+}

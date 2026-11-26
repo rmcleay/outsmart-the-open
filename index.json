@@ -1,12 +1,32 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-27T07:25:00+11:00",
+  "updated_at": "2026-11-27T08:18:15+11:00",
   "briefs": [
     {
       "date": "2026-11-27",
-      "status": "delayed",
-      "delayed_reason": "US markets were closed for Thanksgiving and the SPI 200 futures quote was stale/conflicting (TradingView 8,791 +0.22% with no trades vs Investing.com Dec contract 8,791 +0.71% vs FNArena 8,727 +0.67% from the prior session); fresh 27 Nov overnight reports not yet published.",
-      "retry_at": "2026-11-27T08:15:00+11:00"
+      "status": "published",
+      "published_at": "2026-11-27T08:18:15+11:00",
+      "implied_open_pct": null,
+      "implied_open_points": null,
+      "scoreboard": {
+        "sp500": 7182.78,
+        "nasdaq": 23585.8,
+        "dow": 50182.95,
+        "us10y": 4.85,
+        "audusd": 0.6635,
+        "brent": 95.91,
+        "iron_ore": 90.64
+      },
+      "headlines": [
+        "Wall Street closed for Thanksgiving",
+        "Hot US inflation keeps Fed hike in view",
+        "US growth revised higher",
+        "New tariffs and AI-credit worries weighed on Wednesday",
+        "Australian CPI hotter than forecast",
+        "European shares rally strongly",
+        "ASX 200 closes higher; AUD near lows",
+        "Brent climbs"
+      ]
     },
     {
       "date": "2026-11-26",
