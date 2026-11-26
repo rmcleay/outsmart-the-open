@@ -1,7 +1,13 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-26T08:18:24+11:00",
+  "updated_at": "2026-11-27T07:25:00+11:00",
   "briefs": [
+    {
+      "date": "2026-11-27",
+      "status": "delayed",
+      "delayed_reason": "US markets were closed for Thanksgiving and the SPI 200 futures quote was stale/conflicting (TradingView 8,791 +0.22% with no trades vs Investing.com Dec contract 8,791 +0.71% vs FNArena 8,727 +0.67% from the prior session); fresh 27 Nov overnight reports not yet published.",
+      "retry_at": "2026-11-27T08:15:00+11:00"
+    },
     {
       "date": "2026-11-26",
       "status": "published",
